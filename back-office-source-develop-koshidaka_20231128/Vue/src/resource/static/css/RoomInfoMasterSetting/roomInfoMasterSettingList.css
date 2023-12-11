@@ -1,0 +1,92 @@
+/* KSD V001.000 AS */
+.room-info-master-setting-table {
+  table-layout: fixed;
+  border-collapse: separate !important;
+  border-spacing: 0.5px 0px;
+}
+
+.room-info-master-setting-table th:first-child,
+.room-info-master-setting-table td:first-child {
+  min-width: 50px;
+  width: 50px;
+}
+
+.room-info-master-setting-table th:nth-child(2),
+.room-info-master-setting-table td:nth-child(2) {
+  min-width: 100px;
+  width: 100px;
+}
+
+.room-info-master-setting-table th:nth-child(3),
+.room-info-master-setting-table td:nth-child(3) {
+  width: 414px;
+}
+
+.room-info-master-setting-table thead {
+  display: block;
+}
+
+.room-info-master-setting-table thead th,
+.room-info-master-setting-table thead td {
+  height: 30px;
+  background-color: #9ea0aa;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.room-info-master-setting-table thead th:first-child,
+.room-info-master-setting-table thead td:first-child {
+  border-left: none;
+}
+
+.room-info-master-setting-table thead th:last-child,
+.room-info-master-setting-table thead td:last-child {
+  border-right: none;
+}
+
+.room-info-master-setting-table tbody {
+  height: 750px;
+  display: block;
+  overflow-y: auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.room-info-master-setting-table tbody th,
+.room-info-master-setting-table tbody td {
+  height: 50px;
+  background-color: white;
+  border: 1px solid #b9b8b8;
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.room-info-master-setting-table tbody tr.selectedItem td {
+  background-color: #ffeacf !important;
+  border: 1px solid #ff9b16 !important;
+}
+
+.room-info-master-setting-table tbody tr:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+/* KSD V001.000 AE */

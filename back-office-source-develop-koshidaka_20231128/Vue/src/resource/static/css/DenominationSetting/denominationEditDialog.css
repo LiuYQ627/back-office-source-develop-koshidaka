@@ -1,0 +1,50 @@
+/* KSD V001.000 AS */
+.scroll-none:focus {
+  border: 2px solid #000;
+}
+
+.label-width {
+  width: 30px !important;
+}
+
+#denomination-table {
+  font-size: 22px;
+}
+
+#denomination-table tr {
+  height: 50px;
+}
+
+#denomination-table tr th {
+  width: 150px;
+  background-color: #9ea0aa;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 0.5em;
+}
+
+#denomination-table tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: left;
+  border: #9ea0aa solid 1px;
+}
+
+#denomination-table tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#denomination-collection-method-buttons,
+#roll-calculation-buttons {
+  background-color: transparent;
+}
+
+#denomination-collection-method-text:focus {
+  outline: none;
+}
+/* KSD V001.000 AE */

@@ -1,0 +1,12 @@
+.conditionRow {
+  height: 50px;
+}
+.errorTextBox {
+  background-color: #fcd4d4 !important;
+  border:1px solid #f39e9e !important;
+}
+.errorTextBox:focus{
+  border: 2px solid #E93232 !important;
+  outline:solid 2px #FCD4D4 !important;
+  outline-offset: -2px !important;
+}

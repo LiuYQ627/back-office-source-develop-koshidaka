@@ -1,0 +1,332 @@
+{
+    "drawerMenu": {
+        "cancel": {
+            "active": true,
+            "sort": 1
+        },
+        "productManual": {
+            "active": true,
+            "sort": 2
+        },
+        "numberPeople": {
+            "active": true,
+            "sort": 3
+        },
+        "receipt": {
+            "active": true,
+            "sort": 4
+        },
+        "receiptStop": {
+            "active": true,
+            "sort": 5
+        },
+        "unpaidList": {
+            "active": true,
+            "sort": 6
+          },
+        "soundOnOff": {
+            "active": true,
+            "sort": 7
+        },
+        "calculateSales": {
+            "active": true,
+            "sort": 8
+        },
+        "cashChangerConnect": {
+            "active": true,
+            "sort": 9
+        }
+    },
+    "itemDetails": [
+        {
+            "order": 0,
+            "displayName": {
+                "default": "値引き"
+            },
+            "kind": 0,
+            "transactionNo": "202000",
+            "x": 1,
+            "y": 1,
+            "preset": 0
+        },
+        {
+            "order": 1,
+            "displayName": {
+                "default": "％－"
+            },
+            "kind": 1,
+            "transactionNo": "201000",
+            "x": 2,
+            "y": 1,
+            "preset": 0
+        },
+        {
+            "order": 2,
+            "displayName": {
+                "default": "売変"
+            },
+            "kind": 2,
+            "transactionNo": "203000",
+            "x": 3,
+            "y": 1,
+            "preset": 0
+        }
+    ],
+    "accountingSettings": [
+        {
+            "order": 0,
+            "subList": [
+                {
+                    "displayName": {
+                        "default": "小計値引"
+                    },
+                    "kind": 0,
+                    "preset": 0,
+                    "transactionNo": "202001",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "displayName": {
+                        "default": "小計割引"
+                    },
+                    "kind": 1,
+                    "preset": 0,
+                    "transactionNo": "201001",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
+            "displayName": {
+                "default": "小計値割引"
+            },
+            "kind": 0,
+            "sort": 1
+        },
+        {
+            "order": 1,
+            "kind": 1,
+            "sort": 2,
+            "paymentType": "PAYMENT_01"
+        }
+    ],
+
+    "PAYMENT_01": {
+        "version": 1,
+        "type": "Map",
+        "description": {
+            "default": "Defines the configuration settings for payment type 01."
+        },
+        "inherited": true,
+        "subGroup": "CONFIG",
+        "group": "PAYMENT",
+        "name": "PAYMENT_01",
+        "value": {
+            "name": "PAYMENT_01",
+            "displayName": {
+                "default": "現金"
+            },
+            "group": "CASH",
+            "openCashDrawer": true,
+            "giftCertificates": false,
+            "deposit": true,
+            "shortTend": true,
+            "overTend": true,
+            "change": true,
+            "revenueStamp": true,
+            "depositOperation": true,
+            "withdrawalOperation": true,
+            "subMediaManagement": false,
+            "CCTinterlocking": false,
+            "currencyCode": "JPY",
+            "voidable": true,
+            "tillAmountReconcilable": true,
+            "tillQuantityReconcilable": false,
+            "tillLoanable": true,
+            "canBePickedUp": true,
+            "validForSales": true,
+            "validForReturns": true,
+            "paymentHostUsed": false,
+            "allowFractionalAmount": true
+        }
+    },
+    "PAYMENT_02": {
+        "version": 1,
+        "type": "Map",
+        "description": {
+            "default": "Defines the configuration settings for payment type 02."
+        },
+        "inherited": true,
+        "subGroup": "CONFIG",
+        "group": "PAYMENT",
+        "name": "PAYMENT_02",
+        "value": {
+            "name": "PAYMENT_02",
+            "displayName": {
+                "default": "商品券"
+            },
+            "group": "OTHER",
+            "openCashDrawer": true,
+            "giftCertificates": true,
+            "deposit": false,
+            "shortTend": true,
+            "overTend": true,
+            "change": true,
+            "revenueStamp": true,
+            "depositOperation": false,
+            "withdrawalOperation": false,
+            "subMediaManagement": true,
+            "CCTinterlocking": false,
+            "currencyCode": "JPY",
+            "voidable": true,
+            "tillAmountReconcilable": true,
+            "tillQuantityReconcilable": false,
+            "tillLoanable": true,
+            "canBePickedUp": true,
+            "validForSales": true,
+            "validForReturns": true,
+            "paymentHostUsed": false,
+            "allowFractionalAmount": true,
+            "submediaList": [
+                {
+                    "name": "SUB_01",
+                    "displayName": {
+                        "default": "商品券1"
+                    },
+                    "amount": 1
+                },
+                {
+                    "name": "SUB_02",
+                    "displayName": {
+                        "default": "商品券500"
+                    },
+                    "amount": 500
+                },
+                {
+                    "name": "SUB_03",
+                    "displayName": {
+                        "default": "商品券9999999"
+                    },
+                    "amount": 9999999
+                }
+            ]
+        }
+    },
+    "PAYMENT_03": {
+        "version": 1,
+        "type": "Map",
+        "description": {
+            "default": "Defines the configuration settings for payment type 03."
+        },
+        "inherited": true,
+        "subGroup": "CONFIG",
+        "group": "PAYMENT",
+        "name": "PAYMENT_03",
+        "value": {
+            "name": "PAYMENT_03",
+            "displayName": {
+                "default": "掛"
+            },
+            "group": "OTHER",
+            "openCashDrawer": false,
+            "giftCertificates": false,
+            "deposit": true,
+            "shortTend": true,
+            "overTend": false,
+            "change": false,
+            "revenueStamp": false,
+            "depositOperation": false,
+            "withdrawalOperation": false,
+            "subMediaManagement": false,
+            "CCTinterlocking": false,
+            "currencyCode": "JPY",
+            "voidable": true,
+            "tillAmountReconcilable": true,
+            "tillQuantityReconcilable": false,
+            "tillLoanable": true,
+            "canBePickedUp": true,
+            "validForSales": true,
+            "validForReturns": true,
+            "paymentHostUsed": false,
+            "allowFractionalAmount": true
+        }
+    },
+    "PAYMENT_04": {
+        "version": 1,
+        "type": "Map",
+        "description": {
+            "default": "Defines the configuration settings for payment type 04."
+        },
+        "inherited": true,
+        "subGroup": "CONFIG",
+        "group": "PAYMENT",
+        "name": "PAYMENT_04",
+        "value": {
+            "name": "PAYMENT_04",
+            "displayName": {
+                "default": "CT5100連動"
+            },
+            "group": "OTHER",
+            "openCashDrawer": false,
+            "giftCertificates": false,
+            "deposit": true,
+            "shortTend": true,
+            "overTend": false,
+            "change": false,
+            "revenueStamp": false,
+            "depositOperation": false,
+            "withdrawalOperation": false,
+            "subMediaManagement": false,
+            "CCTinterlocking": true,
+            "currencyCode": "JPY",
+            "voidable": true,
+            "tillAmountReconcilable": true,
+            "tillQuantityReconcilable": false,
+            "tillLoanable": true,
+            "canBePickedUp": true,
+            "validForSales": true,
+            "validForReturns": true,
+            "paymentHostUsed": false,
+            "allowFractionalAmount": true
+        }
+    },
+    "PAYMENT_05": {
+        "version": 1,
+        "type": "Map",
+        "description": {
+            "default": "Defines the configuration settings for payment type 05."
+        },
+        "inherited": true,
+        "subGroup": "CONFIG",
+        "group": "PAYMENT",
+        "name": "PAYMENT_05",
+        "value": {
+            "name": "PAYMENT_05",
+            "displayName": {
+                "default": "CT5100未連動"
+            },
+            "group": "OTHER",
+            "openCashDrawer": false,
+            "giftCertificates": false,
+            "deposit": true,
+            "shortTend": true,
+            "overTend": false,
+            "change": false,
+            "revenueStamp": false,
+            "depositOperation": false,
+            "withdrawalOperation": false,
+            "subMediaManagement": false,
+            "CCTinterlocking": false,
+            "currencyCode": "JPY",
+            "voidable": true,
+            "tillAmountReconcilable": true,
+            "tillQuantityReconcilable": false,
+            "tillLoanable": true,
+            "canBePickedUp": true,
+            "validForSales": true,
+            "validForReturns": true,
+            "paymentHostUsed": false,
+            "allowFractionalAmount": true
+        }
+    }
+}

@@ -1,0 +1,80 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+@import url(./../MasterCommon/masterDialog.css);
+
+#productTable {
+  font-size: 22px;
+}
+
+#productTable tr {
+  height: 50px;
+}
+
+#productTable tr th {
+  width: 146px;
+  background-color: #9ea0aa;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 0.5em;
+}
+
+#productTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: left;
+  border: #9ea0aa solid 1px;
+}
+
+/* KSD V001.000 AS */
+#productTable tr td .link-code {
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+  position: relative;
+}
+.link-code-arrow {
+  position: absolute;
+}
+/* KSD V001.000 AE */
+
+/* KSD V001.000 DS */
+/* #productTable tr td input */
+/* KSD V001.000 DS */
+
+/* KSD V001.000 AS */
+#productTable tr td input, #productTable tr td div input {
+/* KSD V001.000 AE */
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* KSD V001.000 AS */
+#productTable tr td:has([disabled=disabled].bg-disable) {
+  background-color: #E9E9E9;
+}
+
+.v-btn.rightArrowButton {
+  background-color: #1ea7cb !important;
+}
+.v-btn.rightArrowButton .v-btn__content::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0px;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 10px;
+  top: 1px;
+}
+
+.editTextBox:focus {
+  border: 2px solid #ff9508 !important;
+  outline:solid 2px #ff9508 !important;
+  outline-offset: -2px !important;
+}
+/* KSD V001.000 AE */

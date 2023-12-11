@@ -1,0 +1,61 @@
+/* KSD V001.000 AS */
+.zero-day-warning {
+  background-color: #FCD4D4;
+  border: #E93232 2px solid;
+  font-size: 20px;
+  font-weight: normal;
+  height: 30px;
+}
+
+.data-retention-table-header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.top-left-label {
+  min-width: 80%;
+  max-width: 80%;
+}
+
+.top-left-label-text {
+  position: relative;
+  left: -90px;
+  top: 10px;
+}
+
+.ret-period-column {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.ret-period-element {
+  width: 70px !important;
+}
+
+.data-retention-container {
+  min-width: 900px;
+  max-width: 900px !important;
+}
+
+.data-retention-col-1 {
+  min-width: 30%;
+  max-width: 30%;
+}
+
+.data-retention-col-3 {
+  min-width: 20%;
+  max-width: 20%;
+}
+
+.data-retention-table-content-text {
+  text-align: left;
+  width: 100%;
+  margin-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* KSD V001.000 AE */

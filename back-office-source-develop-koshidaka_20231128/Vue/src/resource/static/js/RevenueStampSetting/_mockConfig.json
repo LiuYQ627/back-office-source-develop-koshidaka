@@ -1,0 +1,32 @@
+{
+  "stampDutyIntroduced": 0,
+  "stampDutyJudge": 0,
+  "mediaTaxAmount": true,
+  "taxPrintWording": "文言テスト",
+  "paymentStampTarget": false,
+  "taxSignature": "税務署テスト",
+  "smartReceipt": true,
+  "smartReceiptCount": true,
+  "stampDuty": [
+    {
+      "stampDutyJudgement": 1000,
+      "stampDutyAmount": 10,
+      "order": 0
+    },
+    {
+      "stampDutyJudgement": 5000,
+      "stampDutyAmount": 500,
+      "order": 1
+    },
+    {
+      "stampDutyJudgement": 0,
+      "stampDutyAmount": 0,
+      "order": 2
+    },
+    {
+      "stampDutyJudgement": 99999999,
+      "stampDutyAmount": 9999999,
+      "order": 3
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+/* KSD V001.000 AS */
+@import url(./../MasterCommon/masterDialog.css);
+
+.field-icon {
+  color: #555 !important;;
+  float: right;
+  margin-right: 4px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+/* floorTable */
+#floorTable {
+  font-size: 22px;
+}
+
+#floorTable tr {
+  height: 50px;
+}
+
+#floorTable tr th {
+  width: 146px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size:20px;
+  font-weight:normal;
+  padding: 0 0.5em;
+}
+
+#floorTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#floorTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+#floorTable tr td textarea {
+  padding-left: 5px;
+  padding-right: 2px;
+  resize: none;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 3em;
+}
+.drinkCourseBtn {
+  margin: 1px 0px 1px 1px;
+}
+.drinkCourseBtn:focus {
+ outline: none;
+}
+.drinkCourseBtn:focus .scrollNone {
+  border: 2px solid black !important;
+}
+/* KSD V001.000 AE */

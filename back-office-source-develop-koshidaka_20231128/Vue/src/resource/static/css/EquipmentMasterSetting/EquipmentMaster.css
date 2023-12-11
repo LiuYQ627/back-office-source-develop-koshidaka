@@ -1,0 +1,5 @@
+/* KSD V001.000 AS */
+.equipmentClass input[type="text"][disabled] {
+    cursor: not-allowed;
+  }
+/* KSD V001.000 AE */

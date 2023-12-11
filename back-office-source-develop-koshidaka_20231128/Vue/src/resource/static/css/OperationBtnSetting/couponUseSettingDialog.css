@@ -1,0 +1,97 @@
+/* KSD V001.000 AS */
+@import url(./../MasterCommon/masterDialog.css);
+
+.fixed-header {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.fixed-header tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 301px;
+}
+
+.fixed-header thead tr {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.fixed-header thead tr th {
+  border-bottom: 1px solid #9ea0aa;
+}
+
+.fixed-header thead {
+  color: #fff;
+  height: 31px;
+}
+
+.fixed-header tbody td {
+  border-bottom: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+  text-align: left;
+  padding: 0 5px;
+  font-size: 20.05px;
+  color: #000;
+  cursor: pointer;
+  height: 50px;
+  word-break: break-all;
+}
+
+.fixed-header tbody td:first-child {
+  border-left: 1px solid #9ea0aa;
+}
+
+.selected-item {
+  background-color: #ffeacf;
+}
+
+.title-cell-style-10 {
+  height: 30px;
+  background-color: #9ea0aa;
+  color: #FFFFFF;
+  font-size: 20.05px !important;
+  font-weight: inherit;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #9ea0aa;
+}
+
+.title-cell-style-10:first-child {
+  border-left: 1px solid #9ea0aa;
+}
+
+.title-cell-style-10:last-child {
+  border-right: 1px solid #9ea0aa;
+}
+
+.activate-scroll {
+  overflow-y: auto;
+}
+
+.w-50 {
+  width: 50px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-240-left {
+  width: 240px;
+  text-align: left;
+}
+
+.w-260-left {
+  width: 260px;
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* KSD V001.000 AE */

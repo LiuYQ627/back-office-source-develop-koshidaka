@@ -1,0 +1,121 @@
+/* KSD V001.000 AS */
+.calendar-page-container-body {
+  min-width: 1000px !important;
+  max-width: 1000px !important;
+  margin-top: 60px !important;
+}
+
+calendar-page {
+  font-family: 'Migu 1M';
+  font-size: 18px;
+}
+.calendar-page .v-calendar-weekly__head .v-calendar-weekly__head-weekday:first-child,
+.calendar-page .v-calendar-weekly__head .v-calendar-weekly__head-weekday:last-child {
+  color: #fff !important;
+}
+.calendar-page .v-calendar-weekly__head,
+.calendar-page .v-calendar-weekly__head .v-calendar-weekly__head-weekday
+{
+  background: #9ea0aa !important;
+  height: 30px;
+  font-size: 20px;
+  color: #000 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar-page .v-calendar-weekly__head .v-calendar-weekly__head-weekday:first-child
+{
+  background: red !important;
+}
+.calendar-page .v-calendar-weekly__head .v-calendar-weekly__head-weekday:last-child
+{
+  background: blue !important;
+}
+.calendar-page .v-calendar-weekly__head  .v-calendar-weekly__head-weekday {
+  font-family: 'Migu 1M';
+}
+
+.calendar-page .v-calendar-weekly__week  .v-calendar-weekly__day{
+  height: 88px;
+  font-family: 'Migu 1M';
+}
+
+.calendar-page-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.v-calendar-weekly__day-label {
+  display: none;
+}
+
+.calendar-page-day {
+  display: flex;
+  font-size: 20px;
+}
+.calendar-page-day-past,
+.calendar-page-desc-past {
+  color: #c7c7c7;
+}
+.calendar-page-desc {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  font-size: 18px;
+}
+
+.weekday-division-button-group {
+  width: 100%;
+  min-height: 100px;
+  background: #f0eaea;
+  border: 1px solid #9ea0aa;
+  font-family: 'Migu 1M';
+}
+.weekday-division-button-group-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+.weekday-division-button-group-container {
+  display: flex;
+  flex-wrap: wrap
+
+}
+.weekday-division-button-group-container-col {
+  flex: 0 1 20%;
+  /* padding: 5px !important; */
+}
+.weekday-division-button-group-grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: max-content
+}
+.weekday-division-button-group-container-clear {
+  justify-content: flex-end;
+}
+
+.calendar-page-active-card {
+  border: 2px solid #000;
+}
+
+.calendar-page-btn-disabled {
+  background-color: #cbcaca !important;
+  cursor: default;
+}
+
+.calendar-condition-row {
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.calendar-page input[type="text"][disabled] {
+  cursor: default !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+
+/* KSD V001.000 AE */

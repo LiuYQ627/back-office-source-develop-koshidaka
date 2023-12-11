@@ -1,0 +1,31 @@
+/* KSD V001.000 AS */
+.course-master-setting-outer {
+  font-size: 20px;
+  padding: 0;
+  max-width: 1200px;
+  min-width: 1200px;
+  padding-left: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-master-setting-inner {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin-top: 60px !important;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+
+.course-master-setting-row-count {
+  margin-top: 7px !important;
+  line-height: 23px;
+}
+
+/* KSD V001.000 AE */

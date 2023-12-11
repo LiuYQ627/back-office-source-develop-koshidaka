@@ -1,0 +1,73 @@
+/* #region 店舗選択スタイル設定 */
+.selectStoreContentStyle {
+  margin-left: -12px;
+  width: 680px;
+  display: flex;
+}
+.selectStoreContentStyle p {
+  display: flex;
+  width: 146px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.selectStoreContentStyle span input {
+  width: 458px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+.storeSelectSpan {
+  background-color: #fff;
+  width: 562px;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  text-align: left;
+  /* KSD V001.000 AS */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* KSD V001.000 AE */
+}
+.rightArrow2::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+.buttomLabel {
+  float: right;
+  margin: 5px;
+}
+.buttomLabel button {
+  box-shadow: none;
+  background-color: #1ea7cb !important;
+}
+
+
+.maxtip-enter,
+.maxtip-leave-to {
+    opacity: 0;
+}
+
+.maxtip-enter-to,
+.maxtip-leave {
+    opacity: 1;
+}
+
+.maxtip-enter-active,
+.maxtip-leave-active {
+    transition: all 1s linear;
+}

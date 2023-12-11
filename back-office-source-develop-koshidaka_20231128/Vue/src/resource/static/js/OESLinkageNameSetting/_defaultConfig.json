@@ -1,0 +1,148 @@
+{
+  "NAME_DISPLAY_PRINT_SETTING": {
+    "rows": {
+      "tblNo": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 1
+      },
+      "slipNo": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 2
+      },
+      "nkTblNo": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 3
+      }
+    },
+    "headers": [
+      {
+        "type": "",
+        "description": "",
+        "name": ""
+      },
+      {
+        "type": "",
+        "description": "",
+        "name": ""
+      },
+      {
+        "type": "",
+        "description": "",
+        "name": ""
+      }
+    ]
+  },
+  "UNPAID_DELETE_REASON_CODE_VALUES": {
+    "rows": {
+      "code1": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 1
+      },
+      "code2": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 2
+      },
+      "code3": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 3
+      },
+      "code4": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 4
+      },
+      "code5": {
+        "row": [
+          {
+            "displayName": {
+              "default": ""
+            },
+            "printName": {
+              "default": ""
+            }
+          }
+        ],
+        "order": 5
+      }
+    },
+    "headers": [
+      {
+        "type": "",
+        "description": "",
+        "name": ""
+      },
+      {
+        "type": "",
+        "description": "",
+        "name": ""
+      },
+      {
+        "type": "",
+        "description": "",
+        "name": ""
+      }
+    ]
+  }
+}

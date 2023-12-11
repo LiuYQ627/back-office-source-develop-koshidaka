@@ -1,0 +1,43 @@
+/* KSD V001.000 AS */
+.setting-label {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.margin-30 {
+  margin-top: 30px;
+}
+
+.edit-text-box {
+  background-color: #ffffff;
+  border: 1px solid #9ea0aa;
+  text-align: left;
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.edit-text-box:focus {
+  background-color: #FFFFFF !important;
+  border: 2px #ff9508 solid !important;
+  outline: 2px #FF9B16 solid !important;
+  outline-offset: -2px;
+}
+
+.error-text-box {
+  background-color: #fcd4d4 !important;
+  border:1px solid #f39e9e !important;
+  text-align: left;
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.error-text-box:focus {
+  background-color: #FFFFFF !important;
+  border: 2px #F39E9E solid !important;
+  outline: 2px #F39E9E solid !important;
+  outline-offset: -2px;
+}
+/* KSD V001.000 AE */

@@ -1,0 +1,141 @@
+/*
+ * ---------+-----------------+----------+--------------------------------
+ *  DATE    |NAME(Inc)        |GUIDE     |GUIDANCE
+ * ---------+-----------------+----------+--------------------------------
+ * 20221220  litie(Neusoft)    G001.00.0  issue課題#937を対応します.
+ * 20230412  litie(Neusoft)    G002.00.0  issue課題#937(#note_405626)を対応します.
+ */
+
+.ElectronicJournal-form-title {
+    width: 114px !important;
+    max-width: 114px !important;
+    min-width: 114px !important;
+}
+
+/* G002.00.0 Update-Start */
+.ElectronicJournal-save-targetStoreCodes,
+.ElectronicJournal-save-endpoint {
+    width: 406px !important;
+    max-width: 406px !important;
+    min-width: 406px !important;
+}
+/* G002.00.0 Update-End */
+
+.ElectronicJournal-save-input {
+    width: 187px !important;
+    max-width: 187px !important;
+    min-width: 187px !important;
+}
+
+.ElectronicJournal-save-input-space {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+
+.ElectronicJournal-save-conditionRow {
+    height: 50px;
+}
+
+.ElectronicJournal-save-type-condition {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+
+.ElectronicJournal-save-type-selected {
+    display: flex;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.ElectronicJournal-save-type-condition>p,
+.ElectronicJournal-save-type-selected>p {
+    margin-bottom: 0px;
+}
+
+.ElectronicJournal-save-type-condition>p>b,
+.ElectronicJournal-save-type-selected>p>b {
+    font-size: 20px;
+}
+
+.ElectronicJournal-save-checkbox>span {
+    display: inline-block;
+    width: 48px;
+    height: 30px;
+    background-image: url(./../../../../assets/btn_check_off.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    outline: 0;
+}
+
+.ElectronicJournal-save-checkbox>input[type="checkbox"] {
+    display: none;
+}
+
+.ElectronicJournal-save-checkbox>input[type="checkbox"]:checked+span {
+    display: inline-block;
+    width: 48px;
+    height: 30px;
+    background-image: url(./../../../../assets/btn_check_on.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    outline: 0;
+}
+
+.ElectronicJournal-save-checkbox-hover:hover {
+    opacity: 0.6;
+}
+
+.ElectronicJournal-save-password-field-icon {
+    color: #555 !important;
+    float: right;
+    margin-right: 10px;
+    margin-top: -40px;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.ElectronicJournal-save-password-show-icon {
+    color: #555;
+}
+
+.ElectronicJournal-save-password-tip {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #1ea7cb;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.ElectronicJournal-save-password-tip:hover::before {
+    content: attr(tip);
+    background-color: #fff;
+    color: rgba(0, 0, 0, .87);
+    font-family: 'Migu 1M';
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+    width: 500px;
+    box-shadow: 0px 0px 10px 0px;
+    /* G002.00.0 Update-Start */
+    /* left: -435px; */
+    left: -480px;
+    /* G002.00.0 Update-End */
+}
+
+.ElectronicJournal-save-password-tip-top:hover::before {
+    top: -160px;
+}
+
+.ElectronicJournal-save-password-tip-bottom:hover::before {
+    top: 50px;
+}

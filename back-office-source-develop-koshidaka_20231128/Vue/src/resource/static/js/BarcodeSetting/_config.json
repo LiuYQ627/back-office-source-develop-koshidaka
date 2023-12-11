@@ -1,0 +1,128 @@
+{
+    "BARCODE_TYPE": [
+        "JAN",
+        "JAN+ｱﾄﾞｵﾝ",
+        "UPC",
+        "Code128",
+        "NW-7",
+        "GS1DataBar"
+    ],
+    "BARCODE_DIGIT_FLAG": [
+        "ﾏﾆｭｱﾙ入力なし",
+        "ﾏﾆｭｱﾙ入力桁1のみ",
+        "ﾏﾆｭｱﾙ入力桁1と桁2",
+        "ﾏﾆｭｱﾙ入力桁1～桁2"
+    ],
+    "BARCODE_FLAG_RANGE": [
+        {
+            "key": 1,
+            "value": "範囲1"
+        },
+        {
+            "key": 2,
+            "value": "範囲1と2"
+        },
+        {
+            "key": 3,
+            "value": "範囲1～2"
+        }
+    ],
+    "BARCODE_FLAG_PROCESS_TYPE": [
+        {
+            "key": 1,
+            "value": "単品(13-ｿｰｽ)"
+        },
+        {
+            "key": 3,
+            "value": "書籍A行"
+        },
+        {
+            "key": 4,
+            "value": "書籍B行"
+        },
+        {
+            "key": 101,
+            "value": "計量NON-PLU-1"
+        },
+        {
+            "key": 102,
+            "value": "計量NON-PLU-2"
+        },
+        {
+            "key": 103,
+            "value": "計量NON-PLU-3"
+        },
+        {
+            "key": 104,
+            "value": "単品(13-ｲﾝｽﾄｱ)"
+        },
+        {
+            "key": 106,
+            "value": "SKU2段B行-1"
+        },
+        {
+            "key": 108,
+            "value": "SKU2段B行-3"
+        },
+        {
+            "key": 113,
+            "value": "衣料2段A行-4"
+        },
+        {
+            "key": 116,
+            "value": "衣料2段B行-1"
+        },
+        {
+            "key": 201,
+            "value": "単品(8-ｿｰｽ)"
+        },
+        {
+            "key": 301,
+            "value": "単品(8-ｲﾝｽﾄｱ)"
+        },
+        {
+            "key": 401,
+            "value": "責任者コード"
+        },
+        {
+            "key": 403,
+            "value": "会員コード"
+        },
+        {
+            "key": 1001,
+            "value": "新雑誌"
+        },
+        {
+            "key": 2001,
+            "value": "単品(12-ｿｰｽ)"
+        },
+        {
+            "key": 2201,
+            "value": "単品(UPC-E)"
+        },
+        {
+            "key": 2202,
+            "value": "単品(LAC)"
+        },
+        {
+            "key": 3101,
+            "value": "Code128割引タイプ"
+        },
+        {
+            "key": 3102,
+            "value": "Code128値引タイプ"
+        },
+        {
+            "key": 3103,
+            "value": "Code128新価格タイプ"
+        },
+        {
+            "key": 3104,
+            "value": "Code128強制売価"
+        },
+        {
+            "key": 3201,
+            "value": "スマートレシート"
+        }
+    ]
+}

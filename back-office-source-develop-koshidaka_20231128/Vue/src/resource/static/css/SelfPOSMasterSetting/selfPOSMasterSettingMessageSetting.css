@@ -1,0 +1,28 @@
+/* KSD V001.000 AS */
+.setting-label {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.message-header {
+  background-color: #9ea0aa;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.message-body {
+  margin-top: 30px;
+}
+
+.form-control {
+  height: 125px !important;
+}
+
+.text-area-element {
+  resize: none;
+}
+/* KSD V001.000 AE */

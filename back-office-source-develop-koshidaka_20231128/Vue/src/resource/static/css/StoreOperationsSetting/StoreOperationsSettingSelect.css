@@ -1,0 +1,17 @@
+.container {
+  min-width: 870px;
+  max-width: 870px;
+  font-size: 20px;
+}
+.rowHeight {
+  height: 50px;
+}
+/* KSD V001.000 AS */
+.content-body {
+  min-width: 870px !important;
+  max-width: 870px !important;
+  font-size: 20px;
+  width: 870px !important;
+  margin-left: auto !important;
+}
+/* KSD V001.000 AE */

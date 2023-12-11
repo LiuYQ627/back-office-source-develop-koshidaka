@@ -1,0 +1,150 @@
+/* KSD V001.000 AS */
+.select-store-content-style {
+  margin-left: -12px;
+  width: 680px;
+  display: flex;
+}
+
+.select-store-content-style p {
+  display: flex;
+  width: 146px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.select-store-content-style span input {
+  width: 458px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+.store-select-span {
+  background-color: #fff;
+  width: 562px;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  text-align: left;
+  /* KSD V001.000 AS */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* KSD V001.000 AE */
+}
+
+.right-arrow-2::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+
+.button-label {
+  float: right;
+  margin: 5px;
+}
+
+.button-label button {
+  box-shadow: none;
+  background-color: #1ea7cb !important;
+}
+
+.filter-group {
+  background-color: #ffffff !important;
+  height: 86px !important;
+}
+
+#denomination-setting-container {
+  width: 680px;
+  margin-top: 60px;
+}
+
+#store-select-text {
+  border-bottom: 1px solid #fff;
+}
+
+#store-select-button {
+  width: 28px;
+  height: 40px;
+}
+
+#client-id-text {
+  ime-mode: disabled !important;
+}
+
+#margin-area {
+  height: 30px;
+}
+
+#margin-area-left {
+  margin-left: 10px;
+}
+
+#filter-text {
+  ime-mode: disabled;
+  margin-top: 25px;
+}
+
+#list-total {
+  font-size: 20px;
+  margin-left: -12px
+}
+
+#list-header-size {
+  height: 30px;
+  width: 680px;
+}
+
+#denomination-setting-header-row {
+  height: 38px;
+  width: 680px;
+  margin-top: -8px;
+  text-align: left;
+}
+
+#denomination-setting-header-row-count {
+  font-weight: normal;
+}
+
+#denomination-setting-detail-row {
+  height: 50px;
+  width: 680px;
+}
+
+#denomination-setting-header-edit {
+  margin-left: -21px;
+  margin-bottom: 0;
+}
+
+#align-table-row {
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+#edit-image {
+  width: 45px;
+  height: 45px;
+}
+
+[id^="name-column-details"] {
+  border-left: 1px solid #9ea0aa;
+  width: 397px;
+}
+
+[id^="edit-column-details"] {
+  border-right: 1px solid #9ea0aa;
+}
+/* KSD V001.000 AE */

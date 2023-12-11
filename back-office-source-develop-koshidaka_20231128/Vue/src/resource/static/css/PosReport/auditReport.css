@@ -1,0 +1,38 @@
+/* KSD V001.000 AS */
+.audit-report-container {
+  min-width: 960px;
+  max-width: 960px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+}
+
+.custom-form-group {
+  width: 88.88%;
+}
+
+.v-application .mt-10 {
+  margin-top:30px !important;
+}
+
+.custom-form-group .whiteFrame {
+  width: 546px !important;
+}
+
+.error-cell {
+  background-color: #FCD4D4 !important;
+  border: 1px #E93232 solid !important;
+}
+
+.condition-row {
+  height: 50px;
+  margin-left:100px !important;
+}
+
+.custom-row-spacing {
+  margin-bottom: 30px;
+  margin-left:100px !important;
+}
+
+/* KSD V001.000 AE */

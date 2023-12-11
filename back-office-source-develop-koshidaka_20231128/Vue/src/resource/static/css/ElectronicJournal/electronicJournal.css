@@ -1,0 +1,282 @@
+/*
+ * ---------+-----------------+----------+--------------------------------
+ *  DATE    |NAME(Inc)        |GUIDE     |GUIDANCE
+ * ---------+-----------------+----------+--------------------------------
+ * 20221220  litie(Neusoft)    G001.00.0  issue課題#937を対応します.
+ * 20230113  litie(Neusoft)    G002.00.0  issue課題#835を対応します.
+ * 20230228  litie(Neusoft)    G003.00.0  issue課題#1649を対応します.
+ * 20230412  litie(Neusoft)    G004.00.0  issue課題#937(#note_405626)を対応します.
+ */
+
+.container {
+  /* G004.00.0 Update-Start */
+  /* min-width: 1070px;
+  max-width: 1070px; */
+  min-width: 972px;
+  max-width: 972px;
+  /* G004.00.0 Update-End */
+  font-size: 20px;
+}
+
+/* || 検索条件エリア */
+.conditionRow {
+  height: 50px;
+}
+
+/* G001.00.0 Update-Start */
+.ElectronicJournal-left {
+  width: 550px !important;
+  max-width: 550px !important;
+  min-width: 550px !important;
+}
+
+.ElectronicJournal-right {
+  /* G004.00.0 Update-Start */
+  /* width: 476px !important;
+  max-width: 476px !important;
+  min-width: 476px !important; */
+  width: 378px !important;
+  max-width: 378px !important;
+  min-width: 378px !important;
+  /* G004.00.0 Update-End */
+}
+
+.ElectronicJournal-button {
+  color: white !important;
+  width: 130px;
+  height: 40px !important;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.ElectronicJournal-base-form {
+  border: 1px solid #1ea7cb;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.ElectronicJournal-form-title {
+  width: 114px !important;
+  max-width: 114px !important;
+  min-width: 114px !important;
+}
+
+/* G004.00.0 Update-Start */
+.ElectronicJournal-form-targetStoreCodes,
+.ElectronicJournal-form-endpoint {
+  width: 404px !important;
+  max-width: 404px !important;
+  min-width: 404px !important;
+}
+/* G004.00.0 Update-End */
+
+.ElectronicJournal-form-input {
+  width: 187px !important;
+  max-width: 187px !important;
+  min-width: 187px !important;
+}
+
+.ElectronicJournal-form-input-space {
+  /* G004.00.0 Update-Start */
+  /* padding-left: 6px !important;
+  padding-right: 6px !important; */
+  width: 30px !important;
+  max-width: 30px !important;
+  min-width: 30px !important;
+  text-align: center;
+  /* G004.00.0 Update-End */
+}
+
+.ElectronicJournal-showDetailCondition-button {
+  background-color: #565960 !important;
+  margin-left: auto;
+}
+
+/* G002.00.0 Update-Start */
+/* .ElectronicJournal-showDetailCondition-button label:nth-child(2) {
+  display: none;
+}
+
+.ElectronicJournal-showDetailCondition-button:hover label:first-child {
+  display: none;
+}
+
+.ElectronicJournal-showDetailCondition-button:hover label:nth-child(2) {
+  display: block;
+} */
+/* G002.00.0 Update-End */
+
+.ElectronicJournal-showDetailCondition-button-mark {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: -24px;
+  right: -32px;
+  background-color: #E93264;
+}
+
+.ElectronicJournal-searchProc-button {
+  background-color: #ff9407 !important;
+  margin-left: 20px;
+}
+
+.ElectronicJournal-blank {
+  height: 11px;
+}
+
+.ElectronicJournal-count {
+  height: 29px;
+  text-align: left;
+}
+
+.ElectronicJournal-count font {
+  font-size: 20px;
+}
+
+.ElectronicJournal-count b {
+  font-weight: normal;
+}
+
+.ElectronicJournal-results-table table {
+  border-collapse: separate !important;
+  border-spacing: 0.5px 0px;
+}
+
+.ElectronicJournal-results-table table>thead {
+  display: flex;
+}
+
+.ElectronicJournal-results-table table>thead>tr {
+  display: flex;
+}
+
+.ElectronicJournal-results-table table>thead>tr.overflow-scroll {
+  width: calc(100% - 17px);
+}
+
+.ElectronicJournal-results-table table>thead>tr.overflow-hidden {
+  width: 100%;
+}
+
+.ElectronicJournal-results-table table>thead>tr.scroll-tr>th {
+  width: 18px;
+  margin-left: -1px;
+}
+
+.ElectronicJournal-results-table table>thead>tr>th {
+  height: 30px;
+  background-color: #9ea0aa;
+  color: #FFFFFF;
+  font-size: 20.05px !important;
+  font-weight: inherit;
+}
+
+.ElectronicJournal-results-table table>thead>tr:first-child>th:nth-child(-n+3) {
+  border-top: 1px solid #9ea0aa;
+  border-bottom: 1px solid #9ea0aa;
+  border-left: 1px solid #9ea0aa;
+  border-right: 1px solid #fff;
+}
+
+.ElectronicJournal-results-table table>thead>tr:first-child>th:last-child {
+  border: 1px solid #9ea0aa;
+}
+
+.ElectronicJournal-results-table table>thead>tr.scroll-tr>th {
+  border: 1px solid #9ea0aa;
+}
+
+.ElectronicJournal-results-table table>tbody {
+  height: 441px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.ElectronicJournal-results-table table>tbody>tr {
+  display: flex;
+  background-color: #fff;
+}
+
+.ElectronicJournal-results-table-tr-selected {
+  background-color: #FFEACF !important;
+}
+
+.ElectronicJournal-results-table-tr-selected td {
+  border: 1px solid #ff9508 !important;
+  border-left: none !important;
+}
+
+.ElectronicJournal-results-table-tr-selected td:first-child {
+  border-left: 1px solid #ff9508 !important;
+}
+
+.ElectronicJournal-results-table table>tbody>tr>td {
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+  padding: 0 5px;
+  font-size: 20.05px;
+  color: #000;
+}
+
+.ElectronicJournal-results-table table>tbody>tr>td:first-child {
+  border-left: 1px solid #9ea0aa;
+}
+
+.ElectronicJournal-results-table table>tbody>tr>td:last-child {
+  border-right: 1px solid #9ea0aa;
+}
+
+.ElectronicJournal-results-table table>tbody>tr:hover {
+  cursor: pointer;
+}
+
+.ElectronicJournal-formattedOutput-row {
+  height: 782px;
+  border: 1px solid #9ea0aa;
+  background-color: #fff;
+  overflow: auto;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ElectronicJournal-formattedOutput-pre {
+  text-align: left;
+  display: flex;
+}
+
+/* G003.00.0 Update-Start */
+/* .ElectronicJournal-formattedOutput-pdf-area {
+  display: none;
+}
+
+.ElectronicJournal-formattedOutput-pdf {
+  font-size: 15.4px;
+} */
+
+/* G003.00.0 Update-Start */
+/* .ElectronicJournal-formattedOutput-pdf-group {
+  font-size: 15.4px;
+} */
+/* G003.00.0 Update-End */
+
+/* .ElectronicJournal-formattedOutput-pdf-page {
+  display: flex;
+} */
+/* G003.00.0 Update-End */
+/* G001.00.0 Update-End */

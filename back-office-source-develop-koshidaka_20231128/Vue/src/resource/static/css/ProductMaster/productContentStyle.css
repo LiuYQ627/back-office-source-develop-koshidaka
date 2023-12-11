@@ -1,0 +1,140 @@
+/* KSD V001.000 AS */
+/* #region コンテンツ部スタイル設定 */
+.presetContentStyle {
+  position: relative;
+  margin-top: 1rem;
+}
+.presetContentStyle table {
+  position: relative;
+  margin: 0px auto;
+  border-collapse: collapse;
+}
+.presetContentStyle input {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 20px !important;
+}
+.inputCellStyle input:focus {
+  outline: 1px solid #ff9508;
+}
+/* #endregion */
+/* #region フッター部スタイル設定 */
+.footerButtonStyle {
+  width: 130px !important;
+  height: 50px !important;
+  font-size: 22px !important;
+  font-weight: bold;
+}
+/* #endregion */
+/* #region セルスタイル設定 */
+.pretitleCellStyle {
+  height: 50px;
+  width: 146px;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20.05px !important;
+}
+.inputCellStyle {
+  height: 40px;
+  width: 356px;
+  margin: 0px auto;
+  background-color: white;
+}
+.errorInputCellStyle {
+  background-color: #fcd4d4 !important;
+  border: solid 1px #e93232;
+}
+.pulldownDeptCellStyle {
+  height: 50px;
+  width: 242px;
+  background-color: white;
+}
+.pulldownClassCellStyle {
+  height: 50px;
+  width: 242px;
+  background-color: white;
+}
+.borderCellStyle {
+  border: 1px solid #9ea0aa;
+}
+.imageBorderCellStyle {
+  border: 1px solid #9ea0aa;
+}
+.standardRowSpaceStyle {
+  height: 10px;
+}
+.preStandardCellSpaceStyle {
+  width: 7px;
+}
+.errorRowSpaceStyle {
+  height: 50px;
+  text-align: left;
+  font-size: 22px;
+  padding-top: 3px;
+}
+.errorRowSpaceStyle font {
+  color: red;
+}
+.imageCellStyle {
+  height: 146px;
+  width: 146px;
+}
+.imageCellStyle img {
+  height: 146px;
+  width: 146px;
+}
+.searchButtonCellStyle {
+  position: relative;
+}
+/* #endregion */
+.searchButtonPositionStyle {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  right: 0%;
+  transform: translate(0%, 0%);
+}
+.searchButtonStyle {
+  width: 140px;
+  height: 40px !important;
+}
+.searchButtonStyle font {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: normal;
+}
+.pulldownStyle {
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  font-size: 22px;
+  outline: none;
+}
+.pulldownClassStyle {
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  font-size: 22px;
+  outline: none;
+}
+.v-list-item__title {
+  text-align: left;
+}
+.pulldownStyle > .v-input__control > .v-input__slot:before {
+  /* Vuetifyに店舗選択の下線を非表示 */
+  border-style: none !important;
+}
+
+.pulldownClassStyle > .v-input__control > .v-input__slot:before {
+  /* Vuetifyに店舗選択の下線を非表示 */
+  border-style: none !important;
+}
+select:focus {
+  border: 2px solid #ff9508;
+}
+/* KSD V001.000 AE */

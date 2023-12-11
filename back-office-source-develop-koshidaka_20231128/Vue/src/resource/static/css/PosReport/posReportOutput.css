@@ -1,0 +1,22 @@
+/* KSD V001.000 DS */
+
+/* .pos-report-output { */
+/* margin-left: 0; */
+/* } */
+/* .container { */
+/* min-width: 1080px; */
+/* max-width: 1080px; */
+/* font-size: 20px; */
+/* } */
+
+/* KSD V001.000 DE */
+/* KSD V001.000 AS */
+.pos-report-output {
+  min-width: 1550px;
+  max-width: 1550px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+/* KSD V001.000 AE */

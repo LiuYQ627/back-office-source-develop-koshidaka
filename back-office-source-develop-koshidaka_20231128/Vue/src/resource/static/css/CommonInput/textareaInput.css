@@ -1,0 +1,24 @@
+/* KSD V001.000 AS */
+.common-text-input {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0.5rem;
+    background-color: #FFFFFF !important;
+    border: 1px #B9B8B8 solid !important;
+    font-size: 22px;
+    resize: none;
+}
+
+.common-text-input:focus {
+    background-color: #FFFFFF !important;
+    outline: 2px #FF9B16 solid !important;
+    outline-offset: -2px;
+}
+
+.common-text-input:disabled {
+    background-color: transparent !important;
+    border: 1px #B9B8B8 solid !important;
+    color: #79797A !important;
+}
+/* KSD V001.000 AE */

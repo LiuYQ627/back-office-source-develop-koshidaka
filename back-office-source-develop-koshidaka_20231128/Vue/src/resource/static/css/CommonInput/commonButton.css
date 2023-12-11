@@ -1,0 +1,21 @@
+/* KSD V001.000 AS */
+.common-button {
+    font-weight: normal;
+    font-size: 22px;
+    height: 40px !important;
+    padding: 0 !important;
+    background-color: #565960 !important;
+}
+
+.common-login-button {
+    height: 50px !important;
+}
+
+.common-primary-button {
+    background-color: #1EA7CB !important;
+}
+
+.common-secondary-button {
+    background-color: #FF9407 !important;
+}
+/* KSD V001.000 AE */

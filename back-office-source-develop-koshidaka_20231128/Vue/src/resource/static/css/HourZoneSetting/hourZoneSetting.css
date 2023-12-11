@@ -1,0 +1,79 @@
+/* KSD V001.000 AS */
+.hour-zone-setting-outer {
+  font-size: 20px;
+  padding: 0;
+}
+
+.hour-zone-setting-inner {
+  max-width: 960px;
+  min-width: 960px;
+  margin-top: 60px;
+}
+
+.hour-zone-setting-table {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.hour-zone-setting-table table {
+  border-collapse: collapse;
+}
+
+.hour-zone-setting-table thead tr {
+  height: 30px;
+  border: 1px solid #9EA0AA;
+}
+
+.hour-zone-setting-table thead th,
+.hour-zone-setting-table thead td {
+  height: 30px;
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #9EA0AA !important;
+  color: #FFFFFF !important;
+}
+
+.hour-zone-setting-table tbody td {
+  height: 50px;
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #ffffff !important;
+  color: #000 !important;
+}
+
+.hour-zone-setting-table tbody td {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #9EA0AA;
+}
+
+.hour-zone-setting-table tbody td:not(:last-child) {
+  border-bottom: 2px solid #9EA0AA;
+  border-right: 2px solid #9EA0AA;
+}
+
+.hour-zone-setting-table tbody td:last-child {
+  border-bottom: 2px solid #9EA0AA;
+}
+
+.hour-zone-setting-table tbody td img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.hour-zone-setting-table tbody td.has-error {
+  background-color: #FCD4D4 !important;
+  border: 1px #E93232 solid !important;
+}
+
+.disabled-edit-icon {
+  filter: saturation(0);
+  filter: brightness(100%) !important;
+}
+
+/* KSD V001.000 AE */

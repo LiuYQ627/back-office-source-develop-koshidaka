@@ -1,0 +1,60 @@
+/* KSD V001.000 AS */
+.guidance-left-row{
+  margin-left: -35px !important;
+}
+
+.guidance-setting-margin {
+  margin-left: 32px;
+  margin-top: 30px;
+}
+
+.guidance-setting-outer {
+  font-size: 20px;
+  padding: 0 20px 0 0;
+  max-width: 1084px;
+  min-width: 1084px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guidance-setting-inner {
+  max-width: 1052px;
+  min-width: 1052px;
+  margin-top: 60px !important;
+}
+
+.guidance-setting-store-select {
+  margin: auto;
+  width: 458px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+.guidance-setting-type-select {
+  margin: auto;
+  width: 458px;
+  padding: 0px 10px;
+  font-size: 22px;
+}
+
+.guidance-row-count {
+  margin-top: 7px !important;
+  line-height: 23px;
+}
+
+.guidance-setting-spacing {
+  margin-top: 14px !important;
+}
+
+.disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+
+/* KSD V001.000 AE */

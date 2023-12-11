@@ -1,0 +1,103 @@
+/* KSD V001.000 AS */
+.global-menu-code-list-table {
+  table-layout: fixed;
+  border-collapse: separate !important;
+  border-spacing: 0.5px 0px;
+  min-width: 270.89px;
+  max-width: 270.89px;
+}
+
+.global-menu-code-list-table th:first-child,
+.global-menu-code-list-table td:first-child {
+  min-width: 52px;
+  max-width: 52px;
+  width: 52px;
+}
+
+.global-menu-code-list-table th:nth-child(2),
+.global-menu-code-list-table td:nth-child(2) {
+  min-width: 200px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.global-menu-code-list-table thead {
+  display: block;
+}
+
+.global-menu-code-list-table thead th,
+.global-menu-code-list-table thead td {
+  height: 30px;
+  background-color: #9EA0AA;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.global-menu-code-list-table thead th:first-child,
+.global-menu-code-list-table thead td:first-child {
+  border-left: none;
+}
+
+.global-menu-code-list-table thead th:last-child,
+.global-menu-code-list-table thead td:last-child {
+  border-right: none;
+}
+
+.global-menu-code-list-table td:first-child {
+  text-align: center !important;
+}
+
+.global-menu-code-list-table tbody {
+  overflow-x: hidden;
+  height: 440px;
+  display: block;
+  overflow-y: auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.global-menu-code-list-table tbody th,
+.global-menu-code-list-table tbody td {
+  height: 55px;
+  background-color: white;
+  border: 1px solid #b9b8b8;
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.global-menu-code-list-table tbody tr.selectedItem td {
+  background-color: #FFEACF !important;
+  border: 1px solid #FF9B16 !important;
+}
+
+.global-menu-code-list-table tbody tr:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* KSD V001.000 AE */

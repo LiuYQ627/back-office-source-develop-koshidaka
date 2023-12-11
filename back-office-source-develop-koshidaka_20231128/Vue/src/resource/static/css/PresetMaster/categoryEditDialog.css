@@ -1,0 +1,33 @@
+.conditionRow {
+  height: 50px;
+}
+.categoryMode_new{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #ffaf46;
+  background-color: #ffeacf;
+  font-size: 22px;
+  display: block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #fff;
+  width: 100px;
+  font-weight: 100;
+}
+.categoryMode_edit{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #20a8cc;
+  background-color: #BBF1FF;
+  font-size: 22px;
+  display: block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #fff;
+  width: 100px;
+  font-weight: 100;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "jancode": "00001",
+    "name": "アボカド",
+    "imgfile": "1.png",
+    "price": 98
+  },
+  {
+    "jancode": "00002",
+    "name": "洗いねぎ束",
+    "imgfile": "2.png",
+    "price": 248
+  }
+]

@@ -1,0 +1,29 @@
+/* KSD V001.000 AS */
+.option-master-setting-outer {
+  font-size: 20px;
+  background-color: unset !important;
+  padding: 0;
+  max-width: 1200px;
+  min-width: 1200px;
+}
+
+.option-master-setting-inner {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin-top: 60px !important;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+
+.option-row-count {
+  line-height: 23px;
+  margin-top: 7px !important;
+}
+
+/* KSD V001.000 AE */

@@ -1,0 +1,92 @@
+/* KSD V001.000 AS */
+.course-price-setting-outer {
+  font-size: 20px;
+  padding: 0;
+  max-width: 1200px;
+  min-width: 1200px;
+}
+
+.course-price-setting-inner {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin-top: 60px;
+}
+
+.course-price-setting-table {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+.course-price-setting-table thead tr {
+  height: 30px;
+}
+
+.course-price-setting-table thead th,
+.course-price-setting-table thead td {
+  height: 30px;
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  border-left: 1px #FFFFFF solid !important;
+  border-right: 1px #FFFFFF solid !important;
+  background-color: #9EA0AA !important;
+  color: #FFFFFF !important;
+}
+
+.course-price-setting-table thead th:first-child,
+.course-price-setting-table thead td:first-child {
+  border-left: none !important;
+}
+
+.course-price-setting-table thead th:last-child,
+.course-price-setting-table thead td:last-child {
+  border-right: none !important;
+}
+
+.course-price-setting-table tbody tr {
+  height: 50px;
+}
+
+.course-price-setting-table tbody th,
+.course-price-setting-table tbody td {
+  height: 50px;
+  padding: 0 8px !important;
+  margin: none !important;
+}
+
+.course-price-setting-table tbody th {
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #9EA0AA !important;
+  border: 1px #FFFFFF solid !important;
+  color: #FFFFFF !important;
+}
+
+.course-price-setting-table tbody td {
+  background-color: #FFFFFF !important;
+  border: 1px #b9b8b8 solid !important;
+}
+
+.course-price-setting-table tbody th.form-control,
+.course-price-setting-table tbody td.form-control {
+  padding: 0 !important;
+}
+
+.course-price-setting-table tbody th.form-control,
+.course-price-setting-table tbody td.form-control,
+.course-price-setting-table tbody th.inactive,
+.course-price-setting-table tbody td.inactive {
+  background-color: transparent !important;
+}
+
+.course-price-setting-table tbody td.has-error {
+  background-color: #FCD4D4 !important;
+  border: 1px #E93232 solid !important;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+/* KSD V001.000 AE */

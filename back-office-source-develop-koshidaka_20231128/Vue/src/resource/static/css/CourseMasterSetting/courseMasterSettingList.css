@@ -1,0 +1,109 @@
+/* KSD V001.000 AS */
+.course-master-setting-table {
+  table-layout: fixed;
+  border-collapse: separate !important;
+  border-spacing: 0.5px 0px;
+}
+
+.course-master-setting-table th:first-child,
+.course-master-setting-table td:first-child {
+  min-width: 72px;
+  width: 72px;
+}
+
+.course-master-setting-table th:nth-child(2),
+.course-master-setting-table td:nth-child(2) {
+  min-width: 248px;
+  width: 248px;
+}
+
+.course-master-setting-table th:nth-child(3),
+.course-master-setting-table td:nth-child(3) {
+  width: 120px;
+}
+
+.course-master-setting-table th:nth-child(4) {
+  width: 134px;
+}
+
+.course-master-setting-table td:nth-child(4) {
+  width: 120px;
+}
+
+.course-master-setting-table thead {
+  display: block;
+}
+
+.course-master-setting-table thead th,
+.course-master-setting-table thead td {
+  height: 30px;
+  background-color: #9ea0aa;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.course-master-setting-table thead th:first-child,
+.course-master-setting-table thead td:first-child {
+  border-left: none;
+}
+
+.course-master-setting-table thead th:last-child,
+.course-master-setting-table thead td:last-child {
+  border-right: none;
+}
+
+.course-master-setting-table thead th:last-child {
+  width: 151px;
+}
+
+.course-master-setting-table tbody {
+  height: 750px;
+  display: block;
+  overflow-y: auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.course-master-setting-table tbody th,
+.course-master-setting-table tbody td {
+  height: 50px;
+  background-color: white;
+  border: 1px solid #b9b8b8;
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.course-master-setting-table tbody tr.selectedItem td {
+  background-color: #ffeacf !important;
+  border: 1px solid #ff9b16 !important;
+}
+
+.dateInRange td {
+  background-color: #FCD4D4 !important;
+}
+
+.course-master-setting-table tbody tr:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+
+/* KSD V001.000 AE */

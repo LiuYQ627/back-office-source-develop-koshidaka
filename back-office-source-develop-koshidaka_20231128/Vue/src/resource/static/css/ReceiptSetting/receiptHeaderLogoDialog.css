@@ -1,0 +1,14 @@
+/**
+* ---------+---------------------+----------+--------------------------------
+*  DATE    |NAME(Inc)            |GUIDE     |GUIDANCE
+* ---------+---------------------+----------+--------------------------------
+* 20230207  wangchunmei(Neusoft)  G001.00.0  issue課題#836を対応します.
+*/
+.searchButtonStyle {
+  width: 110px !important;
+  height: 40px !important;
+  color: #ffffff  !important;
+  font-size: 22px  !important;
+  background-color: rgb(30, 167, 203) !important;
+  border-color: rgb(30, 167, 203) !important;
+}

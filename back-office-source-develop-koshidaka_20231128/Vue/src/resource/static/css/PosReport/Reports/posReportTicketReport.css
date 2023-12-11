@@ -1,0 +1,76 @@
+/* KSD V001.000 AS */
+#pdf-result-container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 12px;
+}
+
+.text-font {
+  font-family: 'Migu 1M' !important;
+}
+
+.margin-30 {
+  margin-bottom: 30px;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.text-white {
+  color: white;
+}
+
+.v-data-table {
+  page-break-inside: auto;
+}
+
+.v-data-table >>> .v-data-table-header {
+  background-color: #9ea0aa;
+}
+
+.v-data-table >>> .v-data-table-header th {
+  color: white !important;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.v-data-table >>> tbody tr td {
+  font-size: 22px !important;
+}
+
+.v-data-table >>> tbody tr {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+.v-data-table >>> tbody tr:not(:last-child) td {
+  border-bottom: 0px !important;
+}
+
+.v-data-table >>> tbody tr:last-child td {
+  border-top: solid 2px gray !important;
+  border-bottom: solid 2px gray !important;
+}
+
+.v-data-table>>>tbody tr:hover {
+  background: #eee !important;
+}
+
+.over-display-msg {
+  color: red;
+  text-align: start;
+  font-size: 1.25rem !important;
+}
+
+.margin-30 {
+  margin-top: 30px;
+}
+
+/* KSD V001.000 AE */

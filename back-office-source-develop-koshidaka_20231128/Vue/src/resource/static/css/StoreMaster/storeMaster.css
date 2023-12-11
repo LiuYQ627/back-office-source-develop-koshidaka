@@ -1,0 +1,17 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+@import url(./../MasterCommon/masterDialog.css);
+
+.textAddress {
+  word-break:break-all;
+}
+
+/* KSD V001.000 AS */
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-clear-button {
+  display: none;
+}
+/* KSD V001.000 AE */

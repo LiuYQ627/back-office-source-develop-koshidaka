@@ -1,0 +1,74 @@
+
+{
+    "screenList": [
+        {
+            "key": "drawerMenu",
+            "label": "ドロアメニュー"
+        },
+        {
+            "key": "productDetail",
+            "label": "商品明細ポップアップ"
+        },
+        {
+            "key": "planScreen",
+            "label": "会計画面"
+        },
+        {
+            "key": "couponUse",
+            "label": "クーポン利用"
+        }
+    ],
+    "drawerMenuName": {
+        "cancel": "取引中止",
+        "productManual": "商品マニュアル入力",
+        "numberPeople": "人数入力",
+        "receipt": "領収証発行",
+        "receiptStop": "レシート発行停止",
+        "unpaidList": "一覧照会",
+        "soundOnOff": "音声鳴動ON/OFF",
+        "calculateSales": "一括売上計算",
+        "cashChangerConnect": "釣銭機接続／切離"
+    },
+    "itemDetailsKind": [
+        {
+            "key": 0,
+            "label": "値引"
+        },
+        {
+            "key": 1,
+            "label": "割引"
+        },
+        {
+            "key": 2,
+            "label": "売価変更"
+        },
+        {
+            "key": 4,
+            "label": "税率変更"
+        },
+        {
+            "key": 3,
+            "label": "税率単価変更登録"
+        }
+    ],
+    "itemDetailsKindKaike": [
+        {
+            "key": 0,
+            "label": "値引"
+        },
+        {
+            "key": 1,
+            "label": "割引"
+        }
+    ],
+    "accountingSettingKind": [
+        {
+            "key": 0,
+            "label": "小計値引・割引"
+        },
+        {
+            "key": 1,
+            "label": "締め"
+        }
+    ]
+}

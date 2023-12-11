@@ -1,0 +1,33 @@
+/* KSD V001.000 AS */
+@import url(./../MasterCommon/masterDialog.css);
+
+.classification-number-csv-dialog .v-btn.centerButtonDiv
+{
+  position: relative;
+  width: 105px;
+  height: 40px;
+  color: white;
+  background-color: #1ea7cb !important;
+  box-shadow: none;
+  font-size: 22px;
+}
+.classification-number-csv-dialog .selectArrow {
+  display: inline-block;
+  text-decoration: none;
+  position: absolute;
+}
+.classification-number-csv-dialog .selectArrow::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -10px;
+}
+/* KSD V001.000 AE */

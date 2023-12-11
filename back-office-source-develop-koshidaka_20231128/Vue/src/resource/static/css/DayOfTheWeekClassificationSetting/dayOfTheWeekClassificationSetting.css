@@ -1,0 +1,338 @@
+/* KSD V001.000 AS */
+/* マスタ新規・編集ダイアログの共通CSS */
+@import url(./../MasterCommon/masterDialog.css);
+
+#editTable {
+  height: 354px;
+  margin: 20px 26px;
+}
+
+.day-of-the-week-body-container {
+  min-width: 996px !important;
+  max-width: 996px !important;
+  margin-top: 60px !important;
+}
+
+.day-of-the-week-container {
+  min-width: 996px;
+  max-width: 996px;
+  width: 996px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dayOfTheWeekselectStoreContentStyle {
+  width: 972px;
+  display: flex;
+}
+
+.dayOfTheWeekselectStoreContentStyle p {
+  display: flex;
+  width: 146px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.dayOfTheWeekselectStoreContentStyle span input {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+.dayOfTheWeekstoreSelectSpan {
+  background-color: #fff;
+  width: 866px;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightArrow2::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+
+#inputRowDay {
+  display: flex;
+  padding: 0px;
+  height: 65px;
+  width: 680px;
+  background-color: #fff;
+  border: 2px solid #009fc8;
+  background-color: #e9faff;
+}
+
+.corporateCheckbox {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+[type="checkbox"] {
+  display: none;
+}
+
+[type="checkbox"]:checked+.corporateCheckbox {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.corporateCheckbox:hover {
+  opacity: 0.6;
+}
+
+.corporateCheckbox.disabled {
+  opacity: 0.3;
+}
+
+.field-icon {
+  color: #555 !important;
+  ;
+  float: right;
+  margin-right: 4px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.textContractServices {
+  width: 50% !important;
+}
+
+.textAddress {
+  padding-right: 92px !important;
+  height: 70px !important;
+  word-break: break-all;
+}
+
+/* colorTable */
+#colorTable {
+  font-size: 22px;
+  width: 100%;
+}
+
+#colorTable tr {
+  height: 50px;
+}
+
+#colorTable tr th {
+  width: 146px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 0.5em;
+}
+
+#colorTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#colorTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 2px;
+
+}
+
+.textWeekdayName input:focus {
+  border: 2px solid #ff9508 !important;
+}
+
+#colorTable tr td textarea {
+  padding-left: 5px;
+  padding-right: 2px;
+  resize: none;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 3em;
+}
+
+.textContractServices {
+  width: 50% !important;
+}
+
+.textAddress {
+  padding-right: 92px !important;
+  height: 70px !important;
+  word-break: break-all;
+}
+
+#divColorTable {
+  height: 354px;
+  margin: 20px 26px;
+}
+
+.active {
+  border: 3px solid black !important
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.selectedColor {
+  border: 2px solid black !important;
+}
+
+.selectedColorLight {
+  color: black;
+}
+
+.selectedColorDark {
+  color: white;
+}
+
+.unselectedColor {
+  color: rgba(0, 0, 0, 0);
+}
+
+.selectedCheckMark {
+  display: flex;
+  justify-content: center;
+  pointer-events: none
+}
+
+#listHeader {
+  color: #fff;
+  font-size: 20px;
+  /* フォントサイズ 20pt */
+  background-color: #9ea0aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-right: 1px solid #f2f3f5;
+  display: inline-block;
+  border-left: 1px solid rgb(158, 160, 170);
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.listElement {
+  color: #000;
+  font-size: 22px;
+  /* フォントサイズ 22pt */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.editTextBox:focus {
+  border: 2px solid #ff9508;
+  outline: solid 2px #ff9508;
+  outline-offset: -2px;
+}
+
+.palletteIcon:focus {
+  border: 2px solid black;
+  outline: solid 2px black;
+  outline-offset: -2px;
+}
+
+#colorTable tr td.colorBox:focus {
+  outline: solid 2px black;
+  outline-offset: -2px;
+  border-radius: 3px
+}
+
+.day-of-week-class-second-to-last-col-label {
+  padding-right: 20px;
+}
+
+.day-of-week-class-colored-label {
+  background-clip: content-box;
+}
+
+.day-of-week-class-second-to-last-vcol {
+  background-color: white;
+  margin-bottom: 7px;
+}
+
+.day-of-week-class-result-count-row {
+  height: 38px;
+  width: 972px;
+  margin-top: -8px;
+  margin-left: 0;
+}
+
+.day-of-week-class-header-row {
+  height: 30px;
+  width: 1100px;
+  margin-left: 0;
+}
+
+.day-of-week-class-content-row {
+  height: 50px;
+  width: 1100px;
+  margin-left: 0;
+}
+
+.scrollNone:focus {
+  outline: 2px solid black !important;
+  border-radius: 2px;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.scrollHidden {
+  overflow: hidden !important;
+}
+
+/* KSD V001.000 AE */

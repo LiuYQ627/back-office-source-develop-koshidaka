@@ -1,0 +1,17 @@
+/* KSD V001.000 AS */
+.search-button-style {
+  width: 110px !important;
+  height: 40px !important;
+  color: #ffffff !important;
+  font-size: 22px !important;
+  background-color: rgb(30, 167, 203) !important;
+  border-color: rgb(30, 167, 203) !important;
+}
+
+.v-dialog-body-wrapper {
+  height: 354px;
+  overflow-y: auto;
+  margin: 20px 26px;
+}
+
+/* KSD V001.000 AE */

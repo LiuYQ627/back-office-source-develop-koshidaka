@@ -1,0 +1,47 @@
+.container {
+  min-width: 960px;
+  max-width: 960px;
+  font-size: 20px;
+}
+
+.conditionRow {
+  height: 50px;
+}
+
+/* || 設定一覧エリア */
+.tableList {
+  border-collapse: separate;
+  table-layout: fixed;
+  border-spacing: 0px;
+}
+.tableList tr {
+  height: 40px;
+}
+.editIcon {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.tableList tr.selected td {
+  background-color: #ffeacf !important;
+}
+
+/* || ボタン */
+.searchBtn {
+  width: 90px;
+  height: 40px;
+  background-color: #1ea7cb !important;
+}
+.searchBtn label {
+  font-size: 18px;
+  color: white;
+}
+.sortBtn {
+  width: 120px;
+  height: 50px;
+  background-color: #ff9508 !important;
+}
+.sortBtn label {
+  font-size: 20px;
+  color: white;
+}

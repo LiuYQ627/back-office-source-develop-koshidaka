@@ -1,0 +1,98 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+/* KSD V001.000 AS */
+
+@import url(./../MasterCommon/masterDialog.css);
+
+.memberCheckbox{
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+[type="checkbox"] {
+  display: none;
+}
+[type="checkbox"]:checked + .memberCheckbox {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.memberCheckbox:hover {
+  opacity: 0.6 ;
+}
+.memberCheckbox.disabled {
+  opacity: 0.3 ;
+} 
+
+.field-icon {
+  color: #555 !important;;
+  float: right;
+  margin-right: 4px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+/* outerEquipmentTable */
+
+#equipmentTable {
+  height: 354px;
+  margin: 20px 26px;
+}
+#outerEquipmentTable {
+  width:100%;
+  font-size: 22px;
+}
+#outerEquipmentTable tr {
+  height: 50px;
+}
+
+#outerEquipmentTable tr th {
+  width: 146px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size:20px;
+  font-weight:normal;
+  padding: 0 0.5em;
+}
+
+#outerEquipmentTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#outerEquipmentTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+#outerEquipmentTable tr td textarea {
+  padding-left: 5px;
+  padding-right: 2px;
+  resize: none;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 3em;
+}
+input[type="text"][disabled] {
+  cursor: not-allowed;
+}
+/* KSD V001.000 AE */

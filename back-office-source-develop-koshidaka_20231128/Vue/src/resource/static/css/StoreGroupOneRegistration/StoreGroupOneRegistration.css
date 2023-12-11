@@ -1,0 +1,147 @@
+/* #region 店舗選択スタイル設定 */
+/* KSD V001.000 AS */
+.group-one-base-container-body {
+  min-width: 680px !important;
+  max-width: 680px !important;
+  width: 680px;
+  margin-top: 60px;
+}
+
+.selectStoreContentStyle {
+    margin-left: -12px;
+    width: 680px;
+    display: flex;
+  }
+  .selectStoreContentStyle p {
+    display: flex;
+    width: 146px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ea0aa;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .selectStoreContentStyle span input {
+    width: 458px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+  }
+  .storeSelectSpan {
+    background-color: #fff;
+    width: 562px;
+    height: 50px;
+    border: 1px solid #9ea0aa;
+    text-align: left;
+  }
+  .rightArrow2::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 0;
+    border-top: solid 3px #fff;
+    border-left: solid 3px #fff;
+    position: absolute;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    margin-top: -9px;
+    right: 12px;
+  }
+  .buttomLabel {
+    float: right;
+    margin: 5px;
+    top:-16px;
+  }
+  .buttomLabel button {
+    box-shadow: none;
+    background-color: #1ea7cb !important;
+  }
+  /* 日付エリア */
+  .selectDateContentStyle {
+    margin-left: -12px;
+    width: 680px;
+    display: flex;
+  }
+  .selectDateContentStyle p {
+    display: flex;
+    width: 146px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ea0aa;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .selectDateContentStyle span input {
+  /*
+    width: 458px;
+    height: 100%;
+  */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+  }
+  .dateSelectSpan {
+    background-color: #fff;
+    width: 562px;
+    height: 50px;
+    border: 1px solid #9ea0aa;
+    text-align: left;
+  }
+  .selectConditionStyle
+  {
+    width: 596px;
+    height: 169px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color: #009FC8;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+  .selectPeriodContentStyle
+  {
+    display: flex;
+    position: absolute;
+  /*  top: 97px;*/
+  /*  left: 13px;*/
+  }
+  .periodSelectStyle
+  {
+    border-collapse:collapse;
+  }
+  .titleCellStyle
+  {
+  /*  width: 146px !important;*/
+    width: 458px !important;
+    background-color: #9ea0aa;
+    color: #FFFFFF;
+    font-size: 20px !important;
+    border: 1px solid #9ea0aa;
+  }
+  .textCellStyle
+  {
+    width: 187px !important;
+    height: 50px;
+  /*
+    background-color: white;
+    border: 1px solid #9ea0aa;
+  */
+  }
+  .startDateInputStyle{
+  /*  width: 135px;*/
+    width: 458px;
+    height: 44px;
+    text-align: left;
+    text-indent: 10px;
+  }
+  .startDateInputStyle:focus {
+    outline:none;
+  }
+  /* KSD V001.000 AE */

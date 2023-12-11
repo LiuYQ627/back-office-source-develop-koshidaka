@@ -1,0 +1,7 @@
+.rowHeight {
+  height: 50px;
+}
+
+.row.selected .whiteFrame {
+  background-color: #ffeacf;
+}

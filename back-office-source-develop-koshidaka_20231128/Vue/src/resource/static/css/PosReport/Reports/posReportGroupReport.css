@@ -1,0 +1,111 @@
+/* KSD V001.000 AS */
+#pdf-result .text-h5 {
+  font-family: "Migu 1M" !important;
+}
+
+#pdf-result-container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 12px;
+}
+
+#report-condition {
+  font-family: "Migu 1M" !important;
+  font-size: 1.25rem !important;
+  font-weight: 100;
+}
+
+#report-condition .text-h6 {
+  font-family: "Migu 1M" !important;
+}
+
+.v-data-table {
+  page-break-inside: auto;
+}
+
+.v-data-table >>> table {
+  border-collapse: collapse;
+}
+
+.v-data-table >>> thead,
+.v-data-table >>> .v-data-table-header {
+  background-color: #9ea0aa;
+}
+
+.v-data-table >>> thead th,
+.v-data-table >>> .v-data-table-header th {
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  line-height: 23px !important;
+}
+
+.v-data-table >>> tbody tr {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+.v-data-table >>> tbody:hover {
+  background-color: #eee;
+}
+
+.v-data-table >>> tbody tr td {
+  font-size: 22px !important;
+}
+
+.v-data-table >>> tbody tr:not(:last-child) td {
+  border-bottom: 0px !important;
+}
+
+.v-data-table >>> table tbody.no-terms-row:not(:last-child):not(:nth-last-child(2)) {
+  border-bottom: 1px solid lightgray !important;
+}
+
+.grey-row {
+  max-width: 900px;
+}
+
+.grey-row span {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.text-white {
+  color: white;
+}
+
+.total-store {
+  border-top: #eee;
+}
+
+.over-display-msg {
+  color: red;
+  font-size: 1.25rem !important;
+}
+
+.row-group-border {
+  border-top: solid 2px gray;
+  border-bottom: solid 2px gray;
+}
+
+.table-separator {
+  margin-bottom: 30px;
+}
+
+.margin-30 {
+  margin-top: 30px;
+}
+
+/* KSD V001.000 AE */

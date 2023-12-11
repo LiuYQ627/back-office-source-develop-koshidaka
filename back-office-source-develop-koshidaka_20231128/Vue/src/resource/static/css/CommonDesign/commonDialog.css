@@ -1,0 +1,53 @@
+.dialogContent {
+  height: 354px;
+  overflow-y: auto;
+  font-size: 20px;
+}
+
+.borderBottomBlue {
+  border-bottom: medium solid #1ea7cb;
+}
+
+.borderTopGray {
+  border-top: 1px solid #9ea0aa;
+}
+
+.v-btn.fotterButton {
+  width: 130px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+/* ヘッダータイトル 画像ありの場合の調整クラス */
+.title-label {
+  padding-left: 0px !important;
+  padding-right: 100px !important;
+}
+
+.v-data-table {
+  overflow-x: auto;
+}
+
+/* KSD V001.000 AS */
+.copy-dialog-mode-label label {
+  font-size: 22px !important;
+  display: block;
+  margin-left: -25px;
+  margin-right: -50px;
+  border: 1px solid #fff !important;
+  width: 100px !important;
+  font-weight: 100 !important;
+}
+
+.copy-dialog-mode-label-new {
+  color: #ffaf46 !important;
+  background-color: #ffeacf !important;
+}
+
+.copy-dialog-mode-label-edit {
+  color: #20a8cc !important;
+  background-color: #BBF1FF !important;
+}
+/* KSD V001.000 AE */

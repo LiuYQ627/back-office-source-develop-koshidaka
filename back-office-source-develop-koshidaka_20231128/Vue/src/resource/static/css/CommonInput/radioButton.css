@@ -1,0 +1,30 @@
+.radioButton {
+  box-sizing: border-box;
+  /* ボタンデザイン */
+  border-radius: 5px;
+  /* 非選択時 */
+  background-color: #ffffff;
+  border: 2px solid #9ea0aa;
+  color: #000;
+}
+.radioButton.checked {
+  /* 選択時 */
+  background-color: #ff9407;
+  border: 1px solid #ff9407;
+  color: #fff;
+}
+/* KSD V001.000 MS */
+.radioButton:disabled {
+  cursor: default;
+}
+/* KSD V001.000 ME */
+
+/* KSD V001.000 AS */
+.width-fitcontent {
+  justify-content: center;
+  width: fit-content !important;
+  max-width: fit-content !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+/* KSD V001.000 AE */

@@ -1,0 +1,20 @@
+/* KSD V001.000 AS */
+.room-info-master-setting-outer {
+  font-size: 20px;
+  padding: 0;
+  max-width: 1200px;
+  min-width: 1200px;
+}
+
+.room-info-master-setting-inner {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin-top: 60px !important;
+}
+
+.room-info-row-count {
+  margin-top: 7px !important;
+  line-height: 23px;
+}
+
+/* KSD V001.000 AE */

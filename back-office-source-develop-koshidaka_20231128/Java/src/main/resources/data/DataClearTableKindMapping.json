@@ -1,0 +1,14 @@
+[
+    {
+        "tableCategory":0,
+        "categoryName":"マスタ系"
+    },
+    {
+        "tableCategory":1,
+        "categoryName":"実績データ系"
+    },
+    {
+        "tableCategory":2,
+        "categoryName":"設定系"
+    }
+]

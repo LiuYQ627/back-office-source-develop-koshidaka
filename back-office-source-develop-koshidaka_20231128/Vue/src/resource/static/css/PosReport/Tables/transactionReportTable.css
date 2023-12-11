@@ -1,0 +1,59 @@
+/* KSD V001.000 AS */
+.v-data-table>>>.v-data-table-header {
+  background-color: #9ea0aa;
+}
+
+.v-data-table>>>.v-data-table-header th {
+  color: white !important;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.v-data-table>>>tbody tr {
+  page-break-inside: avoid;
+  page-break-after: auto
+}
+
+.v-data-table>>>tbody tr td {
+  font-size: 22px !important;
+  border: none !important;
+}
+
+
+.v-data-table>>>tbody tr td:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.v-data-table>>>tbody:hover {
+  background: #eee !important;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.bg-dirty-blue {
+  background-color: #f2f3f5;
+}
+
+.footer-table-div {
+  height: 48px;
+}
+
+.footer-table-div.error-label {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.margin-30 {
+  margin-top: 30px;
+}
+
+/* KSD V001.000 AE */

@@ -1,0 +1,188 @@
+/*
+  KSD V001.000 AS
+  部屋関連情報マスタ設定のCSS
+*/
+
+.disableHeadquartersAuthorityStyling {
+  cursor: not-allowed;
+}
+
+.RoomListElement font {
+  text-align: center;
+  padding: 3px;
+}
+
+font.NumericStyle,
+font.NonNumericStyle,
+font.CenterStyle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.RoomListElement font.NumericStyle {
+  margin-left: auto;
+}
+
+.RoomListElement font.NonNumericStyle {
+  margin-right: auto;
+}
+
+.RoomListElement font.CenterStyle {
+  margin: auto
+}
+
+.EditIcon {
+  margin: auto;
+}
+
+.NoColumn {
+  max-width: 55px;
+}
+
+.TableNoColumn {
+  max-width: 145px;
+  min-width: 145px;
+}
+
+.EquipmentColumn {
+  max-width: 220px;
+  min-width: 220px;
+}
+
+.ModelColumn {
+  max-width: 545px;
+  min-width: 545px;
+}
+
+.StartDateColumn {
+  max-width: 120px;
+}
+
+.EndDateColumn {
+  max-width: 140px;
+}
+
+.EditColumn {
+  max-width: 50px;
+}
+
+.selectStoreContentStyle {
+  width: 100% !important;
+  display: flex;
+}
+
+.selectStoreContentStyle p {
+  display: flex;
+  width: 146px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.selectStoreContentStyle span input {
+  width: 458px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+.storeSelectSpan {
+  background-color: #fff;
+  width: 562px;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  text-align: left;
+}
+
+.buttomLabel {
+  float: right;
+  margin: 5px;
+}
+
+.buttomLabel button {
+  box-shadow: none;
+  background-color: #1ea7cb !important;
+  position: relative;
+  min-width: 55px;
+}
+
+.rightArrow2::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+
+.roomInfoStoreSelectButton {
+  margin: auto 5px auto auto !important;
+  float: right;
+}
+
+.roomRaleatedInformationSettingSearchCodeLabel {
+  min-width: 225.33px !important;
+  max-width: 225.33px !important;
+}
+
+.roomRaleatedInformationSettingSearchCode input {
+  width: 1030px !important;
+}
+
+.room-related-info-setting-second-to-last-col {
+  padding-right: 20px;
+  border-right: none !important;
+}
+
+.room-related-info-setting-search-row {
+  width: 100% !important;
+  padding-right: 12px !important;
+}
+
+.room-related-info-setting-edit-header {
+  text-align: center !important;
+  border-right: 1px solid #9ea0aa !important;
+}
+
+.room-related-info-setting-edit-content {
+  border-left: 1px solid #9ea0aa;
+}
+
+.room-related-info-setting-table-row-count-row {
+  height: 38px;
+  width: 100%;
+  margin-top: -8px;
+}
+
+.room-related-info-setting-table-row-count-col {
+  text-align: left;
+}
+
+.room-related-info-setting-table-row-count-font {
+  font-size: 20px;
+}
+
+.room-related-info-setting-header-row {
+  height: 30px;
+  width: 1276px;
+}
+
+.room-related-info-setting-container {
+  min-width: 1300px;
+  max-width: 1300px;
+  margin: 60px auto;
+  margin-left: 302px;
+}
+
+/* KSD V001.000 AE */

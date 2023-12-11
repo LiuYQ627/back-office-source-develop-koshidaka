@@ -1,0 +1,252 @@
+[
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-member-login",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-member-skip",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-member-input-type",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-on-time",
+      "option": 500
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-off-time",
+      "option": 100
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-sunday",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-monday",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-tuesday",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-wednesday",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-thursday",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-friday",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power-saturday",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-attendant-check",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-auto-power",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-bag-check",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-bag-barcode1",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-bag-barcode2",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-bag-barcode3",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-bag-barcode4",
+      "option": 0
+  },
+  {
+      "category": 3,
+      "settingKey": "tablet-operation-bag-barcode5",
+      "option": 0
+  },
+  {
+      "category": 4,
+      "settingKey": "preset-selfpos-coordination",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-attendant-check",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-operation",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-5yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-10yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-20yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-30yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-50yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-80yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-100yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-150yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-200yen-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-3percent-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-5percent-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-10percent-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-20percent-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-30percent-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-40percent-discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-1discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-2discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-3discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-4discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-5discount",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-discount-sticker-type1-pattern-half-price",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-bag-check",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-bag-barcode1",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-barcode2",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-barcode3",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-barcode4",
+      "option": 0
+  },
+  {
+      "category": 5,
+      "settingKey": "smart-phone-operation-barcode5",
+      "option": 0
+  }
+]

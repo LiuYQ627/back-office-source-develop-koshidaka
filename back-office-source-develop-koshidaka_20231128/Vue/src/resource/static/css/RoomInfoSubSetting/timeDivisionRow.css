@@ -1,0 +1,53 @@
+/* KSD V001.000 AS */
+.invalid {
+  border: 1px solid #f3443e;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.readOnlyText {
+  background-color: #f0f0f0;
+  color: #79797a;
+}
+
+th:not(:last-child) {
+  border-right: 1px solid #f0f0f0;
+}
+
+.table-cell {
+  color: #000;
+  font-size: 22px;
+  text-align: center;
+  height: 50px;
+}
+
+td.label {
+  color: #fff;
+  background-color: #9ea0aa;
+  text-align: center;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+td.input {
+  color: #000;
+  background-color: #fff;
+  border-top: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+}
+
+.errorTextBox {
+  background-color: #fcd4d4;
+  border: 1px solid #e93232;
+}
+
+.errorTextBox:focus {
+  border: 2px solid #e93232;
+  background-color: #fff;
+  outline: solid 2px #fcd4d4;
+  outline-offset: -2px;
+}
+/* KSD V001.000 AE */

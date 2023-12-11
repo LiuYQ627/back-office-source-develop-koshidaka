@@ -1,0 +1,8 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+@import url(./../MasterCommon/masterDialog.css);
+
+/* KSD V001.000 AS */
+.display-none {
+    display: none;
+}
+/* KSD V001.000 AE */

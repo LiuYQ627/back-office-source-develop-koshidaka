@@ -1,0 +1,28 @@
+/* KSD V001.000 AS */
+@import url(./../CommonDesign/dialog.css);
+
+.course-price-setting-copy-dialog {
+    width: 960px !important;
+}
+
+.course-price-setting-copy-dialog-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.course-price-setting-copy-dialog-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+}
+
+.course-price-setting-copy-dialog-card {
+    overflow: hidden !important;
+}
+
+.course-price-setting-copy-dialog-table {
+    min-width: auto;
+}
+/* KSD V001.000 AE */

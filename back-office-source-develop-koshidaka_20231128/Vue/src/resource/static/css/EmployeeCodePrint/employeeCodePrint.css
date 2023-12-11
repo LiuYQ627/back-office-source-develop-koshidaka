@@ -1,0 +1,138 @@
+/* #region 店舗選択スタイル設定 */
+.selectStoreContentStyle {
+  margin-left: -12px;
+  width: 680px;
+  display: flex;
+}
+.selectStoreContentStyle p {
+  display: flex;
+  width: 146px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.selectStoreContentStyle span input {
+  width: 458px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+.storeSelectSpan {
+  background-color: #fff;
+  width: 562px;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  text-align: left;
+}
+.rightArrow2::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+.buttomLabel {
+  float: right;
+  margin: 5px;
+}
+.buttomLabel button {
+  box-shadow: none;
+  background-color: #1ea7cb !important;
+}
+/* 条件入力エリア */
+.employee-inputText {
+  width: 200px;
+  font-size:22px;
+  background-color: transparent;        /* 背景色 */
+  height: 24px;
+  margin-top: 10px;
+  margin-left: -440px;
+}
+.employee-inputText:focus {
+  outline: none;                        /* アウトライン線 */
+}
+.employee-underLine2 {
+  border-bottom: 2px solid #009fc8;
+  margin-left: -10px;
+}
+
+/* ラジオボタン */
+.employee-inline-radio {
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  width: 340px;
+  height: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top :-10px;
+  margin-left:-15px;
+}
+.employee-inline-radio div {
+  position: relative;
+  text-align: center;
+  top: 20%;
+  left: 10%;
+  width: 150px;
+  height: 40px;
+  margin : -5px;
+  margin-top : -1px;
+}
+.employee-inline-radio input {
+  width: 150px;
+  height: 40px;
+}
+.employee-inline-radio label {
+  position: absolute;
+  top: 0;
+  color: #000;
+  width: 150px;
+  height: 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  border: 2px solid #9ea0aa;
+  border-radius: 5px;
+  font-size: 22px;
+}
+.employee-inline-radio input:checked + label {
+  background: #ff9407;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #ff9407;
+  color: #fff;
+  font-size: 22px;
+}
+
+/**
+ * チェックボックス
+ * 必ず v-btn コンポーネントに付与すること
+ */
+ .v-btn.checkBox {
+  display: inline-block;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-size: 100% 100%;
+}
+.v-btn.checkBox:hover {
+  opacity: 0.6;
+}
+.v-btn.checkBox.disabled {
+  opacity: 0.3;
+}
+.v-btn.checkBox[checked] {
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-size: 100% 100%;
+}

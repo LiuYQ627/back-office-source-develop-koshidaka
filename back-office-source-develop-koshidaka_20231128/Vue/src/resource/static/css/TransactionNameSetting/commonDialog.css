@@ -1,0 +1,32 @@
+@import url(./../MasterCommon/masterDialog.css);
+.dialogContent {
+  height: 354px;
+  overflow-y: auto;
+  font-size: 20px;
+}
+
+.borderBottomBlue {
+  border-bottom: medium solid #1ea7cb;
+}
+
+.borderTopGray {
+  border-top: 1px solid #9ea0aa;
+}
+
+.v-btn.fotterButton {
+  width: 130px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+/* ヘッダータイトル 画像ありの場合の調整クラス */
+.title-label {
+  padding-left: 0px !important;
+  padding-right: 100px !important;
+}
+
+.v-data-table { 
+  overflow-x: auto;
+}

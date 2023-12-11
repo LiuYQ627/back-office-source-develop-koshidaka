@@ -1,0 +1,18 @@
+[
+  {
+    "name": "やさい",
+    "hidden": false
+  },
+  {
+    "name": "くだもの",
+    "hidden": false
+  },
+  {
+    "name": "おにく",
+    "hidden": true
+  },
+  {
+    "name": "おさかな",
+    "hidden": false
+  }
+]

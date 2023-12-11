@@ -1,0 +1,492 @@
+/**
+* ---------+---------------------+----------+--------------------------------
+*  DATE    |NAME(Inc)            |GUIDE     |GUIDANCE
+* ---------+---------------------+----------+--------------------------------
+* 20230203  wangchunmei(Neusoft)  G001.00.0  issue課題#836を対応します.
+* 20230612  wangchunmei(Neusoft)  G002.00.0  issue課題#1585を対応します.
+* 20230627  wangchunmei(Neusoft)  G002.00.1  issue課題#1585を対応します.
+*/
+.receipt1AttrRow {
+  border: 1px solid #d9dadd;
+  border-top: none;
+  border-right: none;
+}
+
+.editLabelCol {
+  /* KSD V001.000 DS */
+  /* border: 1px solid #d9dadd; */
+  /* KSD V001.000 DE */
+  border-right: none;
+  /* KSD V001.000 AS */
+  position: absolute;
+  width: 141px;
+  height: 100%;
+  /* KSD V001.000 AE */
+}
+
+.editCol {
+  background: #ffffff;
+  border-bottom: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+  /* KSD V001.000 AS */
+  margin-left: 141px;
+  /* KSD V001.000 AE */
+}
+
+.receiptEditIcon {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+.receiptHeaderRow {
+  height: 91%
+}
+
+.receiptLogoRow {
+  /* KSD V001.000 DS */
+  /* height: 20%; */
+  /* KSD V001.000 DE */
+  /* KSD V001.000 AS */
+  height: 200px;
+  /* KSD V001.000 AE */
+}
+/* KSD V001.000 AS */
+
+.receiptBarcodeRow {
+  min-height: 120px;
+  height: auto;
+  position: relative;
+}
+
+.receiptBarcodeRow .receiptTitleWidth {
+  position: absolute;
+  width: 183px;
+}
+
+.receiptBarcodeRow .receiptContentWidth {
+  min-height: 120px;
+  margin-left: 183px;
+}
+
+.receiptBarcodeRow .receiptContentWidth .receiptContentDivCenter  {
+  width: 345px;
+}
+
+.receiptBarcodeRow .receiptContentWidth div {
+  height: 125px;
+}
+
+.receiptFooterLogoRow .receiptContentWidth {
+  min-height: 50px;
+}
+
+.receiptFooterLogoRow {
+  min-height: 49px;
+  height: auto;
+  position: relative;
+}
+
+.receiptFooterLogoRow .receiptTitleWidth {
+  position: absolute;
+  width: 183px;
+  height: 100%;
+}
+
+.receiptFooterLogoRow .receiptContentWidth {
+  margin-left: 183px;
+}
+
+.receiptFooterLogoRow .receiptContentWidth .receiptContentDivCenter  {
+  width: 345px;
+  min-height: 50px;
+}
+/* KSD V001.000 AE */
+.receiptProductRow {
+  /* G002.00.0 Update-Start */
+  /* height: 20% */
+  height: 40%
+  /* G002.00.0 Update-End */
+}
+
+.receiptContentRow {
+  /* G002.00.0 Update-Start */
+  /* height: 12%; */
+  height: 8%;
+  /* G002.00.0 Update-End */
+}
+
+.receiptContentDivCenter {
+  justify-content: center;
+  align-items: center;
+}
+
+.receiptContentOuterFirstDiv {
+  border: 1px solid #9ea0aa;
+  border-bottom: none;
+}
+
+.receiptContentOuterLastDiv {
+  border: 1px solid #9ea0aa;
+  border-top: none;
+}
+
+.receiptContentOuterDiv {
+  border-left: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+}
+
+.receiptContentInnerDiv {
+  border: 1px solid #1ea7cb;
+  /* KSD V001.000 DS */
+  /* margin: 10px;*/
+  /* height: 90%; */
+  /* KSD V001.000 DE */
+  /* G002.00.1 Update-Start */
+  /* width: 93%; */
+  /* KSD V001.000 DS */
+  /* width: 90%; */
+  /* KSD V001.000 DE */
+  /* G002.00.1 Update-End */
+  /* KSD V001.000 AS */
+  height: 95%;
+  width: 95%;
+  /* KSD V001.000 AE */
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.ryosyuContentInnerDiv {
+  border: 1px solid #1ea7cb;
+  /* KSD V001.000 DS */
+  /* margin: 10px; */
+  /* KSD V001.000 DE */
+  height: 98%;
+  /* G002.00.1 Update-Start */
+  /* width: 93%; */
+  /* KSD V001.000 DS */
+  /* width: 90%; */
+  /* KSD V001.000 DE */
+  /* KSD V001.000 AS */
+  width: 95%;
+  /* KSD V001.000 AE */
+  /* G002.00.1 Update-End */
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.receiptImgInnerDiv {
+  border: 1px solid #1ea7cb;
+  /* KSD V001.000 DS */
+  /* margin: 10px; */
+  /* KSD V001.000 DE */
+  /* G002.00.1 Update-Start */
+  /* height: 90%; */
+  /* width: 93%; */
+  /* KSD V001.000 DS */
+  /* width: 90%; */
+  /* KSD V001.000 DE */
+  /* KSD V001.000 AS */
+  width: 95%;
+  min-height: 160px;
+  /* KSD V001.000 AE */
+  /* G002.00.1 Update-End */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.receipt2AttrRow {
+  height: calc(100%-20px)
+}
+
+.editImg {
+  display: flex;
+  justify-content: left;
+  padding-left: 5px !important;
+}
+
+.ryosyuDivider {
+  width: 96%;
+  margin-left: 2%;
+  border-color: #9ea0aa !important;
+}
+/* KSD V001.000 AS */
+.ryosyu-divider-top {
+  width: 81%;
+  border-color: #9ea0aa !important;
+}
+
+.upload-img-tax-wrapper {
+  min-height: 152px;
+  margin-top: 78px;
+}
+
+.ryosyu-divider-bottom {
+  width: 85%;
+  margin-left: 2%;
+  border-color: #9ea0aa !important;
+  float: right;
+  position: relative;
+}
+
+.ryosyuFixedTextv1 {
+  font-size: 33px;
+  letter-spacing: 10px;
+}
+
+.ryosyuFixedTextv2 {
+  font-size: 26px;
+  letter-spacing: 4px;
+}
+
+.ryosyuFixedText3v2 {
+  font-size: 17px;
+  text-align: left;
+  text-indent: 9px;
+}
+
+/* KSD V001.000 AE */
+.ryosyuFixedTextDate {
+  letter-spacing: 1px;
+  text-indent: 1px;
+}
+
+.ryosyuFixedText1 {
+  font-size: 33px;
+  letter-spacing: 35px;
+  text-indent: 35px;
+}
+
+.ryosyuFixedText2 {
+  text-align: right;
+  font-size: 33px;
+  padding-right: 2%;
+}
+
+.ryosyuFixedText3 {
+  font-size: 18px;
+  text-align: left;
+  text-indent: 16px;
+}
+
+.ryosyuFixedText4 {
+  text-align: left;
+  padding: 10px 20px 0px;
+}
+
+.ryosyuFixedText5 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.ryosyuFixedText6 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.uploadImg {
+  /* G002.00.1 Update-Start */
+  /* max-width: 320px; */
+  max-width: 265px;
+  /* G002.00.1 Update-End */
+}
+
+/* KSD V001.000 AS */
+.upload-img-header,
+.upload-img-tax {
+  max-width: 320px;
+  max-height: 160px;
+}
+
+.upload-header-img-tax {
+  max-width: 140px;
+  max-height: 70px;
+}
+
+.upload-img-footer {
+  max-width: 320px;
+}
+/* KSD V001.000 AE */
+
+.receiptFixedText {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 0px;
+}
+
+.receiptFixedText1 {
+  text-indent: 60px;
+}
+
+.receiptFixedText2 {
+  text-indent: 180px;
+}
+
+.receiptFixedText3 {
+  text-indent: 30px;
+}
+
+.ryosyuMessage {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.contentCol {
+  /* G002.00.1 Update-Start */
+  /* padding-left: 55px !important; */
+  /* KSD V001.000 DS */
+  /* padding-left: 70px !important; */
+  /* KSD V001.000 DE */
+  /* G002.00.1 Update-End */
+  /* KSD V001.000 AS */
+  padding-left: 30px !important;
+  /* KSD V001.000 AE */
+}
+/* G002.00.0 Add-Start*/
+.receiptFixedText4 {
+  text-indent: 10px;
+}
+.receiptFixedText5 {
+  text-indent: 46px;
+}
+/* G002.00.0 Add-End*/
+/* G002.00.1 Add-Start*/
+.receiptTitleWidth {
+  /* KSD V001.000 DS */
+  /* width: 30%; */
+  /* KSD V001.000 DE */
+  /* KSD V001.000 AS */
+  width: 29%
+  /* KSD V001.000 AE */
+}
+.receiptContentWidth {
+  /* KSD V001.000 DS */
+  /* width: 70%; */
+  /* KSD V001.000 DE */
+  /* KSD V001.000 AS */
+  width: 71%
+  /* KSD V001.000 AE */
+}
+/* G002.00.1 Add-End*/
+/* KSD V001.000 AS */
+.receipt-setting-horizontal-wrapper {
+  width: 701px;
+}
+
+.receipt-setting-horizontal-wrapper-display-left {
+  border-left: 1px solid #9ea0aa;
+  border-bottom: 1px solid #9ea0aa;
+  height: 100%;
+  background: #fff;
+  width: 532px;
+  min-width: 532px;
+}
+
+.receipt-setting-horizontal-text-right-to-100 {
+  margin-right: 95px;
+  white-space: pre-wrap;
+}
+
+.receipt-setting-horizontal-wrapper-display-right {
+  border-right: 1px solid #9ea0aa;
+  border-bottom: 1px solid #9ea0aa;
+  min-height: 100%;
+  max-height: 100%;
+  background: #fff;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  max-width: 167px;
+}
+
+.receipt-setting-horizontal-wrapper-display-edit {
+  background: white;
+  border-right: 1px solid #9ea0aa;
+  width: 74px;
+}
+
+.receipt-setting-vertical-wrapper {
+  width: 341px;
+}
+
+.receipt-setting-vertical-wrapper-display-left {
+  border-left: 1px solid #9ea0aa;
+  border-bottom: 1px solid #9ea0aa;
+  height: 100%;
+  background: #fff;
+  width: 500px;
+}
+
+.receipt-vertical-setting-wrapper-display-right {
+  border-right: 1px solid #9ea0aa;
+  border-bottom: 1px solid #9ea0aa;
+  min-height: 100%;
+  max-height: 100%;
+  background: #fff;
+}
+
+.receipt-vertical-setting-wrapper-display-right-image {
+  width: 50px;
+}
+
+.receipt-receipt-angle-flag-warpper {
+  height: 550px;
+}
+
+.receipt-width-01 {
+  width: 22%;
+}
+
+.receipt-width-02 {
+  width: 493px;
+}
+
+.receipt-width-03 {
+  height: 38%;
+}
+
+.receipt-width-04 {
+  height: 50px;
+}
+
+.receipt-width-05 {
+  width: 78%;
+}
+
+.receipt-height-01 {
+  height: 11%;
+}
+
+.receipt-height-02 {
+  height: 175px;
+}
+
+.receipt-height-03 {
+  height: 110px;
+}
+
+.receipt-height-04 {
+  height: 75%;
+}
+
+.receipt-height-05 {
+  height: 65%;
+}
+
+.receipt-height-06 {
+  height: 219px;
+}
+
+.receipt-height-07 {
+  height: 1041px;
+}
+
+.word-break {
+  overflow-wrap: break-word;
+}
+/* KSD V001.000 AE */

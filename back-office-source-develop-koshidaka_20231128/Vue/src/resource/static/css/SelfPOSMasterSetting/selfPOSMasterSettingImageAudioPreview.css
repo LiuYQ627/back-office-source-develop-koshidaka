@@ -1,0 +1,44 @@
+/* KSD V001.000 AS */
+.self-pos-master-setting-preview-container {
+  margin-top: 30px;
+  min-width: 960px;
+  max-width: 960px;
+}
+
+.image-container {
+  min-height: 540px;
+  max-width: 960px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 960px;
+  height: auto;
+}
+
+video {
+  width: 960px;
+  height: auto;
+}
+
+audio {
+  width: 960px;
+  height: auto;
+}
+
+.audio-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+@media screen and (max-height:969px) {
+  .self-pos-master-setting-preview-container {
+    position: relative !important;
+  }
+
+}
+/* KSD V001.000 AE */

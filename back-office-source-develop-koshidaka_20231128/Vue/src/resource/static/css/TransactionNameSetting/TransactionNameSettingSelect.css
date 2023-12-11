@@ -1,0 +1,8 @@
+.container {
+  min-width: 870px;
+  max-width: 870px;
+  font-size: 20px;
+}
+.rowHeight {
+  height: 50px;
+}

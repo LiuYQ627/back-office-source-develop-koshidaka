@@ -1,0 +1,5 @@
+version: '3'
+
+services:
+  pre-maintenance:
+    image: ${PUBLISH_REGISTORY}/${ARTIFACT_PATH}/pre-maintenance:${VERSION_TAG}

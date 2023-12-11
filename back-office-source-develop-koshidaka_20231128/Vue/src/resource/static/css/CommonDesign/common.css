@@ -1,0 +1,138 @@
+/*
+ * ---------+-----------------+----------+--------------------------------
+ *  DATE    |NAME(Inc)        |GUIDE     |GUIDANCE
+ * ---------+-----------------+----------+--------------------------------
+ * 20221220  litie(Neusoft)    G001.00.0  issue課題#937を対応します.
+ */
+
+html {
+  background-color: #f2f3f5;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  background-color: #f2f3f5;
+}
+.content {
+  width: 1920px;
+  margin: 0 auto;
+}
+*:not(.NumericStyle) {
+  font-family: 'Migu 1M';
+}
+.NumericStyle{
+  font-family: 'Migu 1M';
+}
+@font-face{
+  font-family: 'Migu 1M';
+  src: url('./../../font/migu-1m-regular.ttf');
+}
+@font-face{
+  font-family: 'Migu 1P';
+  src: url('./../../font/migu-1p-regular.ttf');
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px white inset;
+}
+
+button {
+  box-shadow: none !important;
+}
+
+/* セレクトボックスの▼ */
+.pulldownArrow::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #565960;
+  pointer-events: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+  position: relative;
+}
+
+/* トグルボタン */
+.toggleBtn {
+  position: absolute;
+  visibility: hidden;
+}
+.toggleBtn + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+input.toggleBtnRoundFlat + label {
+  width: 70px;
+  height: 33px;
+  transition: background 0.2s;
+}
+input.toggleBtnRoundFlat + label:before,
+input.toggleBtnRoundFlat + label:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+}
+input.toggleBtnRoundFlat + label::before {
+  background-color: #DFDDDD;
+  border-radius: 60px;
+  transition: background 0.2s;
+  color:#FFF;
+}
+input.toggleBtnRoundFlat + label::after {
+  top: 3px;
+  left: 4px;
+  bottom: 3px;
+  width: 27px;
+  background-color: #FFF;
+  border-radius: 15px;
+  transition: margin 0.2s, background 0.2s;
+}
+input.toggleBtnRoundFlat:checked + label:before {
+  background-color: #FF9407;
+}
+input.toggleBtnRoundFlat:checked + label:after {
+  margin-left: 36px;
+}
+input.toggleBtnRoundFlat:checked + label span:after {
+  content: "ON";
+  padding: 3px 30px 0 5px;
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  font-size: 20px;
+  transition: margin 0.2s, background 0.2s;
+}
+
+input.toggleBtnRoundFlat + label span:after {
+  content: "OFF";
+  padding: 3px 0 0 30px;
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  font-size: 20px;
+  transition: margin 0.2s, background 0.2s;
+}
+
+/* G001.00.0 Update-Start */
+.flatpickr-calendar.open{
+  z-index: 1000 !important;
+}
+/* G001.00.0 Update-End */

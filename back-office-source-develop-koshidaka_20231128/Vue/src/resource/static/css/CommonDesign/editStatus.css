@@ -1,0 +1,18 @@
+.editStatusStyle
+{
+    width: 100px;
+    height: 31px;
+    font-size: 22px;
+}
+.editingMode
+{
+    background-color: #BBF1FF;
+    border: solid 1px #FFFFFF;
+    color: #1EA7CB;   
+}
+.newMode
+{
+    background-color: #FFEACF;
+    border: solid 1px #FFFFFF;
+    color: #FF9407;
+}

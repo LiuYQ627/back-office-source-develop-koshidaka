@@ -1,0 +1,79 @@
+.container {
+  min-width: 960px;
+  max-width: 960px;
+  font-size: 20px;
+}
+/* KSD V001.000 AS */
+.container-body {
+  min-width: 960px !important;
+  max-width: 960px !important;
+  font-size: 20px;
+  width: 960px !important;
+  margin-left: auto !important;
+}
+/* KSD V001.000 AE */
+.conditionRow {
+  height: 50px;
+}
+.errorTextBox {
+  background-color: #fcd4d4;
+  border:1px solid #f39e9e;
+  height: 50px;
+  width: 80px;
+  padding-left: 7px;
+}
+.editTextBox {
+  background-color: #ffffff;
+  border: 1px solid #9ea0aa;
+  height: 50px;
+  width: 80px;
+  padding-left: 7px;
+}
+input:-webkit-autofill , textarea:-webkit-autofill, select:-webkit-autofill {
+	-webkit-text-fill-color: #050505 !important;
+	-webkit-box-shadow: 0 0 0px 1000px transparent  inset !important;
+  background-color:transparent;
+  background-image: none;
+  transition: background-color 50000s ease-in-out 0s;
+}
+input {
+	 background-color:transparent;
+}
+/* KSD V001.000 AS */
+.conditionRowNew {
+  height: 100px;
+}
+
+.border {
+  border-right: 1px solid #ffffff;
+}
+
+.boxHeightField1 {
+  height: 50px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.boxHeightField2 {
+  height: 50px;
+}
+
+.max-width {
+  width: 282px !important;
+}
+
+.errorMsg {
+  height: 50px;
+  display: block;
+}
+
+.errorMsgText {
+  color:#f00;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+div.screenHeader button.radioButton:focus {
+  border: 2px solid black !important;
+}
+/* KSD V001.000 AE */

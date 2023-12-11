@@ -1,0 +1,76 @@
+/* KSD V001.000 DS */
+/* .container { */
+/*  min-width: 960px; */
+/*  max-width: 960px; */
+/*  font-size: 20px;*/
+/* } */
+
+/* KSD V001.000 DE */
+
+
+/* KSD V001.000 AS */
+.pos-report-container {
+  min-width: 960px;
+  max-width: 960px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 65px;
+}
+
+/* KSD V001.000 AE */
+
+/* || 検索条件エリア */
+.conditionRow {
+  height: 50px;
+}
+
+/* KSD V001.000 AS */
+.month-year-input {
+  height: 25px;
+  background-color: white;
+}
+
+.input-right-align {
+  text-align: right;
+}
+
+.mw-94per {
+  max-width: 94%;
+}
+
+.mw-52per {
+  max-width: 52%;
+}
+
+.mw-95per {
+  max-width: 95%;
+}
+
+.pl-223 {
+  padding-left: 180px;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.redText {
+  color: #f00;
+}
+
+.left-justify {
+  text-align: left !important;
+}
+
+.pos-has-error input,
+.pos-has-error textarea,
+.pos-has-error .common-select-input-container,
+.pos-has-error select,
+.pos-has-error div,
+.pos-has-error .whiteFrame {
+  background-color: #FCD4D4 !important;
+  border: 1px #E93232 solid !important;
+}
+
+/* KSD V001.000 AE */

@@ -1,0 +1,60 @@
+/* KSD V001.000 AS */
+.tableRendereHeadContainer {
+  background: #9ea0aa;
+}
+.tableRendereHeadContainerDiv {
+  width: 100%;
+}
+.tableRendereHeadContainerDivPadRight {
+  padding-right: 17px;
+}
+.tableRendereHead {
+  min-height: 30px;
+}
+.tableRendereHead:last-child {
+  border-right: 1px solid #9ea0aa;
+}
+.tableRendereHead:last-child .ListHeader{
+  border-right: 1px solid #9ea0aa;
+}
+.tableRendereBody {
+  margin-top: 0px;
+  height: 65vh;
+  min-height: 0px;
+  max-height: 65vh;
+  display: block;
+}
+.tableRendereBodySelected {
+  background: #ffeacf;
+}
+.tableRendereBodySelected .ListSplitElement {
+  background: #ffeacf;
+  border: 1px solid #ff9508;
+}
+.tableRendereBodySelected .ListElement{
+  background: transparent;
+  border: 1px solid #ff9508;
+}
+
+.tableRendereHeadContainer.disableTable {
+  background: #e1e1e1 !important;
+}
+
+.disableTable {
+  position: absolute;
+  background: #e9e9e9;
+  opacity: .6;
+  width: 100%;
+}
+.tableRendereInnerBody {
+  height: auto;
+}
+.ListHeaderNoBorderRight{
+  border-right: none !important;
+}
+
+.listHeaderExpand .ListHeader {
+  min-height: 30px;
+  height: 100%;
+}
+/* KSD V001.000 AE */

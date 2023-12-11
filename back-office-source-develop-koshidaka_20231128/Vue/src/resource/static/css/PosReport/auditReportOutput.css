@@ -1,0 +1,108 @@
+/* KSD V001.000 AS */
+.pos-report-output {
+  min-width: 1550px;
+  max-width: 1550px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding: 0;
+}
+
+#pdf-result-container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 12px;
+}
+
+.px-10 {
+  padding-left: 272px !important;
+  padding-right: 272px !important;
+}
+
+.mt-10 {
+  margin-top: 50px !important;
+}
+
+.error-margin {
+  margin-top: 30px !important;
+  margin-bottom: 15px !important;
+  padding-bottom: 24px !important;
+}
+
+.v-application .my-3 {
+  margin-top: 12px !important;
+  margin-bottom: 0px !important;
+}
+
+.text-font {
+  font-family: 'Migu 1M' !important;
+}
+
+.text-h6 {
+  font-family: 'Migu 1M' !important;
+}
+
+.family-style {
+  font-family: 'Migu 1M' !important;
+  font-size: 1.25rem !important;
+  font-weight: 500;
+  letter-spacing: .0125em !important;
+}
+
+.audit-report-output {
+  max-width: initial;
+  width: 100%;
+  padding-right: 170px;
+  margin: 15px 0;
+  font-size: 20px;
+  font-family: 'Migu 1M';
+}
+
+.over-display-msg {
+  color: red;
+  font-size: 1.25rem !important;
+}
+
+.v-data-table>>>.v-data-table-header {
+  background-color: #9ea0aa;
+}
+
+.v-data-table>>>.v-data-table-header th {
+  color: white !important;
+  font-size: 1.25rem;
+  font-family: 'Migu 1M';
+  font-weight: normal;
+}
+
+.v-data-table>>>tbody tr td {
+  font-size: 1.25rem !important;
+}
+
+.v-data-table>>>tbody tr td:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.text-white {
+  color: white;
+}
+
+.v-data-table {
+  page-break-inside: auto
+}
+
+.v-data-table>>>tbody tr {
+  page-break-inside: avoid;
+  page-break-after: auto
+}
+
+/* KSD V001.000 AE */

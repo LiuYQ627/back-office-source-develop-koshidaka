@@ -1,0 +1,228 @@
+html {
+  overflow-x: auto;
+}
+
+html,body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  width: auto;
+  max-width: 1920px;
+}
+
+.loginContent label {
+  ime-mode: disabled;
+}
+
+.loginContent p {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+#pagecover {
+  position: relative;
+  min-height: 100%;
+}
+
+#contents {
+  padding-bottom: 10em; /* フッタの高さ分だけ余白を設ける */
+}
+
+#label2 {
+    color: #ffffff;
+    background-color: #9ea0aa;
+    display:block;
+    width: 164px;
+    height: 40px;
+    border: 6px solid #9ea0aa;
+    font-size: 20px;
+  }
+#grobalErrorMsg{
+    font-size: x-large;
+    color: #f00;
+}
+.text {
+	height: 40px;
+	width: 214px;
+	background-color: #fff;
+	border: 1px solid #9ea0aa;
+	padding-left: 10px;
+}
+
+.text:focus{
+  border: 2px solid #ff9508;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+#icons {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 10px 8px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+#icons:focus{
+	color: #da3c41;
+}
+.field-icon {
+  color: #555 !important;
+  float: right;
+  margin-right: 10px;
+  margin-top: -32px;
+  height: 30px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+#inputPassword{
+  background: #fff;
+  border-color: #9ea0aa;
+  color: #555;
+  height: 40px;
+  box-sizing: border-box;
+  display: block;
+  width: 214px;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 30px;
+  outline: 0;
+  font-family: inherit;
+}
+#inputPassword:focus {
+  border: 2px solid #ff9508;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+
+.footerCol {
+  height: 180px;
+  padding: 0;
+  padding-right: 23px;
+  padding-bottom: 23px;
+}
+
+.footerContent {
+  background-color: #FFFFFF;
+  height: 170px;
+}
+
+.footerContent div {
+  margin-left: 10px;
+  margin-right: 0px;
+  display: block;
+  overflow-y: auto;
+  height: 70%;
+}
+
+.footerContent .footerContentTitle{
+  font-weight: bold;
+  color: #1ea7cb;
+  font-size: 18px;
+  margin-left: 5px;
+
+}
+.footerContent label {
+  font-size: 17px;
+  overflow-wrap:break-word;
+}
+
+.footerContent hr {
+  margin-bottom: 8px;
+}
+
+.checkbox{
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+}
+[type="checkbox"] {
+display: none;
+}
+[type="checkbox"]:checked + .checkbox {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+}
+.checkbox:hover {
+	opacity: 0.6 ;
+}
+input[type="text"][disabled]{
+  /* background:#DCDCDC !important; */
+  cursor:not-allowed; /* 禁止カーソル */
+}
+
+/* KSD V001.000 AS */
+.login-container {
+  max-width: 1920px !important;
+  width: auto;
+  font-size: inherit !important;
+}
+
+.text-footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.privacy-policy-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.arrow-icon {
+  height: 26px;
+}
+
+.privacy-policy-text {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-size: 15px;
+}
+
+.copyright-text {
+  font-family: Arial, Helvetica, sans-serif!important;
+  width: max-content;
+  display: inline-flex;
+  float: right;
+}
+
+@media screen and (max-height:800px) {
+  .text-footer {
+    position: relative;
+  }
+
+  .copyright {
+    padding-right: 0 !important;
+  }
+}
+/* KSD V001.000 AE */
+
+@media screen and (max-width:800px) {
+  #footer div {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #footer .col-6 {
+    max-width: 90%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

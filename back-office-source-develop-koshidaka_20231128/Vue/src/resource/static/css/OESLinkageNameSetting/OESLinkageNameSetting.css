@@ -1,0 +1,105 @@
+/* KSD V001.000 AS */
+.container {
+  padding: 0px;
+  padding-top: 12px;
+  font-size: 20px;
+  margin-top: 60px;
+  min-width: 960px;
+  max-width: 960px;
+}
+
+.store-container {
+  min-width: 680px;
+  max-width: 680px;
+  display: inline-flex;
+}
+
+.OES-linkage-name-setting-table {
+  border-collapse: separate !important;
+  border-spacing: 0px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.OES-linkage-name-setting-table thead th,
+.OES-linkage-name-setting-table thead td {
+  height: 30px;
+  background-color: #9ea0aa;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.OES-linkage-name-setting-table thead th:first-child,
+.OES-linkage-name-setting-table thead td:first-child {
+  border-left: none;
+}
+
+.OES-linkage-name-setting-table thead th:last-child,
+.OES-linkage-name-setting-table thead td:last-child {
+  border-right: none;
+  text-align: right !important;
+  padding-right: 18px !important;
+}
+
+.OES-linkage-name-setting-table tbody th,
+.OES-linkage-name-setting-table tbody td,
+.border-left {
+  height: 50px;
+  background-color: white;
+  border: 1px solid #9ea0aa;
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 10px;
+  line-height: 20px;
+}
+
+.border-left {
+  border: 1px solid #9ea0aa !important;
+  text-align: left !important;
+}
+
+.OES-linkage-name-setting-table tbody td:last-child {
+  text-align: center;
+}
+
+.OES-linkage-name-setting-table tbody td:last-child(2) {
+  text-align: center;
+}
+
+.OES-linkage-name-setting-table thead th:nth-last-child(2),
+.OES-linkage-name-setting-table thead td:nth-last-child(2),
+.OES-linkage-name-setting-table tbody th:nth-last-child(2),
+.OES-linkage-name-setting-table tbody td:nth-last-child(2) {
+  border-right: none !important;
+}
+
+.OES-linkage-name-setting-table thead th:last-child,
+.OES-linkage-name-setting-table thead td:last-child,
+.OES-linkage-name-setting-table tbody th:last-child,
+.OES-linkage-name-setting-table tbody td:last-child {
+  border-left: none;
+}
+
+.right-align {
+  text-align: right !important;
+  padding-right: 8px !important;
+}
+
+.scroll-none:focus {
+  outline: 2px solid black !important;
+  border-radius: 2px;
+}
+
+.edit-button {
+  width: 45px;
+  height: 45px;
+}
+/* KSD V001.000 AE */

@@ -1,0 +1,176 @@
+#app {
+  height: 100%;
+}
+#menu {
+  color: #fff;
+  background-color: #1ea7cb;
+  display: flex;
+  height: 100%;
+  width: 300px;
+  float: left;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+.menuUl {
+  list-style: none;
+  padding-left: 6px !important;
+}
+.titleLabel {
+  color: #fff;
+  background-color: #9ea0aa;
+  width: 320px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border:1px solid #9ea0aa;
+  font-family: 'migu1m';
+}
+.titleLabel font {
+  margin-left: 20px;
+  font-size:20px;
+}
+.linkedLabel {
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  width: 320px;
+  height: 40px;
+  align-items: center;
+  border:1px solid #9ea0aa;
+  font-family: 'migu1m';
+  cursor: pointer;
+  user-select: none;
+}
+.linkedLabel font {
+  margin-left: 10px;
+  font-size:20px;
+}
+#grobalErrorMsg{
+  text-align: left;
+  color: #f00;
+}
+#chips{
+  font-size:17px;
+  width: 294px;
+  height: 50px;
+  border-radius: 25px;
+}
+#chips:hover{
+  background-color: #f2f3f5;
+  color: #f00;
+}
+#selectChips{
+  width: 294px;
+  height: 50px;
+  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#selectChips::before {
+  background-color: #f2f3f5;
+}
+#menuContent {
+  text-align: initial;
+  left: 300px;
+  position: absolute;
+  padding: 30px 0;
+}
+#divcenter {
+  align-items: center;
+  justify-content: center;
+}
+#divcenter img {
+  width: 100%
+}
+#menuArea {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.subTable {
+  position: relative;
+}
+
+/* スクロールバー全体 */
+.ps {
+  margin-right: -1px;
+  height: 100%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+}
+
+/* スクロールバー(標準時) */
+.ps__thumb-y {
+  background: #0b7591;
+  opacity: 0.8;
+  width: 4px;
+  margin-right: 3px;
+}
+
+/* スクロールバーホバー/フォーカス/選択時 */
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+  background-color: #0b7591;
+  opacity: 0.8;
+  width: 8px;
+}
+
+/* スクロールバー背景色 */
+.ps .ps__rail-y:hover,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-y.ps--clicking {
+  background-color: transparent;
+}
+
+.ps__thumb-x,
+.ps__rail-x,
+.ps .ps__rail-x:hover,
+.ps .ps__rail-x:focus,
+.ps .ps__rail-x.ps--clicking {
+  display: none;
+}
+
+.ps:hover > .ps__rail-y,
+.ps--focus > .ps__rail-y,
+.ps--scrolling-y > .ps__rail-y {
+  opacity: 1;
+}
+.subTable {
+  margin-left: 50px;
+  margin-top: 25px;
+  padding-right: 5px;
+  display: grid;
+}
+@media screen and (max-width:720px) {
+  #menu {
+    width: 55px;
+  }
+  #menuContent {
+    left: 0px;
+    text-align: center;
+    padding-left: 55px;
+  }
+  #menuContent #menuArea{
+    margin-left: -25px;
+  }
+  #chips {
+    width: 46px;
+  }
+  #chips:hover {
+    width: 294px;
+  }
+  #selectChips {
+    width: 49px;
+  }
+  #selectChips:hover {
+    width: 294px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}

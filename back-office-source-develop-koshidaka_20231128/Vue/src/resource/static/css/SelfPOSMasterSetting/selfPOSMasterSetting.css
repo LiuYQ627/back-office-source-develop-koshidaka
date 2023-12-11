@@ -1,0 +1,120 @@
+/* KSD V001.000 AS */
+.container {
+  padding: 0px;
+  padding-top: 12px;
+  font-size: 20px;
+  margin-top: 60px;
+  min-width: 960px;
+  max-width: 960px;
+}
+
+.setting-label {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.self-POS-master-setting-table,
+.self-POS-master-setting-file-table,
+.customer-file-setting-table {
+  border-collapse: separate !important;
+  border-spacing: 0px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.self-POS-master-setting-table thead th,
+.self-POS-master-setting-table thead td,
+.self-POS-master-setting-file-table thead th,
+.self-POS-master-setting-file-table thead td,
+.customer-file-setting-table th,
+.customer-file-setting-table td {
+  height: 30px;
+  background-color: #9ea0aa;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.self-POS-master-setting-table thead th:first-child,
+.self-POS-master-setting-table thead td:first-child,
+.self-POS-master-setting-file-table thead th:first-child,
+.self-POS-master-setting-file-table thead td:first-child,
+.customer-file-setting-table thead th:first-child,
+.customer-file-setting-table thead td:first-child {
+  border-left: none;
+}
+
+.self-POS-master-setting-table thead th:last-child,
+.self-POS-master-setting-table thead td:last-child,
+.self-POS-master-setting-file-table thead th:last-child,
+.self-POS-master-setting-file-table thead td:last-child,
+.customer-file-setting-table thead th:last-child,
+.customer-file-setting-table thead td:last-child {
+  border-right: none;
+}
+
+.self-POS-master-setting-table tbody td:first-child {
+  padding: 0 20px;
+}
+
+.self-POS-master-setting-table tbody th,
+.self-POS-master-setting-table tbody td {
+  height: 50px;
+  background-color: white;
+  border: 1px solid #b9b8b8 !important;
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
+.self-POS-master-setting-file-table tbody th,
+.self-POS-master-setting-file-table tbody td,
+.customer-file-setting-table tbody th,
+.customer-file-setting-table tbody td {
+  height: 50px;
+  background-color: white;
+  border: 1px solid #b9b8b8;
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 20px;
+  line-height: 23px;
+}
+
+.self-POS-master-setting-table tbody tr td:last-child {
+  border: none !important;
+}
+
+.customer-file-setting-table tbody td:nth-child(2),
+.customer-file-setting-table tbody td:last-child {
+  text-align: center;
+  padding: 0 40px;
+}
+
+table.self-POS-master-setting-table td.selectInput:focus {
+  border: 2px solid black !important;
+}
+
+.del-button {
+  color: white !important;
+  height: 40px!important;
+  width: 100%;
+  font-size: 22px;
+  line-height: 23px;
+  font-weight: normal;
+  background-color: #1ea7cb !important;
+}
+
+.del-button:disabled {
+  color: white !important;
+}
+/* KSD V001.000 AE */

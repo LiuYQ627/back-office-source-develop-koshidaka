@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  gradle:
+    image: gradle:7.6-jdk11-alpine
+    user: root
+    working_dir: /home/gradle/project
+    environment:
+      - GRADLE_USER_HOME=/home/gradle/project/.gradle
+    networks:
+      - default
+    volumes:
+      - .:/home/gradle/project:delegated
+    profiles:
+      #ciのビルド用に必要なコンテナなので、
+      #プロファイルの指定無しでは起動しないようにする
+      #(ci実行時にプロファイルをgitlab-ci.ymlで指定)
+      - ciOnly
+  pre-maintenance:
+    build:
+      context: ./
+    ports:
+      - '8080:8080'
+    networks:
+      - default
+networks:
+  default:

@@ -1,0 +1,319 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+
+@import url(./../CommonDesign/dialog.css);
+/* #region 画面dialog.css定義更新 */
+.deleteButton {
+  position: absolute;
+}
+.deleteButton button {
+  font-weight: normal;
+  font-size: 20px !important;
+  width: 120px !important;
+  margin-left: 0px !important;
+}
+/* #endregion */
+
+#baseTable {
+  height: 354px;
+  overflow-y: scroll;
+  margin: 20px 26px;
+}
+
+/* userMasterTable */
+#userMasterTable {
+  font-size: 22px;
+}
+
+#userMasterTable tr {
+  height: 50px;
+}
+
+#userMasterTable tr th {
+  width: 150px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size:20px;
+  font-weight:normal;
+  padding: 0 0.5em;
+}
+
+#userMasterTable tr td {
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#userMasterTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* storeTable */
+#storeTable {
+  font-size: 22px;
+}
+
+#storeTable tr {
+  height: 50px;
+}
+
+#storeTable tr th {
+  width: 146px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size:20px;
+  font-weight:normal;
+  padding: 0 0.5em;
+}
+
+#storeTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#storeTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#storeTable tr td textarea {
+  padding-left: 10px;
+  padding-right: 10px;
+  resize: none;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 3em;
+}
+
+.buttomLabel {
+  float: right;
+  margin: 5px;
+}
+
+.buttomLabel button{
+  box-shadow: none;
+  background-color: #1ea7cb !important;
+}
+
+/* パスワード有効期限入力部品 */
+.inputExpiry {
+  width: 50px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  height: auto !important;
+  text-align: center;
+}
+/* 下線 */
+.underLine {
+  border-bottom: 3px solid #20a8cc;
+}
+
+#leftLabel{
+  text-align: left;
+  position: relative;
+}
+
+#changeLabel label{
+  font-size :22px;
+  display: block;
+  align-items: center;
+  border:1px solid #fff;
+  width: 100px;
+  font-weight: 100;
+}
+
+#newModelabel {
+  color: #ffaf46;
+  background-color: #ffeacf;
+}
+
+#changeModelabel {
+  color: #20a8cc;
+  background-color: #BBF1FF;
+}
+
+.editTextBox:focus {
+  border: 2px solid #ff9508;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+
+#readOnlyText {
+  color: #79797A;
+  background-color: #e9e9e9;
+  cursor:not-allowed;
+}
+
+#readPassword{
+  background: #fff;
+  background-color: #e9e9e9;
+  box-sizing: border-box;
+  display: block;
+  outline: 0;
+  cursor:not-allowed;
+  padding-right: 30px !important;
+}
+#inputPassword{
+  background: #fff;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: block;
+  outline: 0;
+  font-family: inherit;
+  padding-right: 30px !important;
+}
+
+#inputPassword:focus {
+  height: 100%;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+
+.textBelongStore {
+  width: 50% !important;
+}
+
+.textChargeStore {
+  width: 50% !important;
+}
+
+/* エラーメッセージ用 */
+.errorCell th{
+  background-color: transparent !important;
+}
+
+.errorCell td{
+  border: none !important;
+}
+
+.errorCell td label{
+  color: #f00;
+}
+
+#errorPassword{
+  background: #fff;
+  border:1px solid #f39e9e;
+  color: #000;
+  background-color: #fcd4d4;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  width: 70%;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 30px;
+  outline: 0;
+  font-family: inherit;
+}
+#errorPassword:focus {
+  border: 2px solid #E93232;
+  outline:solid 2px #FCD4D4;
+  outline-offset: -2px;
+}
+
+.errorTextBox {
+  background-color: #fcd4d4;
+  border:1px solid #f39e9e;
+}
+
+.errorTextBox:focus{
+  border: 2px solid #E93232;
+  outline:solid 2px #FCD4D4;
+  outline-offset: -2px;
+}
+
+#errorTextBoxStore {
+  background-color: #fcd4d4;
+}
+
+
+.SelectBox {
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  appearance: none;
+}
+.SelectBox:focus{
+  border: 2px solid #ff9508;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+
+.errorSelectBox {
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  background-color: #fcd4d4;
+  border:1px solid #f39e9e;
+  appearance: none;
+}
+.errorSelectBox:focus{
+  border: 2px solid #E93232;
+  outline:solid 2px #FCD4D4;
+  outline-offset: -2px;
+}
+
+/* 矢印 ＞ */
+.rightArrow::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+
+.checkbox{
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+}
+[type="checkbox"] {
+display: none;
+}
+[type="checkbox"]:checked + .checkbox {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+}
+.checkbox:hover {
+  opacity: 0.6 ;
+}
+.field-icon {
+  color: #555 !important;;
+  float: right;
+  margin-right: 4px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+.textAddress {
+  padding-right: 92px !important;
+  height: 70px !important;
+  word-break:break-all;
+}

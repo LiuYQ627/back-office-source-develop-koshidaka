@@ -1,0 +1,13 @@
+{
+  "discountFraction": 0,
+  "taxFraction": 2,
+  "totalPriceDiscount": false,
+  "passwordInput": true,
+  "passwordRule": 1,
+  "logoutTime": 1,
+  "numberOfPeople": true,
+  "manualQuantity": false,
+  "salesChangeDiscount": true,
+  "0sellingPrice": true,
+  "coinbarCount": 1
+}

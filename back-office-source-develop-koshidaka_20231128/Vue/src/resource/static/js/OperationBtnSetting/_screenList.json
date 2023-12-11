@@ -1,0 +1,18 @@
+[
+    {
+        "key": "drawerMenu",
+        "label": "ドロアメニュー"
+    },
+    {
+        "key": "productDetail",
+        "label": "商品明細ポップアップ"
+    },
+    {
+        "key": "planScreen",
+        "label": "会計画面"
+    },
+    {
+        "key": "couponUse",
+        "label": "クーポン利用"
+    }
+]

@@ -1,0 +1,41 @@
+/* KSD V001.000 AS */
+.dialog-title {
+  margin-bottom: 0 !important;
+}
+
+.base-table-overflow {
+  overflow-y: auto !important
+}
+
+#denomination-table-copy {
+  font-size: 22px;
+}
+
+#denomination-table-copy tr {
+  height: 50px;
+}
+
+#denomination-table-copy tr th {
+  width: 190px;
+  background-color: #9ea0aa;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 0.5em;
+}
+
+#denomination-table-copy tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: left;
+  border: #9ea0aa solid 1px;
+}
+
+#denomination-table-copy tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* KSD V001.000 AE */

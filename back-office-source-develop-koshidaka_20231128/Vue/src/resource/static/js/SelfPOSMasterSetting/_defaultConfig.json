@@ -1,0 +1,123 @@
+{
+  "FILENAME": {
+    "ELEMENT_FILENAME": {
+      "1": "ksd_taiki",
+      "2": "ksd_taiki",
+      "3": "ksd_omiokuri",
+      "4": "ksd_codepay_allbrandicon",
+      "5": "ksd_credit_allbrandicon",
+      "6": "ksd_omiokuri"
+    },
+    "CUSTOMER_FILENAME": {
+      "1": "ksd_liu_taiki",
+      "2": "ksd_liu_taiki1",
+      "3": "ksd_liu_taiki2",
+      "4": "ksd_liu_taiki3",
+      "5": "ksd_liu_taiki4",
+      "6": "ksd_liu_taiki5",
+      "7": "ksd_liu_taiki6",
+      "8": "ksd_liu_taiki7",
+      "9": "ksd_liu_taiki8",
+      "10": "ksd_liu_taiki9",
+      "11": "ksd_liu_taiki10"
+    },
+    "INDIVIDUAL": {
+      "1": "ksd_taiki.png",
+      "2": "ksd_codepay_allbrandicon.png",
+      "3": "ksd_credit_allbrandicon.png",
+      "4": "ksd_liu_taiki1.png",
+      "5": "ksd_liu_taiki2.png",
+      "6": "ksd_liu_taiki3.png",
+      "7": "ksd_liu_taiki4.png",
+      "8": "ksd_liu_taiki5.png",
+      "9": "ksd_liu_taiki6.png",
+      "10": "ksd_liu_taiki7.png",
+      "11": "ksd_liu_taiki8.png",
+      "12": "ksd_liu_taiki9.png",
+      "13": "ksd_liu_taiki10.png"
+    }
+  },
+  "CONFIG_DEFAULT_DATA_MODEL": {
+    "SELF_OPTION_SETTINGS": {
+      "ringsound": 1,
+      "turiremain": 1,
+      "receiptwaitchange": 0,
+      "earlycheckout": 0,
+      "imageofstandby": 0
+    },
+    "SELF_TIMER_SETTINGS": {
+      "nooperationtime": 180,
+      "waitscreentransition": 180,
+      "topscreentransition": 30,
+      "transittoomiokuri": 10,
+      "stillimageplaytime": 5,
+      "movieplaynum": 1
+    },
+    "SELF_PAYMENT_SETTINGS": {
+      "cashpayuse": 1,
+      "cashpaytallnum": 0,
+      "creditpayuse": 0,
+      "creditpaytallnum": 0,
+      "elemoneypayuse": 0,
+      "elemoneypaytallnum": 0,
+      "codepayuse": 1,
+      "codepaytallnum": 0
+    },
+    "SELF_MESSAGE_SETTINGS": {
+      "ondrinkorderguide": "",
+      "conceptroomguid": "",
+      "seeingoff": ""
+    },
+    "SELF_ELEMENTFILE_SETTINGS": {
+      "ksdtaikiseidougaimagefilename": "",
+      "ksdtaikiseishigaimagefilename": "",
+      "ksdomiokuriImagefilename": "",
+      "ksdallcpiconiImagefilename": "",
+      "ksdallcticoniImagefilename": "",
+      "ksdomiokurivoicefilename": ""
+    },
+    "CUSTOMER_OPTION_SETTINGS": {
+      "ksdtaikiseidougastart": 0,
+      "waitscreentransitionstillpainting": 10,
+      "waitscreentransition1": "",
+      "waitscreentransition2": "",
+      "waitscreentransition3": ""
+    },
+    "CUSTOMER_FILE_SETTINGS": {
+      "ksdtaikiseidougacartoonfilename": "",
+      "ksdtaikiseishigaimagefilename1": "",
+      "ksdtaikiseishigaimagefilename2": "",
+      "ksdtaikiseishigaimagefilename3": "",
+      "ksdtaikiseishigaimagefilename4": "",
+      "ksdtaikiseishigaimagefilename5": "",
+      "ksdtaikiseishigaimagefilename6": "",
+      "ksdtaikiseishigaimagefilename7": "",
+      "ksdtaikiseishigaimagefilename8": "",
+      "ksdtaikiseishigaimagefilename9": "",
+      "ksdtaikiseishigaimagefilename10": ""
+    }
+  },
+  "FILE_DEFAULT_DATA_MODEL": {
+    "SELF_ELEMENTFILE_SETTINGS": {
+      "ksdtaikiseidougaimagefilename": "ksd_taiki.mp4",
+      "ksdtaikiseishigaimagefilename": "ksd_taiki.png",
+      "ksdomiokuriImagefilename": "ksd_omiokuri.mp4",
+      "ksdallcpiconiImagefilename": "ksd_codepay_allbrandicon.png",
+      "ksdallcticoniImagefilename": "ksd_credit_allbrandicon.png",
+      "ksdomiokurivoicefilename": "ksd_omiokuri.wav"
+    },
+    "CUSTOMER_FILE_SETTINGS": {
+      "ksdtaikiseidougacartoonfilename": "ksd_liu_taiki.mp4",
+      "ksdtaikiseishigaimagefilename1": "ksd_liu_taiki1.png",
+      "ksdtaikiseishigaimagefilename2": "ksd_liu_taiki2.png",
+      "ksdtaikiseishigaimagefilename3": "ksd_liu_taiki3.png",
+      "ksdtaikiseishigaimagefilename4": "ksd_liu_taiki4.png",
+      "ksdtaikiseishigaimagefilename5": "ksd_liu_taiki5.png",
+      "ksdtaikiseishigaimagefilename6": "ksd_liu_taiki6.png",
+      "ksdtaikiseishigaimagefilename7": "ksd_liu_taiki7.png",
+      "ksdtaikiseishigaimagefilename8": "ksd_liu_taiki8.png",
+      "ksdtaikiseishigaimagefilename9": "ksd_liu_taiki9.png",
+      "ksdtaikiseishigaimagefilename10": "ksd_liu_taiki10.png"
+    }
+  }
+}

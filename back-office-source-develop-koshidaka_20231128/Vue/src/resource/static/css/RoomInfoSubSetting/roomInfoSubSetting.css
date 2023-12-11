@@ -1,0 +1,61 @@
+/* KSD V001.000 AS */
+.container {
+  min-width: 960px;
+  max-width: 960px;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+.conditionRow {
+  height: 50px;
+}
+
+#display-button {
+  color: white !important;
+  background-color: #ff9407 !important;
+  width: 130px;
+  height: 40px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#disable-display_btn {
+  color: white !important;
+  background-color: #79797a !important;
+  width: 130px;
+  height: 40px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: #79797a;
+  background-color: #e9e9e9;
+}
+
+.table-layout {
+  table-layout: fixed;
+  border: 1px solid #9ea0aa;
+  width: 100%;
+}
+
+.table-layout thead {
+  background-color: #9ea0aa;
+  color: #ffffff;
+}
+
+.table-layout thead th {
+  border-right: 1px solid #ffffff;
+  font-weight: normal;
+  height: 30px;
+  font-size: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+/* KSD V001.000 AE */

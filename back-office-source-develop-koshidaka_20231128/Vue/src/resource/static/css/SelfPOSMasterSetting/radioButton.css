@@ -1,0 +1,35 @@
+/* KSD V001.000 AS */
+.radioButton {
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #9ea0aa;
+  color: #000;
+}
+
+.radioButton.checked {
+  background-color: #ff9407;
+  border: 1px solid #ff9407;
+  color: #fff;
+}
+
+.radioButton:focus {
+  border: 2px solid black !important;
+}
+
+.radioButton.checked:focus {
+  border: 2px solid black !important;
+}
+
+.radioButton:disabled {
+  cursor: default;
+}
+
+.width-fitcontent {
+  justify-content: center;
+  width: fit-content !important;
+  max-width: fit-content !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+/* KSD V001.000 AE */

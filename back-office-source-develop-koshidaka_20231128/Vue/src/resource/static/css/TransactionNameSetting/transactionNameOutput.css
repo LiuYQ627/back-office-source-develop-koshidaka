@@ -1,0 +1,61 @@
+.conditionRow {
+    height: 50px;
+  }
+  
+  .conditionSpan {
+    width: 462px;
+    height: 50px;
+    border: 1px solid #9ea0aa;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .inline-radio {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 0px;
+    margin-left: 6px;
+    overflow: hidden;
+  }
+  .inline-radio div {
+    position: relative;
+    text-align: center;
+    top: 10%;
+    left: auto;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .inline-radio input {
+    width: 100%;
+    height: 100%;
+  }
+  .inline-radio label {
+    position: absolute;
+    top: 0;
+    color: #000;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    border: 2px solid #9ea0aa;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: "Migu 1P";
+  }
+  
+  .inline-radio input:checked + label {
+    background: #ff9407;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ff9407;
+    color: #fff;
+    font-size: 22px;
+  }
+  

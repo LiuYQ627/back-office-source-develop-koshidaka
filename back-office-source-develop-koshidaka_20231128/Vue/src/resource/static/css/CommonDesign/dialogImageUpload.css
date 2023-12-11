@@ -1,0 +1,361 @@
+/* KSD V001.000 AS */
+@import url(./../CommonDesign/dialog.css);
+@import url(./../MasterCommon/masterDialog.css);
+
+.titleCellStyle10
+{
+    height: 30px;
+    /* width: 146px; */
+    background-color: #9ea0aa;
+    color: #FFFFFF;
+    font-size: 20.05px !important;
+    font-weight: inherit;
+}
+.titleCellStyle10:first-child {
+    border-right: 1px solid #fff;
+}
+
+.borderCellStyle3
+{
+    border: 1px solid #9ea0aa;
+}
+
+.fixed_header{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 300px;
+}
+
+.fixed_header thead tr {
+   display: block;
+   width: 100%;
+   height: 30px;
+}
+
+.fixed_header thead {
+  color:#fff;
+  height: 31px;
+}
+
+.fixed_header tbody td
+{
+    border-bottom: 1px solid #9ea0aa;
+    border-right: 1px solid #9ea0aa;
+    text-align: left;
+    padding: 0 5px;
+    font-size: 20.05px;
+    color: #000;
+    cursor: pointer;
+    word-break: break-all;
+}
+.fixed_header tbody td:first-child {
+    border-left: 1px solid #9ea0aa;
+}
+.titleCellStyle
+{
+    height: 30px;
+    width: 146px;
+    background-color: #9ea0aa;
+    color: #FFFFFF;
+    font-size: 20.05px !important;
+    font-weight: inherit;
+}
+
+.borderCellStyle
+{
+    border: 1px solid #9ea0aa;
+}
+
+.pulldownCellStyle
+{
+    height: 50px;
+    width: 270px;
+    background-color: white;
+    max-width: 318px;
+}
+
+.pulldownStyle
+{
+    width: 100%;
+    height: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    font-size: 22px;
+    outline: none;
+}
+
+.standardCellSpaceStyle
+{
+    width: 21px;
+}
+
+/* #region コンテンツ部スタイル設定 */
+.contentStyle
+{
+    position: relative;
+    margin-top: 14px;
+}
+.contentStyle table
+{
+    position: relative;
+    border-collapse: collapse;
+}
+.contentStyle input
+{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 20.05px !important;
+}
+
+/* プルダウンの下線を非表示にする */
+.pulldownStyle>.v-input__control>.v-input__slot:before {
+    /* Vuetifyに店舗選択の下線を非表示 */
+    border-style: none !important;
+}
+
+/* プルダウンのアイテムを左揃えにする */
+.v-list-item__title{
+	text-align:left;
+}
+
+/* 中央ボタンエリアの調整 */
+#centerButtonDiv
+{
+    width:105px;
+    float:left;
+    margin: 31px;
+}
+
+/* 全選択・選択・削除・全削除ボタン */
+#centerButtonDiv button
+{
+    width: 105px;
+    height: 40px;
+    background-color: #1ea7cb;
+    box-shadow: none;
+}
+
+/* 全選択・選択・削除・全削除ボタンのフォント */
+#centerButtonDiv button font
+{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/* 店舗選択テーブルの仮選択行 */
+.selectedItem
+{
+    background-color: #FFEACF;
+}
+.selectedItem td
+{
+    border: 1px solid #ff9508 !important;
+    border-left: none !important;
+}
+.selectedItem td:first-child
+{
+    border-left: 1px solid #ff9508 !important;
+}
+
+.commonTableStyle {
+    float: left;
+    width: 460px;
+}
+
+.commonTableStyle table
+{
+    table-layout: fixed;
+    border-collapse: separate !important;
+    border-spacing: 0.5px 0px
+}
+/* theadタグ設定 */
+.commonTableStyle thead
+{
+    display: block;
+}
+.commonTableStyle thead td
+{
+    height: 50px;
+    background-color: #9ea0aa;
+    color: #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    font-size: 20.05px;
+}
+.commonTableStyle th:first-child,
+.commonTableStyle td:first-child
+{
+    width: 90px;
+}
+
+.commonTableStyle th:nth-child(2),
+.commonTableStyle td:nth-child(2)
+{
+    width: 460px;
+}
+
+.commonTableStyle .scrollChild {
+    /* スクロールバーは17pxなので、差し引いた分 */
+    width:353px !important;
+}
+
+/* tbodyタグ設定 */
+.commonTableStyle tbody
+{
+    height: 301px;
+    display: block;
+    overflow-y: auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.commonTableStyle tbody tr
+{
+    height: 50px;
+}
+.commonTableStyle tbody td
+{
+    border-bottom: 1px solid #9ea0aa;
+    border-right: 1px solid #9ea0aa;
+    text-align: left;
+    padding: 0 5px;
+    font-size: 20.05px;
+    color: #000;
+}
+.commonTableStyle tbody td:first-child
+{
+    border-left: 1px solid #9ea0aa;
+}
+.commonTableStyle tbody td:last-child
+{
+    border-right: 1px solid #9ea0aa;
+}
+.commonTableStyle tbody tr:hover
+{
+    cursor: pointer;
+}
+
+/* テーブル説明エリア */
+#text-content {
+    display: flex;
+}
+
+#text-content p {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 18px;
+    color:#000;
+
+}
+
+/* 矢印 ＞ */
+.selectArrow {
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+}
+
+.selectArrow::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 0;
+    border-top: solid 3px #fff;
+    border-left: solid 3px #fff;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    margin-top: -10px;
+}
+
+/* 矢印 ＜ */
+.selectArrowReverse::before {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-left: -7px;
+    left: -35px;
+}
+
+select:focus {
+    border: 2px solid #ff9508;
+}
+
+/* courseDesc */
+#courseDesc {
+  font-size: 22px;
+  border-collapse: separate;
+  border-spacing: 2px 2px;
+  margin-top: 10px;
+}
+
+#courseDesc tr {
+  height: 50px;
+  margin-top: 20px !important;
+}
+
+#courseDesc tr th {
+  width: 200px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size:20px;
+  font-weight:normal;
+  padding: 0 0.5em;
+}
+
+#courseDesc tr td {
+  width: 680px;
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#courseDesc tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+#courseDesc tr td textarea {
+  padding-left: 5px;
+  padding-right: 2px;
+  resize: none;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 3em;
+}
+
+.dialogInput {
+    background-color: #FFFFFF !important;
+    border: 1px #B9B8B8 solid !important;
+    font-size: 22px;
+}
+
+.dialogInput:focus {
+    background-color: #FFFFFF !important;
+    outline: 2px #FF9B16 solid !important;
+    outline-offset: -2px;
+}
+
+#courseDesc tr td {
+    border: transparent;
+}
+
+.dialogImageFileInput:focus {
+    outline: none;
+    opacity: .8;
+    transition: 0.2s opacity ease-in-out;
+}
+/* KSD V001.000 AE */

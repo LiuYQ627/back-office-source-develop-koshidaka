@@ -1,0 +1,37 @@
+/* KSD V001.000 AS */
+@import url(./../MasterCommon/masterDialog.css);
+
+.age-classification-page {
+  min-width: 824px;
+  max-width: 824px;
+  font-size: 20px;
+}
+
+.conditionAgeClassRow {
+  height: 50px;
+}
+
+input[type="text"][disabled] {
+  cursor: not-allowed;
+}
+
+.storeSearchLabel {
+  font-family: 'Migu 1M';
+  font-size: 22px;
+}
+
+.age-class-master-second-to-last-col {
+  padding-right: 20px;
+}
+
+.age-class-master-vcol-195 {
+  min-width: 195px;
+  max-width: 195px;
+}
+
+.scrollNone:focus {
+  outline: 2px solid black !important;
+  border-radius: 2px;
+}
+
+/* KSD V001.000 AE */

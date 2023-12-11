@@ -1,0 +1,28 @@
+/* KSD V001.000 AS */
+.price-input input {
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    text-align: center;
+    background-color: #FFFFFF !important;
+    font-size: 22px;
+    line-height: 23px;
+}
+
+.price-input input:focus,
+.price-input input.has-error:focus {
+    background-color: #FFFFFF !important;
+    outline: 2px #FF9B16 solid !important;
+    outline-offset: -1px;
+}
+
+.price-input input:disabled {
+    background-color: transparent !important;
+    color: #79797A !important;
+}
+
+.price-input input.has-error {
+    background-color: #FCD4D4 !important;
+    border: 1px #E93232 solid !important;
+}
+/* KSD V001.000 AE */

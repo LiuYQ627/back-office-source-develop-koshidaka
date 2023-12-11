@@ -1,0 +1,205 @@
+#menubar {
+  background-color: #1ea7cb;
+  color: #fff;
+  font-weight: bold;
+  height: 50px !important;
+}
+
+/* KSD V001.000 AS */
+.logo-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+}
+
+.logo-bar {
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-img {
+  display: block;
+  width: 100%;
+}
+
+.logo-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contact-us-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.question-icon {
+  padding: 5px;
+  padding-top: 12px
+}
+
+.contact-us-text {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-size: 15px;
+}
+
+.following-header1 {
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+  margin-top: 64px
+}
+
+.exit-icon-color {
+  color: white !important;
+}
+/* KSD V001.000 AE */
+
+.following-header {
+  width: 100%;
+  position: fixed;
+  /* KSD V001.000 DS */
+  /* top: 0; */
+  /* KSD V001.000 DE */
+  z-index: 500;
+}
+
+/* 日時表示欄 */
+#product-name {
+  text-align: left;
+  font-size: 15px;
+  flex: auto;
+  width: auto;
+  min-width: 120px;
+}
+
+.date-header {
+  font-size: 17px;
+}
+
+/* 画面名称欄 */
+#bussiness-name {
+  font-weight: bold;
+  font-size: 22px;
+  min-width: 200px;
+  padding-left: 0;
+  padding-right: 0;
+  flex: auto;
+  position: absolute;
+}
+
+/* ログアウト表示欄 */
+#logout-content {
+  width: 160px;
+  height: 50px;
+  position: relative;
+  /* KSD V001.000 DS */
+  /* top: 5px; */
+  /* KSD V001.000 DE */
+  display: flex;
+  background: #1ea7cb;
+  padding: 0;
+}
+
+#logout-content a {
+  width: 160px;
+  height: 50px;
+}
+
+#logout-content a font {
+  font-size: 18px;
+  font-weight: normal;
+  float: left;
+  padding: 14px 0px 14px 14px;
+}
+
+#logout-content a img {
+  margin-top: 5px;
+}
+
+.icon-range {
+  width: 55px;
+  height: 51px;
+}
+
+/* メニュー表示欄 */
+#menu-header {
+  text-align: right;
+  font-size: 15px;
+  margin-top: 6px;
+  flex: auto;
+  padding: 0;
+  width: auto;
+  min-width: 55px;
+  position: relative;
+}
+
+#drawer-menu {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000050;
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+}
+
+#drawer-content {
+  z-index: 4;
+  width: 300px;
+  height: 320px;
+  background: #fff;
+  margin: 0 0 0 auto;
+}
+
+#drawer-content p {
+  margin-bottom: 0;
+  display: block;
+}
+
+#sysver-range {
+  float: right;
+  height: 52px;
+  width: 300px;
+  display: flex;
+  border-top: solid 1px #27b6db;
+  border-bottom: solid 1px #27b6db;
+}
+
+#sysver-range .sysver {
+  position: relative;
+  top: 21px;
+  font-size: 18px;
+}
+
+#user-range {
+  clear: both;
+  padding: 15px;
+  text-align: initial;
+  font-size: 18px;
+}
+
+#user-range table {
+  margin-bottom: 10px;
+}

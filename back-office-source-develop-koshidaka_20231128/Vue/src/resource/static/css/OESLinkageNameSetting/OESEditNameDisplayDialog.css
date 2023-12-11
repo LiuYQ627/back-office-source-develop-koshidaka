@@ -1,0 +1,44 @@
+/* KSD V001.000 AS */
+.basesize {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#baseTable {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.name-edit-dialog-table {
+  width: 100%;
+  font-size: 22px;
+}
+
+.name-edit-dialog-table tr {
+  height: 50px;
+}
+
+.name-edit-dialog-table tr th {
+  width: 146px;
+  background-color: #9ea0aa;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 0.5em;
+}
+
+.name-edit-dialog-table tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: left;
+  border: #9ea0aa solid 1px;
+}
+
+.name-edit-dialog-table tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+/*　KSD V001.000 AE　*/

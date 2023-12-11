@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <property resource="application.properties" />
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <!-- application.propertiesの内容の取り込み-->
+    <springProperty scope="context" name="springAppName" source="spring.application.name"/>
+    <!--    <springProperty scope="context" name="loggingFileName" source="logging.file.name"/>-->
+    <springProperty scope="context" name="loggingLevelRoot" source="logging.level.root"/>
+    <property name="PATTERN" value="%date{yyyy-MM-dd HH:mm:ss.SSS} %clr(%5level) [${springAppName:-}, , , ] ${PID:-} --- [%thread] [, ] %logger{4} : %m%n"/>
+    <property name="PATTERN_DETAIL" value="%date{yyyy-MM-dd HH:mm:ss.SSS} %clr(%5level) [${springAppName:-}, , , ] ${PID:-} --- [%thread] [, ] %logger{4}.%method:%file-L%line : %m%n"/>
+
+    <!-- http://logback.qos.ch/codes.html#layoutInsteadOfEncoder -->
+    <!-- プリセットのアペンダ―(COMSOLE, FILE)のパラメータを設定 -->
+    <property name="CONSOLE_LOG_PATTERN" value="${PATTERN}" />
+    <property name="FILE_LOG_PATTERN"    value="${PATTERN}" />
+    <property name="LOG_FILE" value="${logging.file.name}"/>
+
+    <!-- パラメータを設定してからincludesすると値が差し変わる -->
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
+    <root level="${loggingLevelRoot:-INFO}">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

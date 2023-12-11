@@ -1,0 +1,156 @@
+/* KSD V001.000 AS */
+#pdf-result-container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 12px;
+}
+
+#pdf-result #report-condition .text-h6,
+#pdf-result .text-h5 {
+  font-family: 'Migu 1M' !important;
+}
+
+.plu-table-container {
+  margin-bottom: 30px;
+}
+
+.v-data-table>>>thead,
+.v-data-table>>>.v-data-table-header {
+  background-color: #9ea0aa;
+}
+
+.v-data-table>>>thead th,
+.v-data-table>>>.v-data-table-header th {
+  color: white !important;
+  font-size: 1.25rem !important;
+  font-weight: normal !important;
+}
+
+.v-data-table>>>thead tr th {
+  width: 100px !important;
+}
+
+.v-data-table>>>thead tr:nth-child(2) th:nth-child(1),
+.v-data-table>>>thead tr:nth-child(2) th:nth-child(2) {
+  padding-left: 40px;
+}
+
+.padding-left-40 {
+  padding-left: 40px !important;
+}
+
+.time-zone-col {
+  min-width: 150px !important;
+  max-width: 150px !important;
+  width: 150px !important;
+}
+
+.hour-zone-name {
+  min-width: 150px !important;
+  max-width: 150px !important;
+  width: 150px !important;
+}
+
+.count-col,
+.quantity-col,
+.tax-col {
+  min-width: 208px !important;
+  max-width: 208px !important;
+  width: 208px !important;
+}
+
+.plu-code-col {
+  min-width: 150px !important;
+  max-width: 150px !important;
+  width: 150px !important;
+}
+
+.plu-name-row,
+.hour-zone-row {
+  max-width: 900px;
+}
+
+.plu-name-row span,
+.hour-zone-row span {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.total-col {
+  min-width: 100px !important;
+  max-width: 100px !important;
+  width: 100px !important;
+}
+
+.v-data-table>>>tbody tr td {
+  font-size: 22px !important;
+}
+
+.v-data-table>>>tbody tr:not(:last-child) td {
+  border-bottom: 0px !important;
+}
+
+.v-data-table>>>tbody:not(:last-child):not(.group-data-row):not(.term-group-body) tr:last-child td {
+  border-bottom: 1px solid lightgray;
+}
+
+.v-data-table tbody tr td.table-empty-msg {
+  color: darkgrey;
+  font-size: 20px !important;
+}
+
+.v-data-table>>>tbody.table-total-row tr:last-child td {
+  border-bottom: 2px solid gray !important;
+}
+
+.v-data-table>>>tbody.table-total-row tr:first-child td {
+  border-top: 2px solid gray;
+}
+
+.v-data-table>>>tbody.sub-total-row:not(:nth-last-child(2)) tr:last-child td{
+  border-bottom: 2px solid gray !important;
+}
+
+.v-data-table>>>tbody.sub-total-row:not(:last-child) tr:first-child td {
+  border-top: 2px solid gray;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.text-white {
+  color: white;
+}
+
+.v-data-table {
+  page-break-inside: auto
+}
+
+.v-data-table>>>tbody:hover {
+  background: #eee !important;
+}
+
+.v-data-table>>>tbody tr {
+  page-break-inside: avoid;
+  page-break-after: auto
+}
+
+.over-display-msg {
+  color: red;
+  font-size: 1.25rem !important;
+}
+
+.margin-30 {
+  margin-top: 30px;
+}
+
+/* KSD V001.000 AE */

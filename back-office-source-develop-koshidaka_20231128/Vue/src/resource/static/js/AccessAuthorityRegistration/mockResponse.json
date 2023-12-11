@@ -1,0 +1,549 @@
+{
+  "data": {
+    "result": {
+      "code": 0,
+      "errorMessageMap": {
+        "global": "エラーテスト"
+      }
+    },
+    "roleInfos": [
+      {
+        "name": "権限1",
+        "roleCd": "1",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限2",
+        "roleCd": "2",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限3",
+        "roleCd": "3",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限4",
+        "roleCd": "4",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限5",
+        "roleCd": "5",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限6",
+        "roleCd": "6",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限7",
+        "roleCd": "7",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限8",
+        "roleCd": "8",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      },
+      {
+        "name": "権限9",
+        "roleCd": "9",
+        "validApprovalFlg": "0",
+        "roleDisplay": "0"
+      }
+    ],
+    "menuitemInfos": [
+      {
+        "menuitemCd": "0200000000",
+        "name": "バックオフィス業務",
+        "menuFlg": 1,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 0
+      },
+      {
+        "menuitemCd": "0203000000",
+        "name": "監査",
+        "menuFlg": 2,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 3
+      },
+      {
+        "menuitemCd": "0203F32231",
+        "name": "POSレポート出力",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 3
+      },
+      {
+        "menuitemCd": "0207F32232",
+        "name": "監査レポート出力",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 3
+      },
+      {
+        "menuitemCd": "0203F32271",
+        "name": "電子ジャーナル",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 3
+      },
+      {
+        "menuitemCd": "0204000000",
+        "name": "ユーザ管理",
+        "menuFlg": 2,
+        "displayOrder": 4,
+        "mainmenuCd": 2,
+        "submenuCd": 4
+      },
+      {
+        "menuitemCd": "0204F00001",
+        "name": "ユーザマスタ登録",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 4
+      },
+      {
+        "menuitemCd": "0204C00227",
+        "name": "従業員コード印字",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 4
+      },
+      {
+        "menuitemCd": "0204F32242",
+        "name": "アクセス権限登録",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 4
+      },
+      {
+        "menuitemCd": "0205000000",
+        "name": "店舗管理",
+        "menuFlg": 2,
+        "displayOrder": 5,
+        "mainmenuCd": 2,
+        "submenuCd": 5
+      },
+      {
+        "menuitemCd": "0205F32251",
+        "name": "店舗グループ１登録",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 5
+      },
+      {
+        "menuitemCd": "0205F32252",
+        "name": "店舗グループ２登録",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 5
+      },
+      {
+        "menuitemCd": "0206F00003",
+        "name": "店舗マスタ",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 5
+      },
+      {
+        "menuitemCd": "0205F32254",
+        "name": "店舗マスタコピー",
+        "menuFlg": 3,
+        "displayOrder": 4,
+        "mainmenuCd": 2,
+        "submenuCd": 5
+      },
+      {
+        "menuitemCd": "0206000000",
+        "name": "端末管理",
+        "menuFlg": 2,
+        "displayOrder": 6,
+        "mainmenuCd": 2,
+        "submenuCd": 6
+      },
+      {
+        "menuitemCd": "0206F00013",
+        "name": "端末設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 6
+      },
+      {
+        "menuitemCd": "0206F322b6",
+        "name": "金種設定",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 6
+      },
+      {
+        "menuitemCd": "0206F00107",
+        "name": "状態管理",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 6
+      },
+      {
+        "menuitemCd": "0208000000",
+        "name": "商品構成",
+        "menuFlg": 2,
+        "displayOrder": 8,
+        "mainmenuCd": 2,
+        "submenuCd": 8
+      },
+      {
+        "menuitemCd": "0208F00203",
+        "name": "商品分類階層設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 8
+      },
+      {
+        "menuitemCd": "0208F00204",
+        "name": "商品構成マスタ登録",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 8
+      },
+      {
+        "menuitemCd": "0208F00108",
+        "name": "商品マスタ登録",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 8
+      },
+      {
+        "menuitemCd": "0208F32283",
+        "name": "飲食オーダーガイダンス設定",
+        "menuFlg": 3,
+        "displayOrder": 4,
+        "mainmenuCd": 2,
+        "submenuCd": 8
+      },
+      {
+        "menuitemCd": "0208F32282",
+        "name": "プリセットマスタ登録",
+        "menuFlg": 3,
+        "displayOrder": 5,
+        "mainmenuCd": 2,
+        "submenuCd": 8
+      },
+      {
+        "menuitemCd": "0209000000",
+        "name": "売価変更",
+        "menuFlg": 2,
+        "displayOrder": 9,
+        "mainmenuCd": 2,
+        "submenuCd": 9
+      },
+      {
+        "menuitemCd": "0209F00109",
+        "name": "売価変更",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 9
+      },
+      {
+        "menuitemCd": "0210000000",
+        "name": "クラウドPOS運用設定",
+        "menuFlg": 2,
+        "displayOrder": 10,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322a2",
+        "name": "バーコードフラグ設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322a3",
+        "name": "取引別名称設定",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322a4",
+        "name": "収入印紙設定",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322a5",
+        "name": "運用設定",
+        "menuFlg": 3,
+        "displayOrder": 4,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322a6",
+        "name": "店別運用設定",
+        "menuFlg": 3,
+        "displayOrder": 5,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0211F322b3",
+        "name": "レシート設定",
+        "menuFlg": 3,
+        "displayOrder": 6,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322b4",
+        "name": "税率設定",
+        "menuFlg": 3,
+        "displayOrder": 7,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322b5",
+        "name": "時間帯設定",
+        "menuFlg": 3,
+        "displayOrder": 8,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0210F322b7",
+        "name": "OES連携名称設定",
+        "menuFlg": 3,
+        "displayOrder": 9,
+        "mainmenuCd": 2,
+        "submenuCd": 10
+      },
+      {
+        "menuitemCd": "0211000000",
+        "name": "クラウドPOS店舗運用設定",
+        "menuFlg": 2,
+        "displayOrder": 11,
+        "mainmenuCd": 2,
+        "submenuCd": 11
+      },
+      {
+        "menuitemCd": "0211F322b1",
+        "name": "操作ボタン設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 11
+      },
+      {
+        "menuitemCd": "0211F322b2",
+        "name": "締めボタン設定",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 11
+      },
+
+      {
+        "menuitemCd": "0212000000",
+        "name": "全店共通設定",
+        "menuFlg": 2,
+        "displayOrder": 12,
+        "mainmenuCd": 2,
+        "submenuCd": 12
+      }
+      ,{
+        "menuitemCd": "0212C00218",
+        "name": "機材マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 12
+      }
+      ,{
+        "menuitemCd": "0213C00219",
+        "name": "機種設備マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 12
+      }
+      ,{
+        "menuitemCd": "0213C00216",
+        "name": "年齢区分マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 12
+      }
+      ,{
+        "menuitemCd": "0213C00213",
+        "name": "会員ランクマスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 4,
+        "mainmenuCd": 2,
+        "submenuCd": 12
+      }
+      ,{
+        "menuitemCd": "0213000000",
+        "name": "店舗固有設備設定",
+        "menuFlg": 2,
+        "displayOrder": 13,
+        "mainmenuCd": 2,
+        "submenuCd": 13
+      }
+      ,{
+        "menuitemCd": "0213C00208",
+        "name": "部屋情報マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 13
+      }
+      ,{
+        "menuitemCd": "0213C00220",
+        "name": "部屋関連情報マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 13
+      }
+      ,{
+        "menuitemCd": "0213C00221",
+        "name": "部屋情報サブ設定",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 13
+      }
+      ,{
+        "menuitemCd": "0213C00223",
+        "name": "コード決済通信マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 4,
+        "mainmenuCd": 2,
+        "submenuCd": 13
+      }
+      ,{
+        "menuitemCd": "0213C00224",
+        "name": "料金表表示マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 5,
+        "mainmenuCd": 2,
+        "submenuCd": 13
+      }
+      ,{
+        "menuitemCd": "0214000000",
+        "name": "店舗固有POS設定",
+        "menuFlg": 2,
+        "displayOrder": 14,
+        "mainmenuCd": 2,
+        "submenuCd": 14
+      }
+      ,{
+        "menuitemCd": "0213F322c1",
+        "name": "券種マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 14
+      }
+      ,{
+        "menuitemCd": "0213C00210",
+        "name": "コンプライアンス情報マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 14
+      }
+      ,{
+        "menuitemCd": "0214C00222",
+        "name": "セルフ/客面POSマスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 14
+      }
+      ,{
+        "menuitemCd": "0215000000",
+        "name": "店舗固有料金設定",
+        "menuFlg": 2,
+        "displayOrder": 15,
+        "mainmenuCd": 2,
+        "submenuCd": 15
+      }
+      ,{
+        "menuitemCd": "0213C00214",
+        "name": "曜日区分マスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 1,
+        "mainmenuCd": 2,
+        "submenuCd": 15
+      }
+      ,{
+        "menuitemCd": "0213C00212",
+        "name": "カレンダーマスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 2,
+        "mainmenuCd": 2,
+        "submenuCd": 15
+      }
+      ,{
+        "menuitemCd": "0213C00211",
+        "name": "コース料金設定",
+        "menuFlg": 3,
+        "displayOrder": 3,
+        "mainmenuCd": 2,
+        "submenuCd": 15
+      }
+      ,{
+        "menuitemCd": "0213C00217",
+        "name": "オプションマスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 4,
+        "mainmenuCd": 2,
+        "submenuCd": 15
+      }
+      ,{
+        "menuitemCd": "0213C00215",
+        "name": "コースマスタ設定",
+        "menuFlg": 3,
+        "displayOrder": 5,
+        "mainmenuCd": 2,
+        "submenuCd": 15
+      }
+    ]
+  }
+}

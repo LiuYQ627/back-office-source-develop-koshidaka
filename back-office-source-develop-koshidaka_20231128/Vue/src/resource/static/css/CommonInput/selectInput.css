@@ -1,0 +1,62 @@
+/* KSD V001.000 AS */
+.common-select-input-container {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF !important;
+    border: 1px #B9B8B8 solid !important;
+}
+
+.common-select-input-container:has(.common-select-input:focus) {
+    background-color: #FFFFFF !important;
+    outline: 2px #FF9B16 solid !important;
+    outline-offset: -2px;
+}
+
+.common-select-input-container:has(.common-select-input:disabled) {
+    background-color: transparent !important;
+    border: 1px #B9B8B8 solid !important;
+}
+
+.common-select-input {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 22px;
+    padding: 8px;
+    padding-right: 32px;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    /* AS KSD V001.000 83503 */
+    color: black;
+    /* AE KSD V001.000 83503 */
+}
+
+.pulldownArrow::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #565960;
+    pointer-events: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.common-select-input:focus {
+    outline: none;
+}
+
+.common-select-input:disabled {
+    color: #79797A !important;
+    cursor: not-allowed;
+}
+
+.common-select-input:disabled + .pulldownArrow::after {
+    display: none;
+}
+/* KSD V001.000 AE */

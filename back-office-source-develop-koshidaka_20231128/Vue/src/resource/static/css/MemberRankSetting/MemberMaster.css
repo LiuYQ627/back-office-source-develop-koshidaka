@@ -1,0 +1,12 @@
+/* KSD V001.000 AS */
+.member-rank-row {
+  height: 38px;
+  width: 680px;
+  margin-top:-16px;
+  padding:0
+}
+.scrollNone:focus {
+  outline: 2px solid black !important;
+  border-radius: 2px;
+}
+/* KSD V001.000 AE */

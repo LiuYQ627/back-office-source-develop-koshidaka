@@ -1,0 +1,141 @@
+.preset-conrainer {
+  min-width: 960px !important;
+  max-width: 960px  !important;
+  font-size: 20px;
+}
+.conditionRow {
+  height: 50px;
+}
+.weekRow {
+  height: 80px;
+}
+.weekCell {
+  width: 12.5%;
+}
+.presetSettingArea {
+  height: 500px;
+  overflow-y: auto;
+}
+.tableHeader {
+  height: 30px;
+}
+.tableContent {
+  height: 60px;
+}
+.v-btn.categoryButton {
+  font-size: 20px;
+}
+.v-btn.categoryButton[selected] {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+.iconCol {
+  width: 60px;
+}
+.icon {
+  object-fit: contain;
+}
+
+.product-box{
+  display: flex; 
+}
+.product-image-box{
+   flex: 1;
+   width: 82px;
+   height: 82px;
+}
+.product-image{
+  width: 100%;
+  height: 100%;
+  margin-top: 9px;
+}
+.product-content{
+  flex: 3;
+  display: flex;
+  flex-direction:column;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.product-content-desc{
+  flex: 4;
+  height: 80px;
+  /* word-break: break-word; */
+  word-break: break-all;
+}
+.product-content-other{
+  flex: 1;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.whiteFramePreset{
+  background-color: #ffffff;
+  border: 1px solid #9ea0aa;
+}
+.whiteFramePreset[disabled] {
+  background-color: #e9e9e9;
+}
+.presetTime[disabled] {
+  background-color: #e9e9e9;
+}
+.v-btn.presetWeek[disabled]  {
+  background: #e9e9e9 !important;
+}
+/* KSD V001.000 AS */
+.headerAreaOTM {
+  text-align:left !important;
+  padding-left: 20px !important;
+}
+
+.categoryAreaOTM {
+  background-color: #ffffff;
+  border: 1px solid #9ea0aa;
+  height: 80px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 5px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  align-content: start;
+}
+
+.v-btn.categoryButtonOTM.v-btn--disabled {
+  border: 1px solid #000;
+  color: #000 !important;
+  height: 52px !important;
+  width: 152px !important;
+  font-size: 20px;
+  text-transform: unset;
+}
+
+.v-btn.categoryButtonOTM[selected].v-btn--disabled {
+  border: none;
+  color: white !important;
+  background-color: orange;
+  font-weight: bold;
+}
+
+.productAreaOTM {
+  background-color: #ffffff;
+  border: 1px solid #9ea0aa;
+  height: 525px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  align-content: start;
+}
+
+.productAreaCardOTM {
+  height: 114px !important;
+  width: 335px !important;
+}
+/* KSD V001.000 AE */

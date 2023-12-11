@@ -1,0 +1,77 @@
+/* KSD V001.000 AS */
+
+.tax-rate-setting-outer {
+  font-size: 20px;
+}
+
+.tax-rate-setting-inner {
+  max-width: 563.98px;
+  min-width: 563.98px;
+}
+
+.tax-rate-setting-select-container {
+  width: 52%;
+  margin-top: 30px;
+  margin-left: 24%;
+}
+
+.tax-rate-setting-select {
+  justify-content: center;
+  margin: auto;
+}
+
+.tax-rate-setting-select table {
+  border-collapse: collapse;
+  margin-top: 2px;
+  width: 100%;
+}
+
+.tax-rate-setting-select thead tr {
+  height: 30px;
+  border: 1px solid #9EA0AA;
+}
+
+.tax-rate-setting-select thead th,
+.tax-rate-setting-select thead td {
+  height: 30px;
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #9EA0AA !important;
+  color: #FFFFFF !important;
+}
+
+.tax-rate-setting-select tbody td {
+  height: 50px;
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #ffffff !important;
+  color: #2C3E50 !important;
+}
+
+.tax-rate-setting-select tbody td {
+  background-color: #fff;
+  border-left: 1px solid #9EA0AA;
+  border-bottom: 1px solid #9EA0AA;
+  margin-right: 8px;
+}
+
+.tax-rate-setting-select tbody td img {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.tax-rate-setting-select tbody td:last-child {
+  border-left: none !important;
+  border-right: 1px solid #9EA0AA;
+}
+
+.tax-rate-setting-select tbody tr:not(:last-child) {
+  border-bottom: 2px solid #9EA0AA;
+}
+
+/* KSD V001.000 AE */

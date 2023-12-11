@@ -1,0 +1,106 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+@import url(./../MasterCommon/masterDialog.css);
+
+.corporateCheckbox{
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+[type="checkbox"] {
+  display: none;
+}
+[type="checkbox"]:checked + .corporateCheckbox {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.corporateCheckbox:hover {
+  opacity: 0.6 ;
+}
+.corporateCheckbox.disabled {
+  opacity: 0.3 ;
+} 
+
+.field-icon {
+  color: #555 !important;;
+  float: right;
+  margin-right: 4px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+/* corporateTable */
+#corporateTable {
+  font-size: 22px;
+}
+
+#corporateTable tr {
+  height: 50px;
+}
+
+#corporateTable tr th {
+  width: 146px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size:20px;
+  font-weight:normal;
+  padding: 0 0.5em;
+}
+
+#corporateTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#corporateTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+#corporateTable tr td textarea {
+  padding-left: 5px;
+  padding-right: 2px;
+  resize: none;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 3em;
+}
+.textContractServices {
+  width: 50% !important;
+}
+.textAddress {
+  padding-right: 92px !important;
+  height: 70px !important;
+  word-break:break-all;
+}
+
+/* KSD V001.000 AS */
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-clear-button {
+  display: none;
+}
+/* KSD V001.000 AE */

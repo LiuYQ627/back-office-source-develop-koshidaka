@@ -1,0 +1,142 @@
+/* KSD V001.000 AS */
+.price-list-display-master-setting-table {
+  table-layout: fixed;
+  border-collapse: separate !important;
+  border-spacing: 0.5px 0px;
+  min-width: 100%;
+  width: 100%;
+}
+
+.price-list-display-master-setting-table th:first-child,
+.price-list-display-master-setting-table td:first-child {
+  max-width: 72px;
+  min-width: 72px;
+  width: 72px;
+}
+
+.price-list-display-master-setting-table th:nth-child(2),
+.price-list-display-master-setting-table td:nth-child(2) {
+  max-width: 248px;
+  min-width: 248px;
+  width: 248px;
+}
+
+.price-list-display-master-setting-table th:nth-child(3),
+.price-list-display-master-setting-table td:nth-child(3) {
+  max-width: 72px;
+  min-width: 72px;
+  width: 72px;
+}
+
+.price-list-display-master-setting-table th:nth-child(4),
+.price-list-display-master-setting-table td:nth-child(4) {
+  max-width: 100px;
+  min-width: 100px;
+  width: 100px;
+}
+
+.price-list-display-master-setting-table th:nth-child(5),
+.price-list-display-master-setting-table td:nth-child(5) {
+  max-width: 100px;
+  min-width: 100px;
+  width: 100px;
+}
+
+.price-list-display-master-setting-table th:nth-child(6),
+.price-list-display-master-setting-table td:nth-child(6) {
+  max-width: 248px;
+  min-width: 248px;
+  width: 248px;
+}
+
+.price-list-display-master-setting-table th:nth-child(7),
+.price-list-display-master-setting-table td:nth-child(7) {
+  max-width: 160px;
+  min-width: 160px;
+  width: 160px;
+}
+
+.price-list-display-master-setting-table th:nth-child(8) {
+  max-width: 160px;
+  min-width: 160px;
+  width: 160px;
+}
+
+.price-list-display-master-setting-table td:nth-child(8) {
+  max-width: 159px;
+  min-width: 159px;
+  width: 159px;
+}
+
+.price-list-display-master-setting-table thead {
+  display: block;
+}
+
+.price-list-display-master-setting-table thead th,
+.price-list-display-master-setting-table thead td {
+  height: 30px;
+  background-color: #9ea0aa;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.price-list-display-master-setting-table thead th:first-child,
+.price-list-display-master-setting-table thead td:first-child {
+  border-left: none;
+}
+
+.price-list-display-master-setting-table thead th:last-child,
+.price-list-display-master-setting-table thead td:last-child {
+  border-right: none;
+}
+
+.price-list-display-master-setting-table thead th:last-child {
+  width: 20%;
+}
+
+.price-list-display-master-setting-table tbody {
+  height: 750px;
+  display: block;
+  overflow-y: auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.price-list-display-master-setting-table tbody th,
+.price-list-display-master-setting-table tbody td {
+  height: 50px;
+  background-color: white;
+  border: 1px solid #b9b8b8;
+  color: #000;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.price-list-display-master-setting-table-date {
+  text-align: center !important;
+}
+
+.disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+
+.no-display {
+  display: none;
+}
+
+/* KSD V001.000 AE */

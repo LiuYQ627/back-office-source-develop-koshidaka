@@ -1,0 +1,7 @@
+/* KSD V001.000 AS */
+.editTextBox:focus {
+  border: 2px solid #ff9508;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+/* KSD V001.000 AE */

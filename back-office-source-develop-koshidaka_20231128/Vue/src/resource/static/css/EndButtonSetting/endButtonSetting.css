@@ -1,0 +1,120 @@
+@import url(./../MasterCommon/masterDialog.css);
+
+.end-button-setting {
+  min-width: 960px;
+  max-width: 100%;
+  font-size: 20px;
+  /* KSD V001.000 DS */
+  /* padding-right: 200px; */
+  /* KSD V001.000 DE */
+  /* KSD V001.000 AS */
+  padding-right: 172px;
+  /* KSD V001.000 AE */
+}
+.conditionRow {
+  height: 50px;
+}
+
+.modal-media-item .v-input {
+  margin-top: 0 !important;
+}
+.v-input__slot {
+  margin-bottom: 0 !important;
+}
+.v-messages.theme--light {
+  display: none !important;
+}
+.sub-media .v-input {
+  width: 200px;
+  margin-right: 15px;
+}
+
+.end-button-table {
+  white-space: nowrap;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.end-button-table th {
+  /* display: flex; */
+  text-align: center !important;
+  padding: 0 10px !important;
+}
+.end-button-table th {
+  font-size: 20px !important;
+  color: white !important;
+  font-weight: normal;
+}
+.end-button-table td {
+  background-color: #ffffff;
+  border: 1px solid #9ea0aa;
+  font-family: 'Migu 1M';
+  font-size: 20px !important;
+  padding: 0 10px !important;
+}
+
+.conversionTable tr {
+  height: 50px;
+}
+
+.conversionTable tr th {
+  /* KSD V001.000 AS */
+  min-width: 180px;
+  /* KSD V001.000 AE */
+  width: 180px;
+  /* KSD V001.000 AS */
+  max-width: 180px;
+  /* KSD V001.000 AE */
+  height: 100%;
+  background-color: #9ea0aa;
+  color: #fff;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+.conversionTable tr td {
+  width: 300px;
+  height: 50px;
+  font-size: 22px;
+  background-color: #ffffff;
+  text-align: left;
+  border: #9ea0aa solid 1px;
+}
+
+.conversionTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.v-input--selection-controls {
+  margin: 0 12px !important;
+}
+
+button.addSubMedia {
+  width: auto !important;
+}
+button.addSubMedia .v-btn__content {
+  color: white;
+}
+
+
+.numberNoArrow::-webkit-outer-spin-button,
+.numberNoArrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.numberNoArrow[type="number"]{
+  -moz-appearance: textfield;
+}
+
+/* KSD V001.000 AS */
+.redFrame {
+  border: 1px #E93232 solid !important;
+}
+.redBG {
+  background-color: #FCD4D4 !important;
+}
+.row-count {
+  margin-top: 7px !important;
+  line-height: 23px;
+}
+/* KSD V001.000 AE */

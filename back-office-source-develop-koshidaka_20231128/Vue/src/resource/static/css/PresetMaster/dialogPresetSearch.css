@@ -1,0 +1,107 @@
+@import url(./../CommonDesign/dialog.css);
+@import url(./dialogContentStyle.css);
+.presetSearchBasesize {
+  height: 550px;
+  min-width: 1147px;
+}
+
+.productSearchButton {
+  width: 130px;
+  height: 50px !important;
+}
+.productSearchButton span {
+  margin-left: -4px;
+}
+.productSearchButton font {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: normal;
+}
+.searchItemResultTableStyle {
+  margin-top: 20px;
+}
+.inputItemSearchCellStyle {
+  height: 45px;
+  width: 641px;
+  margin: 0px auto;
+  background-color: white;
+}
+.inputItemSearchCellStyle input:focus {
+  outline: 1px solid #ff9508;
+}
+.searchItemResultTableStyle table {
+  table-layout: fixed;
+  border-collapse: separate !important;
+  border-spacing: 0.5px 0px;
+}
+/* theadタグ設定 */
+.searchItemResultTableStyle thead {
+  display: block;
+}
+.searchItemResultTableStyle thead td {
+  height: 40px;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
+  font-size: 20.05px;
+}
+.searchItemResultTableStyle td:first-child {
+  width: 143px;
+}
+.searchItemResultTableStyle td:nth-child(2) {
+  width: 196px;
+}
+.searchItemResultTableStyle td:nth-child(3) {
+  width: 569px;
+  border-right: none;
+}
+
+/* tbodyタグ設定 */
+.searchItemResultTableStyle tbody {
+  height: 210px;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.searchItemResultTableStyle tbody tr {
+  height: 42px;
+}
+.searchItemResultTableStyle tbody td {
+  border-bottom: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+  text-align: left;
+  padding: 0 10px;
+  font-size: 20.05px;
+  color: #000;
+}
+.searchItemResultTableStyle tbody td:first-child {
+  border-left: 1px solid #9ea0aa;
+}
+.searchItemResultTableStyle tbody td:last-child {
+  border-right: 1px solid #9ea0aa;
+  text-align: right;
+}
+.searchItemResultTableStyle tbody tr:hover {
+  cursor: pointer;
+}
+.selectedItem {
+  background-color: #ffeacf;
+}
+.selectedItem td {
+  border: 1px solid #ff9508 !important;
+  border-left: none !important;
+}
+.selectedItem td:first-child {
+  border-left: 1px solid #ff9508 !important;
+}
+#searchIcon {
+  color: #fff !important;
+}
+
+@media all and (-ms-high-contrast: none) {
+  #searchIcon {
+    margin-left: -13px;
+  }
+}

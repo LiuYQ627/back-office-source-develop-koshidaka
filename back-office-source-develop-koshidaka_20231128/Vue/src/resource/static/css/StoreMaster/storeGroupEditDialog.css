@@ -1,0 +1,94 @@
+/* KSD V001.000 AS */
+.store-group-outer-edit-dialog {
+    font-size: 20px;
+    padding: 0;
+    height: fit-content !important;
+    display: block;
+  }
+  
+  .store-group-inner-edit-dialog {
+    max-width: 960px;
+    min-width: 960px;
+  }
+  
+  .store-group-edit-table {
+    width: 100%;
+    padding: 0px 5px;
+  }
+  
+  .store-group-edit-table tr {
+    height: 50px;
+  }
+  
+  .store-group-edit-table tr th {
+    width: 150px;
+    height: 100%;
+    background-color: #9ea0aa;
+    color: #fff;
+    font-weight: normal;
+    padding: 0 5px;
+  }
+  
+  .store-group-edit-table tr td {
+    height: 50px;
+    font-size: 22px;
+    background-color: #ffffff;
+    border: 1px #9ea0aa solid !important;
+    text-align: left;
+    position: relative;
+  }
+  
+  .error-indicator,
+  .store-group-edit-table .error-indicator td {
+    border: none !important;
+    background-color: #fff;
+    height: fit-content;
+  }
+  
+  .mdi-clock-overlay {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .store-group-edit-table tr td input {
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    outline: 1px #e5e4e4 solid !important;
+    outline-offset: -1px;
+  }
+  
+  .store-group-edit-table tr td input:focus {
+    background-color: #ffffff !important;
+    outline: 2px #ff9b16 solid !important;
+    outline-offset: -1px;
+  }
+  
+  .store-group-edit-table-read-only {
+    color: #79797a !important;
+    background-color: #e9e9e9 !important;
+    cursor: not-allowed !important;
+  }
+  
+  .has-error {
+    background-color: #fcd4d4 !important;
+    border: 1px #f39e9e solid !important;
+  }
+  
+  .has-error input,
+  .has-error .common-select-input-container,
+  .has-error select,
+  .has-error .whiteFrame {
+    background-color: #fcd4d4 !important;
+    border: 1px #e93232 solid !important;
+  }
+  
+  .has-error:focus {
+    background-color: #ffffff !important;
+    outline: 2px #fcd4d4 solid !important;
+    border: 2px solid #e93232;
+    outline-offset: -2px;
+  }
+  /* KSD V001.000 AE */

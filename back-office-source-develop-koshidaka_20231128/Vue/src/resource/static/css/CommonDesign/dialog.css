@@ -1,0 +1,75 @@
+.dialog-title {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.headline {
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.baseFont {
+  font-size: 16px;
+}
+
+/* ヘッダータイトル 画像ありの場合の調整クラス */
+.title-label {
+  padding-left: 0px !important;
+  padding-right: 100px !important;
+}
+
+.dialog-line-blue {
+  border-bottom: medium solid #1ea7cb;
+}
+/* KSD V001.000 AS */
+.dialog-line-carissima {
+  border-bottom: medium solid #e47b99;
+  border-width: 4px;
+}
+/* KSD V001.000 AE */
+.dialog-fotter {
+  border-top: 1px solid #9ea0aa;
+  padding: 16px;
+}
+
+.dialog-fotter .button {
+  width: 100px;
+  color: #fff !important;
+  box-shadow: none;
+  margin-left: 14px;
+}
+
+.dialog-fotter-button-orange {
+  background-color: #ff9407 !important;
+}
+
+.dialog-fotter-button-blue {
+  background-color: #1ea7cb !important;
+}
+.dialog-fotter-button-gray {
+  background-color: #565960 !important;
+}
+/* KSD V001.000 AS */
+.dialog-footer-button-carissima {
+  background-color: #e47b99 !important;
+}
+/* KSD V001.000 AE */
+.dialog-content {
+  white-space: pre-wrap;
+}
+.footerButtonStyle {
+  width: 130px !important;
+  height: 50px !important;
+  font-size: 22px !important;
+  font-weight: bold;
+}
+/* KSD V001.000 AS */
+.rule-container {
+  justify-content: space-between;
+}
+.rule-text {
+  text-align: left !important;
+  font-size: 18px;
+}
+/* KSD V001.000 AE */

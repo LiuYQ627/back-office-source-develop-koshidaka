@@ -1,0 +1,214 @@
+/* #region HTMLタグ設定 */
+html {
+  background-color: #f2f3f5;
+  min-width: 1200px;
+  overflow-x: scroll;
+}
+@media screen and (min-width:1200px) {
+  html{
+      overflow-x:hidden;
+  }
+}
+/* #endregion */
+
+/* #region コンテナスタイル設定 */
+.baseContainer {
+  height: 910px;
+  margin-top: 60px;
+  width: 780px;
+}
+
+/* #region 店舗選択スタイル設定 */
+#label2 {
+  color: #ffffff;
+  background-color: #9ea0aa;
+  display:block;
+  width: 164px;
+  height: 40px;
+  border: 6px solid #9ea0aa;
+  font-size: 20px;
+}
+#label3 {
+  color: #000000;
+  display:block;
+  height: 40px;
+  font-size: 20px;
+}
+/* 想定外のcssが当たる対応 */
+input[type="text"][disabled].priceChangeInputText {
+	height: 40px;
+	width: 214px;
+	background-color: #fff !important;
+	border: 1px solid #9ea0aa;
+	padding-left: 10px;
+}
+input[type="text"][disabled].startDateInputStyle {
+	background-color: #fff !important;
+}
+input[type="text"][disabled].endDateInputStyle {
+	background-color: #fff !important;
+}
+
+.priceChangeInputText {
+	height: 40px;
+	width: 214px;
+	background-color: #fff !important;
+	border: 1px solid #9ea0aa;
+	padding-left: 10px;
+}
+.priceChangeInputText:focus{
+  border: 2px solid #ff9508;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+.selectStoreContentStyle {
+  margin-left: 0px;
+  width: 680px;
+  display: flex;
+}
+.selectStoreContentStyle p {
+  display: flex;
+  width: 146px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.selectStoreContentStyle span input {
+  width: 458px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+.storeSelectSpan {
+  background-color: #fff;
+  width: 562px;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  text-align: left;
+}
+.rightArrow2::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+.buttomLabel {
+  float: right;
+  margin: 5px;
+}
+.buttomLabel button {
+  box-shadow: none;
+  background-color: #1ea7cb !important;
+}
+.periodSelectStyle
+{
+  border-collapse:collapse;
+}
+.periodTitleCellStyle
+{
+  width: 164px !important;
+  background-color: #9ea0aa;
+  color: #FFFFFF;
+  font-size: 20px !important;
+  border: 1px solid #9ea0aa;
+  height: 38px;
+}
+.periodTextCellStyle
+{
+  width: 187px !important;
+  height: 38px ;
+  background-color: white;
+  border: 1px solid #9ea0aa;
+}
+/* KSD V001.000 DS */
+/* .titleCellStyle  */
+/* { */
+/* width: 146px !important; */
+/* width: 458px !important; */
+/* background-color: #9ea0aa; */
+/* color: #FFFFFF; */
+/* font-size: 20px !important; */
+/* border: 1px solid #9ea0aa; */
+/* } */
+/* KSD V001.000 DE */
+.textCellStyle
+{
+  width: 187px !important;
+  height: 50px;
+/*
+  background-color: white;
+  border: 1px solid #9ea0aa;
+*/
+}
+
+
+.dateInputStyle>.v-input__control>.v-input__slot:before {
+  /* Vuetifyに店舗選択の下線を非表示 */
+  border-style: none !important;
+}
+.startDateInputStyle{
+  width: 135px;
+  height: 38px;
+  text-align: left;
+  text-indent: 10px;
+}
+.startDateInputStyle:focus {
+  outline:none;
+}
+.disabledStartDateInputStyle{
+  width: 135px;
+  height: 38px;
+  text-align: left;
+  text-indent: 10px;
+  color: #79797A !important;
+}
+.endDateInputStyle{
+  width: 135px;
+  height: 38px;
+  text-align: left;
+  text-indent: 10px;
+}
+.endDateInputStyle:focus {
+  outline:none;
+}
+.is_active{
+  border: 1px solid #FF9508;
+  outline:solid 2px #FF9508;
+  outline-offset: -2px;
+}
+#startCalender {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#startCalenderTd:focus{
+  outline-style: none !important;
+}
+#endCalender {
+  margin-top: 10px;
+  margin-left: 5px;
+  right: 10px;
+}
+#endCalenderTd:focus{
+  outline-style: none !important;
+}
+.wavyLine{
+  padding: 5px;
+}
+/* トグルボタンの領域 */
+.switch {
+  float: left;
+  margin-top: 4px;
+  margin-left: 8px;
+}

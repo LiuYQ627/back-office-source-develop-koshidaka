@@ -1,0 +1,86 @@
+/* KSD V001.000 AS */
+.config-select-outer {
+  font-size: 20px;
+}
+
+.config-select-inner {
+  max-width: 563.98px;
+  min-width: 563.98px;
+}
+
+.config-select-table-container {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 25%;
+}
+
+.config-select-table {
+  justify-content: center;
+  margin: auto;
+}
+
+.config-select-table table {
+  border-collapse: collapse;
+  margin-top: 2px;
+  width: 100%;
+}
+
+.config-select-table thead tr {
+  height: 30px;
+  border: 1px solid #9EA0AA;
+}
+
+.config-select-table thead th,
+.config-select-table thead td {
+  height: 30px;
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #9EA0AA !important;
+  color: #FFFFFF !important;
+}
+
+.config-select-table tbody td {
+  height: 50px;
+  line-height: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #ffffff !important;
+  color: #000 !important;
+}
+
+.config-select-table tbody td {
+  background-color: #fff;
+  color: #000;
+  border-left: 1px solid #9EA0AA;
+  border-bottom: 1px solid #9EA0AA;
+  margin-right: 8px;
+}
+
+.config-select-table tbody td img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.config-select-table tbody td:last-child {
+  border-left: none !important;
+  border-right: 1px solid #9EA0AA;
+}
+
+.config-select-table tbody tr:not(:last-child) {
+  border-bottom: 2px solid #9EA0AA;
+}
+
+/* KSD V001.000 AE */
+
+.container {
+  min-width: 870px;
+  max-width: 870px;
+  font-size: 20px;
+}
+.rowHeight {
+  height: 50px;
+}

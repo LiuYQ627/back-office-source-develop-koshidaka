@@ -1,0 +1,23 @@
+/**
+* ---------+---------------------+----------+--------------------------------
+*  DATE    |NAME(Inc)            |GUIDE     |GUIDANCE
+* ---------+---------------------+----------+--------------------------------
+* 20230207  wangchunmei(Neusoft)  G001.00.0  issue課題#836を対応します.
+*/
+.receiptProductSwitch {
+  display: inline-block;
+  position: absolute;
+  margin-left: 8px;
+}
+
+.receiptProductContentStyle {
+  width: 670px;
+  height: 50px;
+  color: #000000;
+  font-size: 22px;
+  background-color: #fff;
+  border: 1px solid #9ea0aa;
+  text-align: initial;
+  flex-basis: auto;
+  padding: 8px 0 0 15px !important;
+}

@@ -1,0 +1,31 @@
+/* KSD V001.000 AS */
+.compliance-information-setting-time-setting-table {
+  border-collapse: separate !important;
+  border-spacing: 0px;
+}
+
+.compliance-information-setting-time-setting-table thead th,
+.compliance-information-setting-time-setting-table thead td {
+  height: 30px;
+  background-color: #9ea0aa;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 5px;
+  line-height: 23px;
+}
+
+.compliance-information-setting-time-setting-table thead th:first-child,
+.compliance-information-setting-time-setting-table thead td:first-child {
+  border-left: none;
+}
+
+.compliance-information-setting-time-setting-table thead th:last-child,
+.compliance-information-setting-time-setting-table thead td:last-child {
+  border-right: none;
+}
+
+/* KSD V001.000 AE */

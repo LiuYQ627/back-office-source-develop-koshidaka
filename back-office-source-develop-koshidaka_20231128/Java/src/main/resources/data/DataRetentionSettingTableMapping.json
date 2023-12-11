@@ -1,0 +1,17 @@
+[
+  {
+    "retentionTarget": 1,
+    "physicalName":"T_TRAN_SEQNO",
+    "logicalName": "取引発番"
+  },
+  {
+    "retentionTarget": 2,
+    "physicalName":"T_TRN_HEADER",
+    "logicalName": "取引ヘッダー"
+  },
+  {
+    "retentionTarget": 3,
+    "physicalName":"T_TRN_ITEM",
+    "logicalName": "取引アイテム"
+  }
+]

@@ -1,0 +1,100 @@
+/* KSD V001.000 AS */
+@import url(./../MasterCommon/masterDialog.css);
+
+.form-group {
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.form-group label.form-label {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #9ea0aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group input.form-control,
+.form-group select.form-control {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #9ea0aa;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.form-group input.form-control:read-only {
+  background-color: #f2f3f5;
+}
+
+.disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.disabled * {
+  pointer-events: none;
+}
+
+.immutable,
+.immutable *,
+.immutable > * {
+  cursor: not-allowed !important;
+}
+
+.rightArrow2::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 12px;
+}
+
+.footerButtonStyle {
+  font-weight: normal;
+  color: #fff;
+  width: 90% !important;
+  height: 37.87px !important;
+  margin: 5px !important;
+}
+
+.transparent {
+  display: none;
+}
+
+.transparentBtn {
+  background-color: #F2F3F5 !important;
+}
+
+.transparentBtn:nth-child(1) {
+  color: #F2F3F5 !important;
+}
+
+.lightgrayFrame {
+  background-color: #F2F3F5 !important;
+}
+
+.btnBlue {
+  background-color: #1ea7cb !important;
+}
+
+.text-wrap {
+  text-overflow: ellipsis; 
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+
+/* KSD V001.000 AE */

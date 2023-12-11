@@ -1,0 +1,86 @@
+@import url(./../CommonDesign/dialog.css);
+@import url(./dialogContentStyle.css);
+.presetImageBasesize {
+  height: 580px;
+  min-width: 1147px;
+}
+.imageListStyle {
+  width: 100%;
+  display: block;
+}
+#scrollInformation {
+  height: 420px;
+  display: block;
+  overflow-y: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+}
+.image-box{
+  margin-right: 20px;
+  width: 150px;
+  height: 170px;
+  padding-top: 10px;
+  position: relative;
+}
+.imageListStyle tr {
+  display: flex;
+  margin: 0 60px;
+}
+.imageListStyle tr:last-child {
+  margin-bottom: 10px;
+}
+.imageListStyle td {
+  position: relative;
+  width: 150px;
+  height: 100%;
+  display: inline-block;
+  margin: 0 6px;
+}
+.imageListStyle td:hover {
+  cursor: pointer;
+}
+.imageListStyle img {
+  position: relative;
+  width: 135px;
+  height: 135px;
+  margin: 10px 0px 0px 0px;
+  border: solid 1px #00000061;
+}
+.ribbon {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  top: 11px;
+  right: 9px;
+  background: #3c96bf 0% 0% no-repeat padding-box;
+  margin: 0;
+  padding: 10px 0;
+}
+.ribbon::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 100%;
+  left: 0;
+  border-left: 15px solid #3c96bf;
+  border-right: 15px solid #3c96bf;
+  border-bottom: 15px solid transparent;
+}
+.imageListStyle div:last-child {
+  position: relative;
+}
+.imageListStyle span {
+  position: relative;
+  height: 55px;
+  font-size: 20.05px;
+}
+.selectedCellStyle {
+  background-color: #d4f1fe;
+}
+.nameStyle {
+  width: 70%;
+  margin: 0 auto;
+}

@@ -1,0 +1,59 @@
+/* KSD V001.000 AS */
+.checkbox-input {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox-input label {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.checkbox-input span {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+}
+
+.checkbox-input input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  display: inherit;
+}
+
+.checkbox-input input[type="checkbox"]:checked+span {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+}
+
+.checkbox-input input[type="checkbox"]:disabled+span {
+  opacity: 0.6;
+}
+
+.checkbox-input span:hover {
+  /* opacity: 0.6; */
+  outline: 2px solid black;
+  border-radius: 6px;
+}
+
+.checkbox-tab-focus {
+  /* opacity: 0.6; */
+  outline: 2px solid black !important;
+  border-radius: 6px;
+}
+
+/* KSD V001.000 AE */

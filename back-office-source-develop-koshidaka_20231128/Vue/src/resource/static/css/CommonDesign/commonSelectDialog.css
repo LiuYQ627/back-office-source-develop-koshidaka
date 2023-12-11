@@ -1,0 +1,286 @@
+/* KSD V001.000 AS */
+@import url(./../CommonDesign/dialog.css);
+
+.title-cell-style-10 {
+  height: 30px;
+  /* width: 146px; */
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20.05px !important;
+  font-weight: inherit;
+}
+
+.title-cell-style-10:first-child {
+  border-right: 1px solid #fff;
+}
+
+.border-cell-style-3 {
+  border: 1px solid #9ea0aa;
+}
+
+.fixed-header {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.fixed-header tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 300px;
+}
+
+.fixed-header thead tr {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.fixed-header thead {
+  color: #fff;
+  height: 31px;
+}
+
+.fixed-header tbody td {
+  border-bottom: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+  text-align: left;
+  padding: 0 5px;
+  font-size: 20.05px;
+  color: #000;
+  cursor: pointer;
+  word-break: break-all;
+}
+
+.fixed-header tbody td:first-child {
+  border-left: 1px solid #9ea0aa;
+}
+
+.title-cell-style {
+  height: 30px;
+  width: 146px;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  font-size: 20.05px !important;
+  font-weight: inherit;
+}
+
+.border-cell-style {
+  border: 1px solid #9ea0aa;
+}
+
+.pulldown-cell-style {
+  height: 50px;
+  width: 270px;
+  background-color: white;
+  max-width: 318px;
+}
+
+.pulldown-style {
+  width: 100%;
+  height: 49px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  font-size: 22px;
+  outline: none;
+}
+
+.standard-cell-space-style {
+  width: 21px;
+}
+
+/* #region コンテンツ部スタイル設定 */
+.content-style {
+  position: relative;
+  margin-top: 14px;
+}
+
+.content-style table {
+  position: relative;
+  border-collapse: collapse;
+}
+
+.content-style input {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  font-size: 20.05px !important;
+}
+
+/* プルダウンの下線を非表示にする */
+.pulldown-style > .v-input__control > .v-input__slot:before {
+  /* Vuetifyに店舗選択の下線を非表示 */
+  border-style: none !important;
+}
+
+/* プルダウンのアイテムを左揃えにする */
+.v-list-item__title {
+  text-align: left;
+}
+
+/* 中央ボタンエリアの調整 */
+#center-button-div {
+  width: 105px;
+  float: left;
+  margin: 31px;
+}
+
+/* 全選択・選択・削除・全削除ボタン */
+#center-button-div button {
+  width: 105px;
+  height: 40px;
+  background-color: #1ea7cb;
+  box-shadow: none;
+}
+
+/* 全選択・選択・削除・全削除ボタンのフォント */
+#center-button-div button font {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* 店舗選択テーブルの仮選択行 */
+.selected-item {
+  background-color: #ffeacf;
+}
+
+.selected-item td {
+  border: 1px solid #ff9508 !important;
+  border-left: none !important;
+}
+
+.selected-item td:first-child {
+  border-left: 1px solid #ff9508 !important;
+}
+
+.common-table-style {
+  float: left;
+  width: 460px;
+}
+
+.common-table-style table {
+  table-layout: fixed;
+  border-collapse: separate !important;
+  border-spacing: 0.5px 0px;
+}
+/* theadタグ設定 */
+.common-table-style thead {
+  display: block;
+}
+
+.common-table-style thead td {
+  height: 50px;
+  background-color: #9ea0aa;
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
+  font-size: 20.05px;
+}
+
+.common-table-style th:first-child,
+.common-table-style td:first-child {
+  width: 90px;
+}
+
+.common-table-style th:nth-child(2),
+.common-table-style td:nth-child(2) {
+  width: 460px;
+}
+
+.common-table-style .scrollChild {
+  /* スクロールバーは17pxなので、差し引いた分 */
+  width: 353px !important;
+}
+
+/* tbodyタグ設定 */
+.common-table-style tbody {
+  height: 301px;
+  display: block;
+  overflow-y: auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.common-table-style tbody tr {
+  height: 50px;
+}
+
+.common-table-style tbody td {
+  border-bottom: 1px solid #9ea0aa;
+  border-right: 1px solid #9ea0aa;
+  text-align: left;
+  padding: 0 5px;
+  font-size: 20.05px;
+  color: #000;
+}
+
+.common-table-style tbody td:first-child {
+  border-left: 1px solid #9ea0aa;
+}
+
+.common-table-style tbody td:last-child {
+  border-right: 1px solid #9ea0aa;
+}
+
+.common-table-style tbody tr:hover {
+  cursor: pointer;
+}
+
+/* テーブル説明エリア */
+#text-content {
+  display: flex;
+}
+
+#text-content p {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+}
+
+/* 矢印 ＞ */
+.select-arrow {
+  display: inline-block;
+  text-decoration: none;
+  position: absolute;
+}
+
+.select-arrow::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -10px;
+}
+
+/* 矢印 ＜ */
+.select-arrow-reverse::before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-left: -7px;
+  left: -35px;
+}
+
+select:focus {
+  border: 2px solid #ff9508;
+}
+
+.room-no-left-col {
+  width: 90px !important;
+}
+
+.room-no-right-col {
+  width: 370px !important;
+}
+
+/* KSD V001.000 AE */

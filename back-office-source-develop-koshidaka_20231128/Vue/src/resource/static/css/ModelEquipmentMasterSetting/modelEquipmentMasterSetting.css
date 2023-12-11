@@ -1,0 +1,71 @@
+/* KSD V001.000 AS */
+/* マスタ新規・編集ダイアログの共通CSS */
+@import url(./../MasterCommon/masterDialog.css);
+
+#listHeader {
+  color: #fff;
+  font-size: 20px;
+  /* フォントサイズ 20pt */
+  background-color: #9ea0aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-right: 1px solid #f2f3f5;
+  display: inline-block;
+  border-left: 1px solid rgb(158, 160, 170);
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.model-container {
+  min-width: 1432px;
+  max-width: 1432px;
+  width: 1432px !important;
+  margin-top: 60px;
+}
+
+.listElement {
+  color: #000;
+  font-size: 22px;
+  /* フォントサイズ 22pt */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+#inputRowModel {
+  display: flex;
+  padding: 0px;
+  height: 65px;
+  width: 1432px;
+  background-color: #fff;
+  border: 2px solid #009fc8;
+  background-color: #e9faff;
+}
+
+.modelEquipmentMasterSettingInputLabel {
+  min-width: 225.33px !important;
+  max-width: 225.33px !important;
+}
+
+.modelEquipmentMasterSettingInput input {
+  width: 1175px !important;
+}
+
+.model-equipment-master-setting-second-to-last-col {
+  padding-right: 20px;
+}
+
+/* KSD V001.000 AE */

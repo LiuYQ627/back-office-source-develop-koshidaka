@@ -1,0 +1,56 @@
+[
+  {
+    "transactionNo": "000020",
+    "name": "売計",
+    "printNo": 2,
+    "displayName": {
+      "default": "売計",
+      "print": "売計"
+    }
+  },
+  {
+    "transactionNo": "000010",
+    "name": "小計",
+    "printNo": 0,
+    "displayName": {
+      "default": "小計",
+      "print": "小計"
+    }
+  },
+  {
+    "transactionNo": "000030",
+    "name": "アイテム値引き・割引計",
+    "printNo": 1,
+    "displayName": {
+      "default": "アイテム値引き・割引計",
+      "print": "アイテム値引き・割引計"
+    }
+  },
+  {
+    "transactionNo": "000100",
+    "name": "基本名称テスト",
+    "printNo": 103,
+    "displayName": {
+      "default": "",
+      "print": ""
+    }
+  },
+  {
+    "transactionNo": "000110",
+    "name": "",
+    "printNo": 101,
+    "displayName": {
+      "default": "表示名称テスト",
+      "print": ""
+    }
+  },
+  {
+    "transactionNo": "000120",
+    "name": "",
+    "printNo": 102,
+    "displayName": {
+      "default": "",
+      "print": "印字名称テスト"
+    }
+  }
+]

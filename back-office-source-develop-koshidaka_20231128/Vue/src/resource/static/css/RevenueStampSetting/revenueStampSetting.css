@@ -1,0 +1,13 @@
+.container {
+  min-width: 960px;
+  max-width: 960px;
+  font-size: 20px;
+}
+.conditionRow {
+  height: 50px;
+}
+.editIcon {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}

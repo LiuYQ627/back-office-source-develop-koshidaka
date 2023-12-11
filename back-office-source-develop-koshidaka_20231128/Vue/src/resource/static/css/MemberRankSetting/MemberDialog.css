@@ -1,0 +1,107 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+/* KSD V001.000 AS */
+
+@import url(./../MasterCommon/masterDialog.css);
+
+.memberCheckbox{
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+[type="checkbox"] {
+  display: none;
+}
+[type="checkbox"]:checked + .memberCheckbox {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  background-image: url(./../../../../assets/btn_check_on.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.memberCheckbox:hover {
+  opacity: 0.6 ;
+}
+.memberCheckbox.disabled {
+  opacity: 0.3 ;
+} 
+.textName:focus {
+  border: 2px solid #ff9508;
+  outline:solid 2px #ff9508;
+  outline-offset: -2px;
+}
+
+.field-icon {
+  color: #555 !important;;
+  float: right;
+  margin-right: 4px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+/* outerMemberTable */
+
+#memberTable {
+  height: 354px;
+  margin: 20px 26px;
+}
+#outerMemberTable {
+  width:100%;
+  font-size: 22px;
+}
+#outerMemberTable tr {
+  height: 50px;
+}
+
+#outerMemberTable tr th {
+  width: 146px;
+  background-color: #9EA0AA;
+  color: #fff;
+  font-size:20px;
+  font-weight:normal;
+  padding: 0 0.5em;
+}
+
+#outerMemberTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border: #9EA0AA solid 1px;
+}
+
+#outerMemberTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+#outerMemberTable tr td textarea {
+  padding-left: 5px;
+  padding-right: 2px;
+  resize: none;
+  margin-bottom: -10px;
+  width: 100%;
+  height: 3em;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: #79797A;
+  background-color: #e9e9e9;
+}
+
+/* KSD V001.000 AE */

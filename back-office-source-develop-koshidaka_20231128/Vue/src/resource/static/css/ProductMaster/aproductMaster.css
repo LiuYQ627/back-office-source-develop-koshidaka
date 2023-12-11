@@ -1,0 +1,255 @@
+/* #region HTMLタグ設定 */
+html {
+    min-width: 960px;
+    overflow-x: scroll;
+  }
+@media screen and (min-width:977px) {
+  html{
+    overflow-x:hidden;
+  }
+}
+.selectConditionStyle {
+  margin-top: 20px;
+}
+.selectStoreContentStyle {
+ /* サイズ変更 */
+  width: 680px;
+  height: 60px;
+  display: flex;
+ /* サイズ変更 */
+  margin-left: -12px;
+ /* サイズ変更 */
+  margin-right: -12px;
+  margin-top: 20px;
+}
+.selectStoreContentStyle p {
+  display: flex;
+  width: 146px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ea0aa;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.storeSelectSpan {
+ /* サイズ変更 */
+  width: 534px;
+  height: 50px;
+  border: 1px solid #9ea0aa;
+  background-color: #FFF;
+  position: relative;
+}
+.theme--light.v-icon {
+  color: #9ea0aa;
+}
+
+.textStore {
+  height: 50px;
+  font-size: 22px;
+}
+
+.buttomLabel {
+    float: right;
+    margin: 5px;
+  }
+.buttonStyle .buttomLabel {
+  float: left;
+  margin-right: 5px;
+}
+.buttomLabel button {
+box-shadow: none;
+background-color: #1ea7cb !important;
+position: relative;
+min-width: 55px;
+}
+
+/* 矢印 ＞ */
+.rightArrow::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-top: solid 3px #fff;
+  border-left: solid 3px #fff;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin-top: -9px;
+  right: 10px;
+  top: 1px;
+}
+
+.chevronDown {
+  text-align: left; 
+  padding-left: 75px;
+  margin-top: -10px;
+  margin-bottom: -20px
+}
+
+.inline-radio {
+  display: flex;
+  width: 450px;
+  height: 50px;
+  border-radius: 3px;
+  margin-top: 0px;
+  margin-left: 6px;
+  overflow: hidden;
+}
+.inline-radio div {
+  position: relative;
+  text-align: center; 
+  top: 10%;
+  left: auto;
+  width: 100px;
+  height: 40px;
+  margin : 2px;
+  margin-top : -1px;
+}
+
+.inline-radio div.deleteAdd {
+  width: 236px;
+}
+
+.inline-radio input {
+  width: 100%;
+}
+.inline-radio label {
+  position: absolute;
+  top: 0;
+  color: #000;
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  border: 2px solid #9ea0aa;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.inline-radio input:checked + label {
+  background: #ff9407;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ff9407;
+  color: #fff;
+  font-size: 22px;
+}
+
+.buttonStyle {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.tableArea {
+  width: 608px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.targetList {
+  width: 608px;
+  border-collapse: separate;
+  table-layout: fixed;
+  border-spacing: 0.5px 0px;  
+  border: 0px solid #9ea0aa;
+}
+.targetList th {
+  font-size: 20px;
+  height: 30px;
+  width: 608px;
+  background-color: #9ea0aa;
+  color: #FFFFFF;
+  border: 1px solid #9ea0aa;
+  font-weight: lighter;
+}
+.targetList tr {
+  height: 50px;
+}
+.targetList td {
+  font-size: 22px;
+  height: 50px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  padding-left: 3px;
+  padding-right: 10px;
+  text-align: left;
+  border: 1px solid #9ea0aa;
+  border-top: none;
+  vertical-align: middle;
+}
+.targetList td:first-child {
+  border-right: none !important;
+}
+.targetList td:nth-child(2) {
+  border-left: none !important;
+}
+
+.targetList .selectedItem td {
+  background-color: #FFEACF;
+  border-top: 1px solid #ff9508 !important;
+  border-bottom: 1px solid #ff9508 !important;
+  border-right: 1px solid #ff9508 !important;
+}
+.targetList .selectedItem td:first-child {
+  border-left: 1px solid #ff9508 !important;
+  border-right: none !important;
+}
+.targetList .selectedItem td:nth-child(2) {
+    border-left: none !important;
+}
+
+.targetList .selectedItem label {
+  margin-top: -1px
+}
+.checkButton .checkbox {
+  display: inline-block;
+  width: 55px;
+  height: 35px;
+  background-image: url(./../../../../assets/btn_check_off.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  outline: 0;
+}
+[type="checkbox"] {
+display: none;
+}
+[type="checkbox"]:checked + .checkbox {
+  background-image: url(./../../../../assets/btn_check_on.png);
+}
+.checkbox:hover {
+  opacity: 0.6 ;
+}
+.checkButton {
+  float: left;
+}
+.checkButton label{
+  display: inline-block;
+  margin-left: 5px;
+  width: 55px;
+  height: 35px;
+}
+.widthSpecify {
+  width: 236px !important;
+}
+.lineClampStyle {
+  min-height: 30px;
+  display: -webkit-box;          /* line-clamp を有効にするために指定する */
+  -webkit-box-orient: vertical;  /* line-clamp を有効にするために指定する */
+  -webkit-line-clamp: 2;         /* 改行する行数を指定する */
+  overflow: hidden;              /* 溢れた文字を非表示にする */
+  word-break: break-all;
+  vertical-align: middle;
+}
+.cautionText {
+  margin-left: 25px;
+  margin-top: -10px ;
+  text-align: left;
+  color: #e93232;
+  font-size: 20px;
+  width: 700px;
+}

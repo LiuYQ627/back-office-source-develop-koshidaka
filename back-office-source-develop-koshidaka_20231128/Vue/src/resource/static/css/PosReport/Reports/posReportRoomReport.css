@@ -1,0 +1,84 @@
+/* KSD V001.000 AS */
+#pdf-result .text-h5{
+  font-family: 'Migu 1M' !important;
+}
+
+#pdf-result-container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 12px;
+}
+
+#report-condition {
+  font-size: 1.25rem !important;
+  font-weight: 100;
+}
+
+#report-condition .text-h6{
+  font-family: 'Migu 1M' !important;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.text-white {
+  color: white;
+}
+
+.per-store-table{
+  margin-bottom: 30px;
+}
+
+.v-data-table >>> .v-data-table-header {
+  background-color:#9ea0aa;
+}
+
+.v-data-table >>> .v-data-table-header th {
+  color: white!important;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.v-data-table >>> tbody tr td {
+  font-size: 22px !important;
+}
+
+.v-data-table >>> tbody:not(:last-child) tr:not(:last-child) td {
+  border-bottom: 1px solid lightgray;
+}
+
+.v-data-table >>> tbody tr:last-child td {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+.v-data-table {
+  page-break-inside: auto;
+}
+
+.v-data-table >>> tbody tr {
+  page-break-inside:avoid;
+  page-break-after:auto
+}
+
+.v-data-table >>> tbody tr:hover {
+  background-color: #eee;
+}
+
+.over-display-msg {
+  color: red;
+  font-size: 1.25rem !important;
+}
+
+.margin-30 {
+  margin-top: 30px;
+}
+
+/* KSD V001.000 AE */

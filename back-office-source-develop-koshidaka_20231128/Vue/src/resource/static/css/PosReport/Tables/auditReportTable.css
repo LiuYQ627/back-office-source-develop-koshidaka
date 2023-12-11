@@ -1,0 +1,88 @@
+/* KSD V001.000 AS */
+.v-data-table>>>.v-data-table-header {
+  background-color: #9ea0aa;
+}
+
+.v-data-table>>>.v-data-table-header th {
+  color: white !important;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-family: 'Migu 1M';
+}
+
+.v-data-table>>>tbody tr td {
+  font-size: 22px !important;
+  border: none !important;
+}
+
+.v-data-table>>>tbody tr td:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.v-data-table>>>tbody:hover {
+  background: #eee !important;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.pt-6 {
+  margin-top: 30px !important;
+}
+
+.limit-row span {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.bg-wheat {
+  background-color: wheat;
+}
+
+.text-white {
+  color: white;
+}
+
+.v-data-table {
+  page-break-inside: auto
+}
+
+.v-data-table>>>tbody tr {
+  page-break-inside: avoid;
+  page-break-after: auto
+}
+
+.v-data-table>>>tbody tr:last-child td {
+  border-bottom: 1px solid lightgray !important;
+}
+
+.audit-thead {
+  display: flex;
+  flex-direction: column;
+}
+
+.audit-thead-tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.audit-thead-tr th {
+  display: flex;
+  align-items: center;
+}
+
+.audit-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.audit-body tr,
+.audit-body tr td {
+  display: flex;
+  align-items: center;
+}
+
+/* KSD V001.000 AE */

@@ -1,0 +1,45 @@
+/* マスタ新規・編集ダイアログの共通CSS */
+@import url(./../MasterCommon/masterDialog.css);
+
+#productTable {
+  font-size: 22px;
+}
+
+#productTable tr {
+  height: 50px;
+}
+
+#productTable tr th {
+  width: 146px;
+  background-color: #9ea0aa;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 0.5em;
+}
+
+#productTable tr td {
+  width: 345px;
+  height: 50px;
+  background-color: #ffffff;
+  text-align: left;
+  border: #9ea0aa solid 1px;
+}
+
+#productTable tr td input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.textLinkCode {
+  width: 78% !important;
+}
+
+  /* KSD V001.000 AS */
+.d-flex {
+  display: flex;
+  align-items: center !important;
+}
+  /* KSD V001.000 AE */

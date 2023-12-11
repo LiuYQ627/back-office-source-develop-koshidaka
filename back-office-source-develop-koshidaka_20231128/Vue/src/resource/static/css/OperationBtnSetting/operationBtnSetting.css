@@ -1,0 +1,48 @@
+.container {
+  min-width: 960px;
+  max-width: 960px;
+  font-size: 20px;
+}
+.operation-container {
+  min-width: 960px !important;
+  max-width: 960px !important;
+  font-size: 20px;
+}
+.conditionRow {
+  height: 50px;
+}
+.weekRow {
+  height: 80px;
+}
+.weekCell {
+  width: 12.5%;
+}
+.presetSettingArea {
+  height: 500px;
+  overflow-y: auto;
+}
+.tableHeader {
+  height: 30px;
+}
+.tableContent {
+  height: 60px;
+}
+.v-btn.categoryButton {
+  font-size: 20px;
+}
+.v-btn.categoryButton[selected] {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+.iconCol {
+  width: 60px;
+}
+.icon {
+  object-fit: contain;
+}
+/* KSD V001.000 AS */
+.text-wrap {
+  word-break: break-all;
+}
+/* KSD V001.000 AE */

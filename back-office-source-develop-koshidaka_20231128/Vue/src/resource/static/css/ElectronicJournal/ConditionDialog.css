@@ -1,0 +1,63 @@
+/*
+ * ---------+-----------------+----------+--------------------------------
+ *  DATE    |NAME(Inc)        |GUIDE     |GUIDANCE
+ * ---------+-----------------+----------+--------------------------------
+ * 20221220  litie(Neusoft)    G001.00.0  issue課題#937を対応します.
+ * 20230119  litie(Neusoft)    G002.00.0  issue課題#835を対応します.
+ */
+
+.ElectronicJournal-condition-content {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.ElectronicJournal-condition-title {
+    width: 114px !important;
+    max-width: 114px !important;
+    min-width: 114px !important;
+  }
+
+.ElectronicJournal-condition-input {
+    width: 168px !important;
+    max-width: 168px !important;
+    min-width: 168px !important;
+}
+
+.ElectronicJournal-condition-input-space {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.ElectronicJournal-condition-keyword-col {
+    flex: auto;
+}
+
+.ElectronicJournal-condition-keyword-spacer {
+    border-bottom: 2px solid #1ea7cb;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ElectronicJournal-condition-keyword-toggle-title {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ElectronicJournal-condition-keyword-toggle {
+    margin-left: 8px;
+}
+
+.ElectronicJournal-condition-keyword-toggle-label {
+    text-align: center;
+}
+
+/* G002.00.0 Update-Start */
+.ElectronicJournal-errorTextBox {
+    background-color: #fcd4d4 !important;
+    border: 1px solid #f39e9e !important;
+}
+
+.ElectronicJournal-error label {
+    color: #f00;
+}
+/* G002.00.0 Update-End */

@@ -1,0 +1,99 @@
+/* KSD V001.000 AS */
+.image-container {
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+}
+
+.image-background {
+  width: 1046px !important;
+  height: 631px !important;
+}
+
+.table-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 1px;
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+.preview-panel-container {
+  padding: 24px;
+}
+
+.preview-panel-heading {
+  height: 80px !important;
+}
+
+.preview-panel-body {
+  padding: 24px;
+  display: inline-block;
+}
+
+.row-1 td:first-child,
+.row-2 td:first-child {
+  width: 780px;
+  height: 117px;
+}
+
+.row-1 td:nth-child(2),
+.row-2 td:nth-child(2) {
+  width: 218px;
+  height: 117px;
+}
+
+.row-3 td:first-child {
+  width: 780px;
+  height: 90px;
+}
+
+.row-3 td:nth-child(2) {
+  width: 218px;
+  height: 90px;
+}
+
+.row-4 td:first-child {
+  width: 780px;
+  height: 179px;
+}
+
+.row-4 td:nth-child(2) {
+  width: 218px;
+  height: 179px;
+}
+
+.row-1 img,
+.row-2 img {
+  max-width: 780px;
+  max-height: 117px;
+  min-width: 780px;
+  min-height: 117px;
+}
+
+.row-3 img {
+  max-width: 780px;
+  max-height: 90px;
+  min-width: 780px;
+  min-height: 90px;
+}
+
+.row-4 img {
+  max-width: 780px;
+  max-height: 179px;
+  min-width: 780px;
+  min-height: 179px;
+}
+
+.preview-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* KSD V001.000 AE */
